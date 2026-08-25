@@ -14,7 +14,7 @@ Sales Qualifier是AI驅動的應用程式，您可以搭配[!DNL Adobe Marketo O
 
 BDR可以使用瀏覽器和電子郵件外掛程式，直接在CRM或Outlook中存取商業智慧。 以下影片提供Sales Qualifier和Account Qualification Agent的簡短示範。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476572?captions=chi_hant)
 
 ## 應用程式首頁 {#application-home}
 
