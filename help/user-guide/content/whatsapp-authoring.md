@@ -1,7 +1,8 @@
 ---
 title: WhatsApp製作
 description: 在Marketo Optimizer中使用已核准的Meta範本、個人化權杖和傳送設定，為個人歷程建立WhatsApp訊息。
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 801

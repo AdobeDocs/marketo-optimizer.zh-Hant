@@ -3,7 +3,8 @@ title: 隱私權管理
 description: 瞭解如何在Marketo Optimizer中遵守GDPR、CCPA和其他隱私權法規，並使用Adobe Privacy Service提交請求。
 feature: Setup
 role: Admin
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: 630
@@ -84,7 +85,7 @@ ht-degree: 5%
 
 1. 捲動至對話方塊底部，並輸入您要存取或刪除其資料之人員的電子郵件地址。
 
-1. 若要提交要求，請按一下[建立]。****
+1. 若要提交要求，請按一下[建立]。**&#x200B;**
 
    [!DNL Privacy Service]傳回要求ID，可用來檢查要求的狀態。
 

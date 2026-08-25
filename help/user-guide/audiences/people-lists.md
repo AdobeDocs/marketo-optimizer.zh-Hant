@@ -125,13 +125,13 @@ So far, activating to a destination is the only thing that they are used for tha
 
    ![新增包含限制的篩選器，以將人員新增至靜態清單](./assets/people-list-static-add-people-filters.png){width="700" zoomable="yes"}
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
    一段時間後，符合資格的成員會出現在清單中。
 
-   靜態清單](./assets/people-list-static-members.png){width="700" zoomable="yes"}的![成員
+   靜態清單![&#128279;](./assets/people-list-static-members.png){width="700" zoomable="yes"}的成員
 
 ### 移除成員 {#static-list-remove-members}
 
@@ -141,7 +141,7 @@ So far, activating to a destination is the only thing that they are used for tha
 
    ![新增篩選器以從靜態清單移除人員](./assets/people-list-static-members-remove-people-filters.png){width="700" zoomable="yes"}
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 
@@ -225,7 +225,7 @@ So far, activating to a destination is the only thing that they are used for tha
 
    ![新增包含限制的篩選器以填入動態清單](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
 
-1. 若要儲存變更，請按一下[完成]。****
+1. 若要儲存變更，請按一下[完成]。**&#x200B;**
 
 1. 選取&#x200B;**[!UICONTROL 成員]**&#x200B;標籤。
 

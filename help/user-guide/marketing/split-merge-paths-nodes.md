@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**依人員節點分割路徑的運作方式**_
+_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 * 每個路徑的評估方式都是從上到下。 如果人員符合第一個和第二個路徑，則他們只會沿著第一個路徑前進。
 * 此節點支援&#x200B;_其他人_&#x200B;路徑的定義，您可以在此為不符合其中一個已定義區段/路徑的人員新增動作或事件。
@@ -56,7 +56,7 @@ _**依人員節點分割路徑的運作方式**_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複上述步驟以新增適用於路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複上述步驟以新增適用於路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 

@@ -77,7 +77,7 @@ ht-degree: 0%
 
    ![在編輯器中輸入自訂CSS](assets/content-design-add-custom-css.png){width="450"}
 
-1. 按一下[儲存]儲存自訂CSS。****
+1. 按一下[儲存]儲存自訂CSS。**&#x200B;**
 
    自訂樣式表會套用至現有內容。 您可以檢查自訂CSS是否已根據您的需求套用。 如需如何進行變更及調整樣式表應用程式的詳細資訊，請參閱[疑難排解](#troubleshooting)。
 

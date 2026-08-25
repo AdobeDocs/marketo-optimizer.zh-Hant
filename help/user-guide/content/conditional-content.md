@@ -51,7 +51,7 @@ ht-degree: 7%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-conditional-rule)。[
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-conditional-rule)。
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 
@@ -159,7 +159,7 @@ M1.5 info -- out of date?
 
 ### 將條件新增至程式庫 {#add-to-library}
 
-1. 在[建立條件]對話方塊中，按一下底部的[儲存條件] ****。
+1. 在[建立條件]對話方塊中，按一下底部的[儲存條件] **&#x200B;**。
 
 1. 在右側，輸入規則的&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
 

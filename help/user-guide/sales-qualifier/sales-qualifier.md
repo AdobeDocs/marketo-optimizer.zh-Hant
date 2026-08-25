@@ -162,7 +162,7 @@ _傳出工作流程_&#x200B;是Sales Qualifier用來執行目標驅動電子郵�
 
 **重新產生步調**
 
-如果步調不是您想要的，請按一下[重新產生] ****&#x200B;並輸入精簡指令。 例如：
+如果步調不是您想要的，請按一下[重新產生] **&#x200B;**&#x200B;並輸入精簡指令。 例如：
 
 * `Make it 3 touchpoints across 2 weeks`
 * `Lead with an executive briefing offer in the first email`

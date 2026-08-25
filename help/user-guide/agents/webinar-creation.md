@@ -79,7 +79,7 @@ ht-degree: 0%
 
    * 選取第一個歷程節點並設定歷程對象。 [了解更多](../marketing/person-audience-node.md)
    * 選取邀請&#x200B;_傳送電子郵件_&#x200B;節點並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**。 [了解更多](../marketing/email-channel.md)
-   * 選取[接聽事件]節點，然後按一下[編輯事件] ****。 在&#x200B;_填寫表單_&#x200B;事件上設定登錄檔單的事件篩選器。 [了解更多](../marketing/listen-for-event-nodes.md#event-filters)
+   * 選取[接聽事件]節點，然後按一下[編輯事件] **&#x200B;**。 在&#x200B;_填寫表單_&#x200B;事件上設定登錄檔單的事件篩選器。 [了解更多](../marketing/listen-for-event-nodes.md#event-filters)
    * 驗證每個狀態變更節點上的&#x200B;**[!UICONTROL 變更網路研討會成員狀態]**&#x200B;欄位。 [了解更多](../marketing/action-nodes.md#actions-and-constraints)
 
 1. 完成其他節點和位址的設定

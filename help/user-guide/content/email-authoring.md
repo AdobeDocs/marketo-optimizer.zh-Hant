@@ -75,7 +75,7 @@ ht-degree: 2%
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-當您滿意內容時，請按一下[儲存]。****
+當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ## 匯入現有的HTML內容 {#import-html-content}
 
@@ -148,7 +148,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ### 新增片段 {#visual-fragments}
 

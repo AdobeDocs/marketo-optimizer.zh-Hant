@@ -1,7 +1,8 @@
 ---
 title: Personalization的自訂代號
 description: 建立並管理自訂「我的Token」，以動態個人化行銷成品 — 在Marketo Optimizer中定義方案的文字和數字變數。
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 629

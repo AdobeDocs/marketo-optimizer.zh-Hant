@@ -64,7 +64,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 * **[!UICONTROL 選取]** — 選取您要新增到達節點之人員的現有靜態清單。
 
-  選取現有靜態清單的核取方塊，然後按一下[儲存]。****
+  選取現有靜態清單的核取方塊，然後按一下[儲存]。**&#x200B;**
 
   ![選取要用於歷程節點](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}的靜態清單
 

@@ -77,7 +77,7 @@ ht-degree: 6%
 
 1. 完成人員屬性與目的地所需欄位之間的任何所需欄位對應。
 
-1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。****
+1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。**&#x200B;**
 
 如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
