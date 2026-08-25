@@ -17,7 +17,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant) -->
 
 個人受眾節點
 
@@ -27,7 +27,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant) -->
 
 動作節點
 
@@ -37,7 +37,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant) -->
 
 事件節點
 
@@ -47,7 +47,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant) -->
 
 等待節點
 
@@ -57,7 +57,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant) -->
 
 分割和合併路徑節點
 
@@ -67,7 +67,7 @@ _[!UICONTROL 個人對象]_&#x200B;節點會自動成為歷程中的第一個節
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hant) -->
 
 下一個最佳路徑節點
 

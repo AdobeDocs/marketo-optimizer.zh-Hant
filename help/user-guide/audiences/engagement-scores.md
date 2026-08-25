@@ -136,7 +136,7 @@ _[!UICONTROL 個人參與分數]_&#x200B;篩選器會出現在&#x200B;**[!UICONT
 
 在[!DNL Marketo Optimizer]中，您可以直接從[同事聊天介面](../agents/chat-interface.md)設定參與分數加權。
 
-如需參與分數模型、加權頻帶和活動權重的背景，請參閱[設定自訂參與分數加權](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
+如需參與分數模型、加權頻帶和活動權重的背景，請參閱[設定自訂參與分數加權](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)。
 
 1. 從畫面左側開啟&#x200B;**[!UICONTROL 同事]**&#x200B;聊天面板（聊天圖示）。
 

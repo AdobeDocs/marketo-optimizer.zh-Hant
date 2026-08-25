@@ -79,7 +79,7 @@ ht-degree: 6%
 
 1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。**&#x200B;**
 
-如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
+如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
 設定後，目的地可供您在[!DNL Marketo Optimizer]中選取目的地的所有地方啟動。
 

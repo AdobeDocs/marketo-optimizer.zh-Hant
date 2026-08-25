@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ## 將網路研討會作為資產
 
-網路研討會是[程式](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所擁有的資產，其方式與電子郵件或登入頁面相同。 新增網路研討會至計畫可在其中註冊，並讓其代號、屬性和活動可用於該計畫中的每個歷程和資產。
+網路研討會是[程式](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)所擁有的資產，其方式與電子郵件或登入頁面相同。 新增網路研討會至計畫可在其中註冊，並讓其代號、屬性和活動可用於該計畫中的每個歷程和資產。
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 | 狀態 | 所有者 | 值 |
 |---|---|---|
-| 方案成員狀態 | 方案 | 可根據[程式型別](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types)設定 |
+| 方案成員狀態 | 方案 | 可根據[程式型別](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/admin/program-types)設定 |
 | 網路研討會狀態 | 網路研討會資產 | 已邀請、已註冊、已出席、不顯示、已隨選 |
 | 歷程狀態 | 歷程 | 目前節點、已暫停、已完成和其他歷程執行階段狀態 |
 
