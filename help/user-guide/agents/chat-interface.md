@@ -1,9 +1,9 @@
 ---
 title: 聊天介面
 description: 使用Marketo Optimizer中的同事聊天面板，使用自然語言或斜線(/)選單來建立程式、歷程和清單。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,16 @@ ht-degree: 0%
 
 * 新增訊息並按&#x200B;**Enter**&#x200B;以傳送（**Shift+Enter**&#x200B;插入新行）。
 * 使用&#x200B;_附加_&#x200B;圖示附加檔案（支援的格式： `.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 使用CSV和試算表上傳功能來開始匯入銷售機會。
+
+>[!BEGINSHADEBOX]
+
+## 銷售限定詞
+
+[!DNL Adobe Sales Qualifier]是AI驅動的應用程式，您可以搭配[!DNL Marketo Optimizer]使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 [!DNL Sales Qualifier]可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+
+如需詳細資訊，請參閱[Sales Qualifier檔案](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 詢問同事
 
