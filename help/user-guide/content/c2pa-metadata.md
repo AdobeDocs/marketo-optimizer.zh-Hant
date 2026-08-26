@@ -3,9 +3,9 @@ title: C2PA中繼資料
 description: 瞭解Adobe Marketo Optimizer如何將C2PA中繼資料自動套用至使用創作AI產生的影像，以及這對於您的內容有何意義。
 feature: Assets, Content
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 如需資產記錄的完整資訊，您可以使用Adobe Content Authenticity [檢查工具](https://contentauthenticity.adobe.com/inspect)。
 
 C2PA中繼資料會隨著影像檔案持續存在。 使用產生AI產生或編輯的影像上傳至[!DNL Adobe Marketo Optimizer]或從匯出時，會保留其C2PA中繼資料。
+
+如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_Generative AI內容透明度_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >
