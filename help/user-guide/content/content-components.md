@@ -284,7 +284,7 @@ ht-degree: 7%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列![&#128279;](assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的按鈕元件
+與工具列](assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
 
 #### 設定連結選項 {#button-set-link-options}
 
@@ -492,7 +492,7 @@ ht-degree: 7%
 
    ![開啟程式碼編輯器以新增HTML](assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
 
    ![編輯HTML對話方塊](assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
