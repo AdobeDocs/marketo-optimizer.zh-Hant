@@ -3,10 +3,10 @@ user-guide-title: Marketo Optimizer檔案
 user-guide-description: 瞭解Adobe Marketo Optimizer，以及如何使用它針對B2B潛在客戶和帳戶，透過個人化、AI支援的內容，執行協調的行銷和銷售參與。
 hide: true
 nudge: red
-source-git-commit: bc9b09fe125aad1909864db4fa7fc7605bf86597
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 46%
+source-wordcount: '219'
+ht-degree: 45%
 
 ---
 
@@ -62,11 +62,11 @@ ht-degree: 46%
   + [事件型對象](./audiences/event-based-audiences.md)
   + [人員參與度分數](./audiences/engagement-scores.md)
   + [衍生角色](./audiences/personas.md)
-  + [目的地](./audiences/destinations.md)
+  + [目標](./audiences/destinations.md)
 + 內容 {#content}
   + 資產 {#assets}
     + [概觀](./content/digital-asset-management.md)
-    + {hide-from-toc}[C2PA中繼資料](./content/c2pa-metadata.md)
+    + [C2PA中繼資料](./content/c2pa-metadata.md)
   + 範本 {#templates}
     + [概觀](./content/templates.md)
     + [建立範本](./content/templates-create.md)
@@ -96,7 +96,6 @@ ht-degree: 46%
     + [表單預設集設定](./admin/configuration-presets-forms.md)
   + [業務規則](./admin/business-rules.md)
   + [計畫型別](./admin/program-types.md)
-+ [銷售限定詞](./sales-qualifier/sales-qualifier.md)
 
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
