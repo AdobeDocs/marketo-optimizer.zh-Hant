@@ -1,16 +1,16 @@
 ---
 title: 同事技能
-description: 檢閱Marketo Optimizer中的同事技能 — 方案、歷程、對象、評分、內容和傳送時間最佳化的封裝工作流程。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+description: 在Marketo Optimizer中檢閱CX Enterprise Co-worker技能 — 適用於計畫、歷程、對象、評分、內容和傳送時間最佳化的封裝工作流程。
+source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '575'
 ht-degree: 5%
 
 ---
 
 # 同事技能
 
-_技能_&#x200B;是代理程式知道如何執行的封裝工作流程 — `/`功能表和自然語言請求背後的建置組塊。 每個技能都隨附逐步指示和一個工作所需的特定工具（例如「發佈歷程」、「比較兩個人清單」、「建立評分模型」）。
+_技能_&#x200B;是同事知道如何執行的封裝工作流程 — `/`功能表和自然語言請求背後的建置組塊。 每個技能都隨附逐步指示和一個工作所需的特定工具（例如「發佈歷程」、「比較兩個人清單」、「建立評分模型」）。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ _技能_&#x200B;是代理程式知道如何執行的封裝工作流程 — `/`�
 
 | 技能 | 作用 | 存取權 | 產品表面 | 影響/資料流程 |
 |---|---|---|---|---|
-| `falco-program-creation` | 端對端[!DNL Marketo Optimizer]方案建立 — 方案、子資料夾、權杖、清單、歷程。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer]。 請參閱&#x200B;_[從簡報建立方案](./program-from-brief.md)_。 |
+| `falco-program-creation` | 端對端[!DNL Marketo Optimizer]方案建立 — 方案、子資料夾、權杖、清單、歷程。 <p>請參閱&#x200B;_[從簡報建立方案](./program-from-brief.md)_。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer]。 |
 | `adapt-program` | 從[!DNL Marketo Engage]個程式產生移轉劇本以進行[!DNL Marketo Optimizer]改寫。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Engage]，寫入[!DNL Marketo Optimizer] |
 | `folder-creation` | 在資產樹狀結構中建立組織資料夾。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
 | `program-creation` *（建置程式）* | 從行銷活動簡報建立Marketo方案。 | 寫入 | [!DNL Marketo Engage] | 讀取+寫入[!DNL Marketo Engage] |
@@ -43,7 +43,7 @@ _技能_&#x200B;是代理程式知道如何執行的封裝工作流程 — `/`�
 
 | 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
 |---|---|---|---|---|
-| `audience-creation` | 調整[!DNL Marketo Engage]智慧清單、建立人員清單或新增/更新規則。 | 寫入 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Engage] +讀取/寫入[!DNL Marketo Optimizer]。  請參閱&#x200B;_[建立方案的對象](./audience-creation.md)_。 |
+| `audience-creation` | 調整[!DNL Marketo Engage]智慧清單、建立人員清單或新增/更新規則。 <p>請參閱&#x200B;_[建立方案的對象](./audience-creation.md)_。 | 寫入 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Engage] +讀取/寫入[!DNL Marketo Optimizer]。 |
 | `people-list-comparison` | 比較兩個人員清單並顯示重疊的成員。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] |
 | `import-leads` | 檢查CSV資料品質並將匯入認可至[!DNL Marketo Engage]。 | 讀取+寫入 | 兩者 | 讀取+寫入[!DNL Marketo Engage] |
 | `lead-investigation` *（調查銷售機會）* | 調查銷售機會的活動、評分、資格、生命週期。 | 讀取 | [!DNL Marketo Engage] | 讀取[!DNL Marketo Engage] |
@@ -60,7 +60,7 @@ _技能_&#x200B;是代理程式知道如何執行的封裝工作流程 — `/`�
 
 | 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
 |---|---|---|---|---|
-| `scoring-studio` | 列出/取得評分模型並建置/發佈。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] （評分服務）；讀取[!DNL Marketo Engage]潛在客戶欄位/活動型別。 請參閱&#x200B;_[建立自訂評分模型](./lead-scoring-model.md)_。 |
+| `scoring-studio` | 列出/取得評分模型並建置/發佈。 <p>請參閱&#x200B;_[建立自訂評分模型](./lead-scoring-model.md)_。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] （評分服務）；讀取[!DNL Marketo Engage]潛在客戶欄位/活動型別。 |
 | `engagementconfiguration` | 顯示參與設定和編輯/更新權重。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
 | `intentconfiguration` | 顯示意圖設定和設定/更新權重。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
 | `intent-query` | 依人員/區段/清單查詢及說明意圖分數。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] |
@@ -88,4 +88,3 @@ _技能_&#x200B;是代理程式知道如何執行的封裝工作流程 — `/`�
 - **`scoring-studio`** — 同時讀取[!DNL Marketo Engage]個銷售機會欄位/活動型別和[!DNL Marketo Optimizer]計分服務。
 
 所有`falco-mcp_*`和歷程/權杖/評分/STO/FCS工具點選[!DNL Marketo Optimizer]服務；CSV/方案/潛在客戶工具點選[!DNL Marketo Engage]。
-
