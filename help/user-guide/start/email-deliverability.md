@@ -1,7 +1,7 @@
 ---
 title: 電子郵件傳遞能力設定
 description: 為Marketo Optimizer設定子網域委派、DMARC、SPF、DKIM和IP集區。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 1. [確認用於傳送子網域電子郵件的IP集區](#ip-pools)。
 1. [建立一個或多個電子郵件通道設定](../admin/email-channel-configuration.md#create-email-channel-configuration)，以繫結子網域、IP集區和寄件者身分識別。
 
-![電子郵件傳送設定Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![電子郵件傳送設定Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
