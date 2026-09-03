@@ -4,7 +4,7 @@ description: 使用同事聊天介面中的評分工作室技能，在Marketo Op
 source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="評分工作室"
->abstract="使用Scoring Studio技能，透過同事聊天介面建立、設定和發佈自訂銷售機會評分模型。"
+>abstract="透過 Coworker 聊天介面，使用「評分工作室」技能來建立、設定和發佈自訂銷售線索評分模型。"
 
 [!DNL Adobe Marketo Optimizer]中的&#x200B;[_評分工作室_&#x200B;技能](./skills.md#scoring-signals)提供AI原生潛在客戶評分解決方案，可讓您建立、設定和發佈潛在客戶評分模型。 Studio結合代理程式驅動的工作流程與視覺化UI — 您可以透過[同事聊天介面](./chat-interface.md)中的自然語言提示或直接與UI控制項互動來建立評分模型。
 
