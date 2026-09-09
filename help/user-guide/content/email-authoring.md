@@ -2,9 +2,16 @@
 title: 電子郵件內容
 description: 瞭解如何使用視覺畫布、拖放工具、Adobe匯入和可重複使用的範本，在HTML Marketo Optimizer中撰寫及設計電子郵件內容。
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2287
@@ -79,7 +86,7 @@ ht-degree: 2%
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-當您滿意內容時，請按一下[儲存]。****
+當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ## 匯入現有的HTML內容 {#import-html-content}
 
@@ -152,7 +159,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ### 新增片段 {#visual-fragments}
 

@@ -4,9 +4,17 @@ description: 使用Marketo Optimizer中的聊天介面來排程網路研討會�
 keywords: 
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 958
@@ -83,7 +91,7 @@ ht-degree: 0%
 
    * 選取第一個歷程節點並設定歷程對象。 [了解更多](../marketing/person-audience-node.md)
    * 選取邀請&#x200B;_傳送電子郵件_&#x200B;節點並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**。 [了解更多](../marketing/email-channel.md)
-   * 選取[接聽事件]節點，然後按一下[編輯事件] ****。 在&#x200B;_填寫表單_&#x200B;事件上設定登錄檔單的事件篩選器。 [了解更多](../marketing/listen-for-event-nodes.md#event-filters)
+   * 選取[接聽事件]節點，然後按一下[編輯事件] **&#x200B;**。 在&#x200B;_填寫表單_&#x200B;事件上設定登錄檔單的事件篩選器。 [了解更多](../marketing/listen-for-event-nodes.md#event-filters)
    * 驗證每個狀態變更節點上的&#x200B;**[!UICONTROL 變更網路研討會成員狀態]**&#x200B;欄位。 [了解更多](../marketing/action-nodes.md#actions-and-constraints)
 
 1. 完成其他節點和位址的設定

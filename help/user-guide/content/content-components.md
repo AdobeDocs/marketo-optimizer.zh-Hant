@@ -4,8 +4,10 @@ description: 在Marketo Optimizer中設計包含內容元件的電子郵件、�
 feature: Content Design Tools
 role: User
 TQID: 'https://experienceleague.adobe.com/Hn4e9lbl-jUJgsxVOwbTppfcphZqYGxvSrt-UMZDR0I'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2828
@@ -287,7 +289,7 @@ ht-degree: 7%
 
 當您輸入按鈕標籤文字並設定格式時，按鈕會調整大小以符合內容。
 
-與工具列](assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的![按鈕元件
+與工具列![&#128279;](assets/content-components-button.png){width="500" zoomable="yes"}一起顯示的按鈕元件
 
 #### 設定連結選項 {#button-set-link-options}
 
@@ -495,7 +497,7 @@ ht-degree: 7%
 
    ![開啟程式碼編輯器以新增HTML](assets/content-components-html-show-code.png){width="450"}
 
-1. 在文字方塊中貼上HTML，然後按一下[儲存]。****
+1. 在文字方塊中貼上HTML，然後按一下[儲存]。**&#x200B;**
 
    ![編輯HTML對話方塊](assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 

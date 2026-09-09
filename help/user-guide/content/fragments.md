@@ -2,8 +2,10 @@
 title: 片段
 description: 建立、管理和重複使用電子郵件和範本的視覺內容片段 — 在Marketo Optimizer中建立可重複使用的區塊、發佈版本、追蹤使用情形。
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2634
@@ -108,7 +110,7 @@ ht-degree: 3%
 
 1. 隨時按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存草稿片段。
 
-1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。****
+1. 當您準備好讓片段可用於電子郵件或電子郵件範本時，請按一下[發佈]。**&#x200B;**
 
 ## 檢視片段詳細資訊 {#view-details}
 

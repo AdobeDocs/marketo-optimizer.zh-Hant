@@ -2,9 +2,16 @@
 title: 依角色個人化電子郵件內容
 description: 使用Marketo Optimizer中的Content Personalization技能，將電子郵件轉換為以人物為基礎、以資料為基礎的變體。 個人化或分析電子郵件。
 TQID: 'https://experienceleague.adobe.com/9fa1wfsHH6h46jJ-slLxMpB6fud1VHgmiWxbao-bWvo'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1236
@@ -18,7 +25,7 @@ ht-degree: 0%
 _內容Personalization_&#x200B;技能可將一封電子郵件轉換為以人物為基礎、以資料為根據的變體，因此您不必為每個對象分別建立電子郵件。 此技能不是在活動後傳送訊息，而是將您的對象解析為[衍生角色](../audiences/personas.md)同類群組、顯示深入分析，並產生個人化變體。 每個變體都會儲存為單一電子郵件中的條件式內容，因此每個人在歷程傳送時都會自動收到符合其角色的版本。
 
 * **技能** - `content-personalization`
-* **引動** — 從[聊天介面](./chat-interface.md)，說明新電子郵件的目標對象，或選取&#x200B;**[!UICONTROL 個人化此電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 在[傳送電子郵件節點](../marketing/action-nodes.md)中的現有電子郵件上分析此電子郵件]**
+* **引動** — 從[聊天介面](./chat-interface.md)，說明新電子郵件的目標對象，或選取&#x200B;**[!UICONTROL 個人化此電子郵件]**&#x200B;或&#x200B;**在[傳送電子郵件節點](../marketing/action-nodes.md)中的現有電子郵件上分析此電子郵件**
 * **從**&#x200B;讀取/寫入 — [!DNL Marketo Optimizer]
 
 ## 重要概念 {#key-concepts}

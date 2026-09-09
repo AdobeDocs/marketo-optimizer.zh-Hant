@@ -2,9 +2,12 @@
 title: 意圖設定
 description: 瞭解如何設定活動權重以驅動個人意圖分數模型，從AI建議的預設值到啟動自訂權重模型。
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1322
@@ -71,7 +74,7 @@ ht-degree: 2%
 
 將活動設定為&#x200B;**[!UICONTROL 無權重]** (0)會使其完全失去評分。 系統目前預設會使用此方法排除&#x200B;**[!UICONTROL 取消訂閱電子郵件]**。
 
-按一下表格上方的「全部重設為建議&#x200B;]**」，將每一列還原為其AI建議值。**[!UICONTROL 
+按一下表格上方的「全部重設為建議&#x200B;**」，將每一列還原為其AI建議值。**
 
 ### 建立及啟動模型
 

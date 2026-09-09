@@ -4,8 +4,12 @@ description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開�
 feature: Landing Pages, Content Design Tools
 role: User
 TQID: 'https://experienceleague.adobe.com/XIXt4QcgK7VALQqpPHf6GqhCwEsV3mlyV1ZrgrIXi0s'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1550
@@ -77,7 +81,7 @@ ht-degree: 11%
 
    每個登入頁面最多可新增兩個子頁面。
 
-在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面](#test-landing-page)，然後再發佈。[
+在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面[&#128279;](#test-landing-page)，然後再發佈。
 
 >[!CAUTION]
 >
@@ -148,7 +152,7 @@ ht-degree: 11%
 
 1. [測試登入頁面](#test-landing-page)。
 
-當您滿意內容時，請按一下[儲存]。****
+當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ### 匯入HTML {#import-html}
 
@@ -222,7 +226,7 @@ ht-degree: 11%
 
    ![針對選取的設定檔模擬登陸頁面內容](assets/landing-page-simulate.png){width="700" zoomable="yes"}
 
-   如果未列出您需要的設定檔，請按一下[管理測試設定檔] ]**，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**[!UICONTROL 
+   如果未列出您需要的設定檔，請按一下[管理測試設定檔] **，使用已知的測試設定檔電子郵件地址，並將其新增至清單。**
 
    +++新增測試設定檔
 

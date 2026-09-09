@@ -2,9 +2,12 @@
 title: 目的地
 description: 瞭解所需的許可權、支援的目的地，以及如何在Marketo Optimizer中連線目的地，以將靜態人員清單啟用至廣告和社交平台。
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 643
@@ -81,7 +84,7 @@ ht-degree: 7%
 
 1. 完成人員屬性與目的地所需欄位之間的任何所需欄位對應。
 
-1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。****
+1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。**&#x200B;**
 
 如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 

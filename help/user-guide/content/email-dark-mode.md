@@ -2,8 +2,10 @@
 title: 電子郵件內容的深色模式
 description: 瞭解Marketo Optimizer中的深色模式電子郵件設計。 在電子郵件使用者端之間預覽呈現、自訂設定和測試。
 TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1476
@@ -25,7 +27,7 @@ ht-degree: 7%
 
 _深色模式_&#x200B;可讓支援的電子郵件使用者端或應用程式針對文字、按鈕和其他視覺元素，顯示背景較暗且顏色較淺的電子郵件。 這種顯示器可減輕眼睛疲勞、節省電池壽命，並改善低光環境的可讀性，提供更舒適的觀賞體驗。 隨著主要作業系統和應用程式呈上升趨勢，這是現代電子郵件設計的重要考量，能確保內容清晰易懂，而且視覺上吸引所有使用者。
 
-當您在[!DNL Marketo Optimizer]視覺化設計空間中[建立您的電子郵件內容](./email-authoring.md)時，您可以切換至&#x200B;_**[!UICONTROL 深色模式]**_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
+當您在[!DNL Marketo Optimizer]視覺化設計空間中[建立您的電子郵件內容](./email-authoring.md)時，您可以切換至&#x200B;_&#x200B;**[!UICONTROL 深色模式]**&#x200B;_&#x200B;檢視。 在此檢視中，您也可以定義特定的自訂設定，以便在啟用電子郵件使用者端的深色模式時支援這些使用者端。
 
 ## 電子郵件使用者端注意事項 {#email-client-considerations}
 

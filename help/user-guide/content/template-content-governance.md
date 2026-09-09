@@ -2,8 +2,10 @@
 title: 範本的內容控管
 description: 使用Marketo Optimizer中的治理設定，在結構或元件層級鎖定電子郵件範本中的內容，控制哪些電子郵件作者可以編輯。
 TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 608

@@ -2,8 +2,10 @@
 title: 分割和合併路徑節點
 description: 瞭解如何在個人歷程中使用分割和合併路徑節點，以根據定義的條件將人們分割為不同的路徑，然後在下游的共同點將其重新統一。
 TQID: 'https://experienceleague.adobe.com/XMN7lgb77bFlJkNXrmPf9ZSCV-GgIuybtr-O3AsqT2U'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 660
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**依人員節點分割路徑的運作方式**_
+_&#x200B;**依人員節點分割路徑的運作方式**&#x200B;_
 
 * 每個路徑的評估方式都是從上到下。 如果人員符合第一個和第二個路徑，則他們只會沿著第一個路徑前進。
 * 此節點支援&#x200B;_其他人_&#x200B;路徑的定義，您可以在此為不符合其中一個已定義區段/路徑的人員新增動作或事件。
@@ -59,7 +61,7 @@ _**依人員節點分割路徑的運作方式**_
 
    * 按一下「**[!UICONTROL 完成]**」。
 
-1. 若要新增更多路徑，請按一下[新增路徑] ****，並重複上述步驟以新增適用於路徑的條件。
+1. 若要新增更多路徑，請按一下[新增路徑] **&#x200B;**，並重複上述步驟以新增適用於路徑的條件。
 
    您也可以根據這些條件來標示每個路徑，或使用預設標籤。
 

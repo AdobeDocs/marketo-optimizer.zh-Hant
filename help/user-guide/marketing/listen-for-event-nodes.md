@@ -2,7 +2,8 @@
 title: 接聽事件節點
 description: 設定在Marketo Optimizer中接聽事件節點 — 設定事件觸發器、套用選用篩選器，並在活動或資料變更發生時提升人員。
 TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJOsjgc8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 354
