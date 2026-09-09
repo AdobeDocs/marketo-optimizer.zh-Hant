@@ -1,14 +1,21 @@
 ---
-title: 目標
+title: 目的地
 description: 瞭解所需的許可權、支援的目的地，以及如何在Marketo Optimizer中連線目的地，以將靜態人員清單啟用至廣告和社交平台。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 6%
+source-wordcount: 643
+ht-degree: 7%
 
 ---
 
-# 目標
+# 目的地
 
 目的地是預先建立的整合，可讓您從[!DNL Marketo Optimizer]將[靜態人物清單](./people-lists.md#static-lists)傳送至外部廣告或社交平台，例如LinkedIn促銷活動對象、Google客戶比對對象或Facebook自訂對象。 啟用靜態清單至目的地可保持成員資格同步：當在清單中新增或移除人員時，目標對象會相應新增或移除人員，延伸至對象摘要的任何促銷活動時，也會移除人員。
 
@@ -23,17 +30,17 @@ ht-degree: 6%
 
 完整目的地功能需要啟用下列[!DNL Adobe Experience Platform]許可權。
 
-| 類別 | 權限 | 必要 |
+| 類別 | 權限 | 必填 |
 |--- |--- |--- |
 | 沙箱 | 沙箱存取&#x200B;_（預設為啟用）_ | 是 |
 | 儀表板 | 檢視標準儀表板 | 是 |
 | 儀表板 | 管理標準儀表板 | 是 |
-| 目標 | 檢視目的地 | 是 |
-| 目標 | 管理目的地 | 是 |
+| 目的地 | 檢視目的地 | 是 |
+| 目的地 | 管理目的地 | 是 |
 | 目的地 | 啟用目的地 | 是 |
 | 目的地 | 啟用區段而不進行對應 | 是 |
-| 目標 | 管理和啟用資料集目的地 | 是 |
-| 目標 | 目的地製作 | 是 |
+| 目的地 | 管理和啟用資料集目的地 | 是 |
+| 目的地 | 目的地製作 | 是 |
 | 資料治理 | 檢視資料使用原則 | 是 |
 | 資料治理 | 管理資料使用原則 | 是 |
 | 資料擷取 | 檢視來源 | 是 |

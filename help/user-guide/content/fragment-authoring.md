@@ -1,9 +1,14 @@
 ---
 title: 片段製作
 description: 使用視覺化設計工具製作可重複使用的內容片段 — 在Marketo Optimizer中新增結構、資產、個人化、條件式內容以及電子郵件和範本的連結URL追蹤。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/KbnYkUMVfjBv5ST55WwAqYiMDkynwSw4BKIP0bsE-DI'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 203
 ht-degree: 3%
 
 ---

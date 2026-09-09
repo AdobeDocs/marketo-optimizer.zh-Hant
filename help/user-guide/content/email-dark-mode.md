@@ -1,9 +1,14 @@
 ---
 title: 電子郵件內容的深色模式
 description: 瞭解Marketo Optimizer中的深色模式電子郵件設計。 在電子郵件使用者端之間預覽呈現、自訂設定和測試。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: 1476
 ht-degree: 7%
 
 ---
@@ -147,7 +152,7 @@ _深色模式_&#x200B;可讓支援的電子郵件使用者端或應用程式針�
    >
    >雖然模擬非常接近電子郵件在深色模式中的顯示方式，但由於電子郵件服務提供者或裝置層級設定的差異，實際呈現可能會有所不同。
 
-## 最佳做法 {#best-practices}
+## 最佳實務 {#best-practices}
 
 隨著主要電子郵件使用者端採用深色模式的人數增加，您必須考量您的電子郵件在明暗環境中呈現的方式，無論您是否使用[自訂深色模式](#custom-dark-mode)。
 
