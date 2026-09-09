@@ -1,9 +1,13 @@
 ---
 title: 建立計畫的對象
 description: 使用Marketo Optimizer中的對象建立技能來建立人員清單、調整Marketo Engage智慧清單，以及在聊天中編輯清單規則。
-source-git-commit: c00dc1d3f3028ece56905f9f1018605147b0ac20
+TQID: 'https://experienceleague.adobe.com/WFfKcQ3zfJmVDGstLmpPbC9iDF5JtBX67-izCC-CNds'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: 1464
 ht-degree: 0%
 
 ---
@@ -146,6 +150,6 @@ _轉換摘要_&#x200B;會計算&#x200B;_N高可信度_&#x200B;和&#x200B;_N低�
 | **公司層級條件** | 儘可能轉換為最接近的個人層級屬性（人員清單會操作個人屬性），並在配合鬆動時標示為低信賴度。 |
 | **深度巢狀的AND/OR邏輯** | 複雜的巢狀邏輯可能會摺疊為頂層AND/OR；同事會在發生此情況時加以記下。 |
 | **名稱衝突** | 未自動解析 — 如果名稱為已使用，則Co-worker會要求您輸入其他名稱，而不是無訊息地附加字尾。 |
-| **需要核准** | 在您按一下[繼續] **&#x200B;**、確認或給予明確的繼續之前，同事將不會建立或修改清單（_「已核准」_、_「看起來不錯」_、_「建置它」_）。 |
+| **需要核准** | 在您按一下[繼續] ****、確認或給予明確的繼續之前，同事將不會建立或修改清單（_「已核准」_、_「看起來不錯」_、_「建置它」_）。 |
 | **靜態快照集母體** | 從條件建立的靜態清單中的成員資格會在數分鐘內填入 — 不會立即填入。 |
 

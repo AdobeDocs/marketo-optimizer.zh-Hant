@@ -1,9 +1,13 @@
 ---
 title: Forms設定
 description: 預留位置
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 541
 ht-degree: 16%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 16%
 
 ## 先決條件
 
-若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_&#x200B;**HTTP API串流連線**&#x200B;_。 請確定您要使用的每個連線都符合下列需求：
+若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_**HTTP API串流連線**_。 請確定您要使用的每個連線都符合下列需求：
 
 * 資料型別必須設定為XDM （非原始資料）
 * 必須停用驗證（未驗證的連線）

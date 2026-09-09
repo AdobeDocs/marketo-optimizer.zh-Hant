@@ -1,9 +1,12 @@
 ---
 title: 個人詳細資訊
 description: 檢視個人的AI產生角色、參與和意圖摘要、活動歷史記錄、設定檔屬性和公司詳細資訊，並詢問同事有關Marketo Optimizer中記錄的問題。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 690
 ht-degree: 7%
 
 ---
@@ -84,8 +87,8 @@ ht-degree: 7%
 * 電話
 * 地址
 * 城市
-* 州別
-* 國家/地區
+* 狀態
+* 國家
 * 公司
 * 建立日期
 * 上次更新時間

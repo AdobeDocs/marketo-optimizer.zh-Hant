@@ -1,9 +1,12 @@
 ---
 title: 條件式內容
 description: 在Marketo Optimizer中，根據個人化電子郵件和片段的設定檔屬性和事件，使用條件規則來建立動態內容變體。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/-zyX02yagsaPV4Oc-1JQWUzSUZWDLiyIiQCyyy0EDiE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: 1081
 ht-degree: 7%
 
 ---
@@ -51,7 +54,7 @@ ht-degree: 7%
 
    ![條件資料庫存取條件詳細資料](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則[&#128279;](#create-conditional-rule)。
+   若您需要的條件不存在，請按一下&#x200B;**[!UICONTROL 新建]**&#x200B;以建立條件規則](#create-conditional-rule)。[
 
 1. 選取條件式規則，然後按一下&#x200B;**[!UICONTROL 選取]**&#x200B;以將其與變體關聯。
 
@@ -159,7 +162,7 @@ M1.5 info -- out of date?
 
 ### 將條件新增至程式庫 {#add-to-library}
 
-1. 在[建立條件]對話方塊中，按一下底部的[儲存條件] **&#x200B;**。
+1. 在[建立條件]對話方塊中，按一下底部的[儲存條件] ****。
 
 1. 在右側，輸入規則的&#x200B;**[!UICONTROL Name]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
 

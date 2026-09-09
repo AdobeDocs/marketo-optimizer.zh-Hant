@@ -3,9 +3,13 @@ title: C2PA中繼資料
 description: 瞭解Adobe Marketo Optimizer如何將C2PA中繼資料自動套用至使用創作AI產生的影像，以及這對於您的內容有何意義。
 feature: Assets, Content
 role: User
-source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
+TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 C2PA中繼資料會隨著影像檔案持續存在。 使用產生AI產生或編輯的影像上傳至[!DNL Adobe Marketo Optimizer]或從匯出時，會保留其C2PA中繼資料。
 
-如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_Generative AI內容透明度_](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
+如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_Generative AI內容透明度_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >

@@ -1,9 +1,13 @@
 ---
 title: 執行動作節點
 description: 在Marketo Optimizer中設定「採取動作」節點，以便在人員、清單、程式和目的地到達人員歷程中的節點時新增、移除或更新人員、清單、程式和目的地，或傳送訊息。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: 1145
 ht-degree: 0%
 
 ---
@@ -64,7 +68,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 * **[!UICONTROL 選取]** — 選取您要新增到達節點之人員的現有靜態清單。
 
-  選取現有靜態清單的核取方塊，然後按一下[儲存]。**&#x200B;**
+  選取現有靜態清單的核取方塊，然後按一下[儲存]。****
 
   ![選取要用於歷程節點](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}的靜態清單
 

@@ -1,9 +1,12 @@
 ---
 title: 表單設計
 description: 使用Marketo Optimizer中用於商業資料收集的欄位型別、驗證、樣式和XDM結構描述屬性來設計表單。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: 2177
 ht-degree: 1%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 1%
 
 ![表單設計空間](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-依預設，_&#x200B;**提交**&#x200B;_&#x200B;按鈕（頁尾欄位）是表單的一部分，無法移除。 您可以選取表單中的按鈕/頁尾元件以[變更按鈕](#submit-button)的文字和樣式。
+依預設，_**提交**_&#x200B;按鈕（頁尾欄位）是表單的一部分，無法移除。 您可以選取表單中的按鈕/頁尾元件以[變更按鈕](#submit-button)的文字和樣式。
 
 ## 欄位 {#fields}
 

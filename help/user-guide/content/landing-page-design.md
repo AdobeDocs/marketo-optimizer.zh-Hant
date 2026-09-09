@@ -3,9 +3,13 @@ title: 登陸頁面設計
 description: 使用視覺化工具設計登入頁面 — 為Marketo Optimizer中的個人歷程新增內容元件、表單、自訂CSS、個人化和裝置預覽。
 feature: Landing Pages, Content Design Tools
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/zb7rXCj7iWnk8Src1sWLZaYgRa35GjqGxXXu0pTJ-ds'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: 556
 ht-degree: 2%
 
 ---
@@ -68,7 +72,7 @@ ht-degree: 2%
 
 ### 儲存您的工作 {#save-your-work}
 
-隨時按一下「儲存」**&#x200B;**&#x200B;以儲存草稿登陸頁面。
+隨時按一下「儲存」****&#x200B;以儲存草稿登陸頁面。
 
 您可以繼續編輯草稿頁面。 當您準備好顯示頁面，並可在電子郵件或簡訊訊息中供連結使用時，即可發佈頁面。
 
