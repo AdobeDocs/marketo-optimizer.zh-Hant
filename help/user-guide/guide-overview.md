@@ -178,7 +178,7 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 <a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/tw/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>

@@ -3,15 +3,15 @@ title: 評分工作室
 description: 瞭解Adobe Marketo Optimizer中的Scoring Studio，包括模型清單、畫布、維度欄、訊號卡、潛在客戶區段和發佈。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+    internal-label: Chat Interface
+source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
 workflow-type: tm+mt
-source-wordcount: 897
+source-wordcount: '897'
 ht-degree: 2%
-
 ---
-
 
 # 評分工作室
 
@@ -20,6 +20,8 @@ Scoring Studio包含模型清單、每個模型的可編輯畫布以及[同事�
 ## 模型清單 {#model-list}
 
 模型清單是Scoring Studio的登陸檢視。 它會將[!DNL Marketo Optimizer]執行個體中的每個評分模型顯示為表格中的列，或是如果您切換至格線檢視則顯示為卡片。
+
+![Scoring Studio模型清單會顯示作用中評分模型及其維度、訊號和上次修改的詳細資料。](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | 欄 | 說明 |
 | --- | --- |
@@ -31,8 +33,6 @@ Scoring Studio包含模型清單、每個模型的可編輯畫布以及[同事�
 | 上次修改者 | 上次變更模型的人員。 |
 | 建立日期 | 建立模型的日期。 |
 | 建立者 | 建立模型的人員。 |
-
-![Scoring Studio模型清單會顯示作用中評分模型及其維度、訊號和上次修改的詳細資料。](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 使用搜尋欄位可依名稱尋找模型，或依狀態篩選清單。 選取資料列的&#x200B;**[!UICONTROL 更多功能表]**&#x200B;至&#x200B;**[!UICONTROL 編輯]**、**[!UICONTROL 複製]**、**[!UICONTROL 封存]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**&#x200B;模型。
 
