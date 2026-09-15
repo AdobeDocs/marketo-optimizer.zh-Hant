@@ -4,24 +4,32 @@ description: 為Marketo Optimizer設定子網域委派、DMARC、SPF、DKIM和IP
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 0%
-
 ---
-
 # 電子郵件傳遞能力
 
 下列資訊適用於設定傳送基礎架構以支援行銷人員和電子郵件內容建立者的管理員。 它說明傳遞能力功能，以及如何設定子網域、驗證和IP集區。
@@ -34,6 +42,7 @@ ht-degree: 0%
 1. [在每個子網域上設定DMARC、SPF和DKIM記錄](#dmarc-spf-dkim)。
 1. [確認用於傳送子網域電子郵件的IP集區](#ip-pools)。
 1. [建立一個或多個電子郵件通道設定](../admin/email-channel-configuration.md#create-email-channel-configuration)，以繫結子網域、IP集區和寄件者身分識別。
+1. [將傳送的IP位址加入您的IT部門允許清單](#allowlist-ip-addresses)，以便測試電子郵件到達您的收件匣。
 
 ![電子郵件傳送設定Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ IP集區是用來傳送電子郵件的已命名IP位址群組。 IP集區對傳�
 >[!IMPORTANT]
 >
 >請勿在同一IP集區上混合行銷和異動流量，即使共用集區可供使用亦然。 管道設定上的電子郵件型別設定（行銷與交易）會控制隱藏行為，但您的管道設定仍應儘可能使用不同的集區。
+
+## 允許清單IP位址 {#allowlist-ip-addresses}
+
+公司反垃圾郵件系統有時會封鎖您從[!DNL Marketo Optimizer]傳送的測試電子郵件。 這些系統依賴寄件者IP位址來驗證電子郵件是否有效。 為確保您的測試電子郵件送達，請新增[!DNL Marketo Optimizer]至您的公司允許清單。
+
+要求您的IT部門將這些IP位址新增至您的公司允許清單：
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>您的IT部門通常會管理企業電子郵件允許清單。 在初始設定期間與他們共用此IP位址清單。
 
 <!--
 
