@@ -127,6 +127,6 @@ ht-degree: 2%
 
    啟用&#x200B;**[!UICONTROL 逾時]**&#x200B;選項，並選取歷程在逾時前等待事件發生的持續時間。
 
-   為接聽事件歷程節點](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}啟用![逾時選項
+   為接聽事件歷程節點![&#128279;](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}啟用逾時選項
 
    您可以選擇在此結束路徑，或透過設定其他路徑採取不同的動作。 若要在歷程中建立新路徑，以便在不發生事件時新增適用於設定檔的動作和事件，請選取&#x200B;**[!UICONTROL 設定逾時路徑]**&#x200B;核取方塊。
