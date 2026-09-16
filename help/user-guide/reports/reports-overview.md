@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >您的組織可以每週或每月頻率在所有報告中最多有10個排程匯出。 如果您不是管理員，則只能管理您自己的排程匯出。 管理員可檢視及管理組織內的每個排程匯出。
 
-## 在CJA中分析報表 {#analyze-a-report-in-cja}
+## 在[!DNL Customer Journey Analytics]中分析報告 {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
