@@ -5,26 +5,32 @@ role: User, Admin
 TQID: 'https://experienceleague.adobe.com/oelEtys81g6TzM8bi-qy1nuWw6scOBry7tbZkMkZ6u0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: 1524f9f9e63044a11cd54d3299fa4d1e49172cb1
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '506'
 ht-degree: 1%
-
 ---
-
 
 # 高階架構
 
-[!DNL Adobe Marketo Optimizer]與[!DNL Adobe Marketo Engage]整合，提供B2B銷售機會的360度檢視。 雙向信任同步可讓[!DNL Marketo Engage]和[!DNL Marketo Optimizer]保持一致，讓兩個平台都擁有使用者、公司、自訂物件和活動的單一共用檢視。 高效能、近乎即時的資料流程可確保記錄保持最新且易於操作，因此行銷活動和歷程可以在潛在客戶參與時做出回應。
+[!DNL Adobe Marketo Optimizer]與[!DNL Adobe Marketo Engage]整合，以提供B2B銷售機會的完整檢視。 雙向信任同步可讓[!DNL Marketo Engage]和[!DNL Marketo Optimizer]保持一致，讓兩個平台都擁有使用者、公司、自訂物件和活動的單一共用檢視。 高效能、近乎即時的資料流程可確保記錄保持最新且易於操作，因此行銷活動和歷程可以在潛在客戶參與時做出回應。
 
 ## 資料基礎
 
@@ -52,9 +58,17 @@ ht-degree: 1%
 
 這種近乎零延遲的設計意味著，分析儀表板和下游系統以近乎即時的方式提供，使得活動最佳化即時發生，並對高優先順序的潛在客戶進行快速後續追蹤。
 
+### 歷程中的[!DNL Marketo Engage]活動資料支援
+
+已同步的[!DNL Marketo Engage]活動資料可支援[!DNL Marketo Optimizer]中的事件型歷程建置。 使用表單填寫、網站造訪和電子郵件參與等活動來觸發、篩選和分支人員歷程。
+
+* [監聽事件節點的事件觸發程式](./marketing/listen-for-event-nodes.md#event-triggers)
+* [監聽事件節點的事件篩選器](./marketing/listen-for-event-nodes.md#event-filters)
+* [分割路徑節點的相符人員篩選器](./marketing/split-merge-paths-nodes.md#matched-person-filters)
+
 ### 資料隔離與租用
 
 * 客戶資料會在[!DNL Marketo Engage]、[!DNL Marketo Optimizer]和[!DNL Experience Platform]之間共用，作為產品資料同步和分析架構的一部分。
 * 資料會依租使用者進行邏輯隔離，並受到Adobe安全性控制的保護。
-* 資料會透過安全、加密的通道傳輸，並使用業界標準的加密和存取控制儲存在Adobe管理的服務中。
+* 資料會透過安全、加密的通道傳輸，並使用業界標準的加密和存取控制儲存在Adobe-Managed Services中。
 * 視資料型別而定，資訊可能會在[!DNL Marketo Engage]和[!DNL Marketo Optimizer]之間同步處理，或復寫到[!DNL Experience Platform]以支援報告和分析功能，同時維持安全性與租使用者隔離。

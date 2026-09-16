@@ -4,16 +4,17 @@ description: 完成您的Marketo Optimizer執行個體的初始設定工作，�
 TQID: 'https://experienceleague.adobe.com/XEPKIa88-L7mdPz1opKegY1pdEF4Qyls0nLVJBQSaJk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Journeys
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '265'
 ht-degree: 10%
-
 ---
-
 # 設定檢查清單
 
 完成這些工作以啟用您布建的[!DNL Marketo Optimizer]執行個體中的功能。
@@ -102,5 +103,10 @@ ht-degree: 10%
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任務的核取方塊"/></td>
 <td>建立電子郵件通道設定</td>
 <td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">設定電子郵件管道</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="任務的核取方塊"/></td>
+<td>要求您的IT部門將傳送IP位址列入允許清單</td>
+<td><a href="./email-deliverability.md#allowlist-ip-addresses">允許清單IP位址</a></td>
 </tr>
 </tbody>
