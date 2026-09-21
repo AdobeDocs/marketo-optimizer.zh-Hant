@@ -7,15 +7,15 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 8c47a9c69c32ba0a37ba2efadb6ad4c1b796c21d
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '343'
 ht-degree: 0%
 ---
 
 # 以電子郵件傳送參與報告
 
-<!-- SPHR-39569: content drafted, but hide: true and hide-from-toc stay until eng confirms this shipped to production. Filter by Program, Filter by Audience, and the program data point from SPHR-32511 are not documented here pending delivery-state confirmation. -->
+<!-- SPHR-32511: Filter by Program, Filter by Audience, and the program data point for the email performance table are not documented here pending delivery. -->
 
 使用[!UICONTROL 電子郵件參與]報告來檢閱您執行個體的電子郵件傳遞能力及參與效能，其資料會依電子郵件和歷程加以劃分。
 
@@ -54,13 +54,9 @@ ht-degree: 0%
 | [!UICONTROL 已取消訂閱] | 取消訂閱電子郵件的收件者人數。 |
 | [!UICONTROL %已取消訂閱] | 導致取消訂閱的傳遞電子郵件百分比。 |
 
-<!--
+## 篩選器 {#filters}
 
-## Filters {#filters}
+使用篩選器將報表範圍縮小至特定歷程或角色。 選取&#x200B;**[!UICONTROL 全部重設]**&#x200B;以清除每個篩選器並返回預設檢視。
 
-Use filters to narrow the report to a specific journey, persona, or date range. Select **[!UICONTROL Reset all]** to clear every filter and return to the default view.
-
-* **[!UICONTROL Journey Name (Event)]** - Filter by the journey that sent the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Persona (Event)]** - Filter by the persona associated with the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Date range]** - Filter by a specific date span, shown as explicit start and end dates. Default is [!UICONTROL Last 30 days].
--->
+* **[!UICONTROL 歷程名稱（事件）]** — 依傳送電子郵件的歷程篩選。 預設為[!UICONTROL 沒有篩選器]。
+* **[!UICONTROL 角色（事件）]** — 依與電子郵件關聯的角色進行篩選。 預設為[!UICONTROL 沒有篩選器]。

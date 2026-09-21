@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 有些報表著重於單一記錄而非全區段檢視，並可從應用程式的不同區域存取。
 
 * 若要取得電子郵件傳送時間最佳化效能，請從[!UICONTROL 同事]聊天介面開啟報表。 如需相關步驟，請參閱[電子郵件傳送時間最佳化](../marketing/email-send-time-optimization.md#reporting)。
-* 如需個人在單一歷程中的進度，請從該歷程開啟報告。
+* 如需個人在單一歷程中的進度，請從該歷程中開啟[個人歷程個人報告](./person-journey-individual-report.md)。
 
 ## 匯出報告 {#export-a-report}
 
