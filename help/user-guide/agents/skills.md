@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
+source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 5%
+source-wordcount: '633'
+ht-degree: 6%
 ---
 # 同事技能
 
@@ -95,11 +95,17 @@ _技能_&#x200B;是同事知道如何執行的封裝工作流程 — `/`功能�
 | `send-time-optimization` | 檢查STO狀態，並在電子郵件節點上啟用/停用。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
 | `send-time-report` | 擷取/顯示STO效能報表。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] |
 
+## Analytics與報表 {#analytics-reporting}
+
+| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
+|---|---|---|---|---|
+| `surface-analytics` | 跨活動趨勢、電子郵件效能、銷售機會和帳戶資料、區段和清單成員資格，以及以圖表和表格傳回的歷程量度，從自然語言產生分析報表。 報告資料每兩小時會重新整理一次。 <p>請參閱&#x200B;_[產生Analytics報表](./surface-analytics.md)_。</p> | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+
 ## 知識 {#knowledge}
 
 | 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
 |---|---|---|---|---|
-| `product-knowledge` | 從Experience League上的[!DNL Marketo Optimizer]份檔案回答操作說明/概念問題。 | 讀取 | 兩者 | 讀取外部檔案 — 無產品資料 |
+| `product-knowledge` | 回答在Experience League上發佈的[!DNL Marketo Optimizer]檔案的作法/概念問題。 | 讀取 | 兩者 | 讀取外部檔案 — 無產品資料 |
 
 ## 跨後端 {#cross-backend}
 
@@ -109,5 +115,6 @@ _技能_&#x200B;是同事知道如何執行的封裝工作流程 — `/`功能�
 - **`audience-creation`** — 讀取[!DNL Marketo Engage]個智慧清單(`get_smart_list` / `get_smart_campaign`)，然後寫入[!DNL Marketo Optimizer]個人清單。
 - **`journey-observability`** — [!DNL Marketo Optimizer]讀取加上`check_lead_in_marketo_static_list` [!DNL Marketo Engage]讀取。
 - **`scoring-studio`** — 同時讀取[!DNL Marketo Engage]個銷售機會欄位/活動型別和[!DNL Marketo Optimizer]計分服務。
+- **`surface-analytics`** — 可以在單一查詢中回答同時涵蓋[!DNL Marketo Engage]和[!DNL Marketo Optimizer]資料的報表問題。
 
 所有`falco-mcp_*`和歷程/權杖/評分/STO/FCS工具點選[!DNL Marketo Optimizer]服務；CSV/方案/潛在客戶工具點選[!DNL Marketo Engage]。
