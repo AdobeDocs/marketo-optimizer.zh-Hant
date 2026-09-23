@@ -105,7 +105,7 @@ Scoring Studio包含模型清單、每個模型的可編輯畫布以及[同事�
 
 ## 發佈與排程 {#publish-schedule}
 
-當您的模型準備就緒時，請按一下[發佈]。****
+當您的模型準備就緒時，請按一下[發佈]。**&#x200B;**
 
 ![針對草稿評分模型顯示[發佈]按鈕。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
 
