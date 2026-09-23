@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # 評分工作室
@@ -105,6 +105,84 @@ Scoring Studio包含模型清單、每個模型的可編輯畫布以及[同事�
 
 ## 發佈與排程 {#publish-schedule}
 
-當您的模型準備就緒時，請選取&#x200B;**[!UICONTROL 發佈]**。 選擇模型給對象評分的頻率：每日、每週或每月。
+當您的模型準備就緒時，請按一下[發佈]。****
 
-如需完整發佈程式，包括[!DNL Marketo Optimizer]如何自動布建評分欄位，請參閱&#x200B;[_發佈評分模型_](../agents/lead-scoring-model.md#publish-model)。
+![針對草稿評分模型顯示[發佈]按鈕。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+選擇模型給對象評分的頻率：每日、每週或每月。 您也可以選擇手動選項來執行模型。
+
+![排程選項會顯示執行評分模型的每日、每週、每月和手動週期選擇。](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+有關使用[同事聊天介面](../agents/chat-interface.md)的完整發佈程式，包括[!DNL Marketo Optimizer]如何自動布建評分欄位，請參閱&#x200B;[_發佈評分模型_](../agents/lead-scoring-model.md#publish-model)。
+
+最新分數會儲存在已同步至您[!DNL Marketo Engage]執行個體的布建欄位中。
+
+![在Marketo Engage欄位管理中顯示的布建分數欄位](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## 在篩選器中使用分數 {#filter-score}
+
+在您[發佈模型](#publish-schedule)之後，您可以在建立事件型對象時將其結果分數當成篩選，以及&#x200B;_接聽事件_&#x200B;節點、做為分割路徑條件或人員清單成員資格。
+
+分數會顯示在篩選面板中的&#x200B;**[!UICONTROL 人員屬性]**&#x200B;類別下，標示為模型名稱或您指派的自訂&#x200B;[_分數欄位名稱_](#lead-segment)。 在篩選器面板的搜尋欄位中輸入該名稱，以找出分數，然後將其拖曳至畫布並定義條件。
+
+### 事件型受眾和節點 {#scoring-model-event-audience}
+
+若要使用評分模型結果來篩選[事件型對象](../audiences/event-based-audiences.md)或&#x200B;[_接聽事件_&#x200B;節點](../marketing/listen-for-event-nodes.md)：
+
+1. 按一下&#x200B;**[!UICONTROL 新增事件條件]**。
+
+1. 在&#x200B;_[!UICONTROL 編輯事件條件]_&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;索引標籤。
+
+1. 在搜尋欄位中輸入模型名稱，然後將分數拖曳至畫布上。
+
+   ![「篩選器」索引標籤會顯示搜尋欄位中輸入的模型名稱，以及拖曳到畫布上的相符分數。](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. 設定運運算元和值以符合您要鎖定的分數。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+### 分割路徑條件 {#split-path-conditions}
+
+若要使用評分模型結果來定義&#x200B;[_分割路徑_&#x200B;節點](../marketing/split-merge-paths-nodes.md)的路徑條件：
+
+1. 按一下節點路徑的&#x200B;**[!UICONTROL 編輯條件]**。
+
+1. 在&#x200B;_[!UICONTROL 條件]_&#x200B;對話方塊中，將模型名稱輸入搜尋欄位，然後將相符分數拖曳到畫布上。
+
+   ![[條件]對話方塊顯示搜尋欄位中輸入的模型名稱，以及拖曳到畫布上的相符分數。](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. 設定運運算元和值以符合您要鎖定的分數。
+
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以儲存路徑的條件。
+
+### 人員清單成員資格 {#scoring-model-people-lists}
+
+若要使用評分模型結果來管理[人員清單](../audiences/people-lists.md)成員資格：
+
+**靜態清單 — 新增成員**
+
+1. 開啟靜態清單，然後按一下&#x200B;**[!UICONTROL 新增人員]**。
+
+1. 在&#x200B;_[!UICONTROL 新增人員]_&#x200B;對話方塊中，將模型名稱輸入搜尋欄位，然後將相符的分數拖曳到畫布上。
+
+   ![「新增人員」對話方塊會顯示搜尋欄位中輸入的模型名稱，以及拖曳至畫布上的相符分數。](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. 設定運運算元和值以符合您要鎖定的分數。
+
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以套用篩選，並將相符的人員限定在清單中。
+
+**動態清單 — 設定成員資格規則**
+
+1. 開啟動態清單並選取&#x200B;**[!UICONTROL 規則]**&#x200B;標籤。
+
+1. 按一下&#x200B;**[!UICONTROL 編輯規則]**。
+
+1. 在&#x200B;_[!UICONTROL 編輯規則]_&#x200B;對話方塊中，在搜尋欄位中輸入模型名稱，然後將分數專案拖曳到畫布上。
+
+   ![「編輯規則」對話方塊會顯示搜尋欄位中輸入的模型名稱，以及拖曳到畫布上的相符分數。](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. 設定運運算元和值以符合您要鎖定的分數。
+
+1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以儲存規則。
+
+   當根據規則評估人員記錄時，會自動更新成員資格。
