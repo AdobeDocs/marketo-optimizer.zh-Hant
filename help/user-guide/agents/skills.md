@@ -1,120 +1,129 @@
 ---
 title: 同事技能
-description: 檢閱Marketo Optimizer中的CX Enterprise Coworker技能 — 程式、歷程、對象、評分、內容和傳送時間最佳化的封裝工作流程。
+description: 檢閱Marketo Optimizer中的同事技能，瞭解歷程、受眾、方案、內容、分析和AI決策。 瞭解每項技能可為您做什麼。
+autotag-review: '2026-09-22T14:02:17.516Z'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
-  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-    internal-label: Setup
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
-  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-    internal-label: Programs
-  - id: d4203578-d294-5145-b397-f26f4488a904
-    internal-label: Channels
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+subfeature_v2:
+  - id: b9e5c7f3-be30-563c-9e41-cc8ea76e2fee
+    internal-label: Skills
 topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-    internal-label: Data quality
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 6%
+source-wordcount: '988'
+ht-degree: 4%
 ---
+
 # 同事技能
 
-_技能_&#x200B;是同事知道如何執行的封裝工作流程 — `/`功能表和自然語言請求背後的建置組塊。 每個技能都隨附逐步指示和一個工作所需的特定工具（例如「發佈歷程」、「比較兩個人清單」、「建立評分模型」）。
+_技能_&#x200B;是Co-worker可以執行的封裝工作流程。 技能是`/`功能表和自然語言請求背後的元件。 每個技能都隨附逐步指示和一個任務所需的特定工具，例如發佈歷程、比較兩個人清單或建立評分模型。
 
->[!NOTE]
->
->每個技能都根據技能是否改變[!DNL Marketo Optimizer]或[!DNL Marketo Engage]狀態（**寫入**）、僅查詢/分析/產生（**讀取**），或具有同等的查詢+變異函式（**讀取+寫入**）進行分類。
+每項技能的分類都會反映其執行的動作種類：
 
-## 方案與規劃 {#programs-planning}
-
-| 技能 | 作用 | 存取權 | 產品表面 | 影響/資料流程 |
-|---|---|---|---|---|
-| `adapt-program` | 從[!DNL Marketo Engage]個程式產生移轉劇本以進行[!DNL Marketo Optimizer]改寫。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Engage]，寫入[!DNL Marketo Optimizer] |
-| `folder-creation` | 在資產樹狀結構中建立組織資料夾。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `program-creation` *（建置程式）* | 從行銷活動簡報建立Marketo方案。  <p>請參閱&#x200B;_[從簡報建立方案](./program-from-brief.md)_。 | 寫入 | [!DNL Marketo Engage] | 讀取+寫入[!DNL Marketo Engage] |
-| `program-planning` *（計畫行銷活動）* | 將簡報轉換為設定/實作檔案。 | 讀取 | [!DNL Marketo Engage] | 讀取[!DNL Marketo Engage] |
-| `program-qa` *（驗證程式）* | 驗證/稽核方案（僅限規則、測試計畫或簡報）。 | 讀取 | [!DNL Marketo Engage] | 讀取[!DNL Marketo Engage] |
+* _搜尋_&#x200B;技能查詢或列出現有記錄。
+* _分析_&#x200B;技能檢閱、比較或報告資料，而不變更資料。
+* _檢視_&#x200B;技能會顯示唯讀報告或量度。
+* _編輯_&#x200B;技能會變更現有物件的設定或內容。
+* _建立_&#x200B;技能建立新物件。
 
 ## 歷程 {#journeys}
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `journey-creation` | 從自然語言建立及編輯個人歷程。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `journey-edit-dates` | 變更歷程的開始/結束日期，而不發佈。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `journey-publish` | 發佈/啟動/排程人員歷程。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `journey-stop` | 中止、關閉、停止、停止或終止歷程。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `journey-reentry` | 設定重新進入：允許/不允許、關閉、專案數上限。 | 寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `journey-trafficcontrol` | 執行顯示設定檔路由的流量控制模擬。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] （模擬） |
-| `journey-observability` | 偵錯/監視進度 — 路徑、時間、分割、停頓、停頓。 <p>檢視&#x200B;_[偵錯並監視歷程進度](./journey-observability.md)_。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] + [!DNL Marketo Engage] （靜態清單檢查） |
+這些技能可建立、發佈、偵錯和管理人員歷程。
 
-## 對象和人員 {#audiences-people}
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **歷程可觀察性** | 針對歷程中的人員移動進行偵錯和監視，包括路徑、時間、拆分、停頓和停留時間。 檢視&#x200B;_[偵錯並監視歷程進度](./journey-observability.md)_。 | 分析 |
+| **歷程流量控制** | 模擬設定檔如何分佈在所有作用中歷程。 | 分析 |
+| **歷程發佈** | 發佈、啟動或排程歷程，包括開始模式、日期和確認。 | 編輯 |
+| **歷程停止** | 中止執行中的歷程以立即停止，或關閉歷程以正常結束。 | 編輯 |
+| **歷程編輯日期** | 變更草稿、排程或即時歷程的開始或結束日期，而不重新發佈。 | 編輯 |
+| **歷程重新登入** | 設定歷程的重新進入設定，包括是否允許重新進入、冷卻延遲和最大進入計數。 | 編輯 |
+| **歷程建立** | 使用自然語言請求建立及編輯個人歷程。 | 建立 |
+| **網路研討會到歷程** | 在網路研討會之前設定促銷歷程，並在研討會之後設定後續歷程。 | 建立 |
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `audience-creation` | 調整[!DNL Marketo Engage]智慧清單、建立人員清單或新增/更新規則。 <p>請參閱&#x200B;_[建立方案的對象](./audience-creation.md)_。 | 寫入 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Engage] +讀取/寫入[!DNL Marketo Optimizer]。 |
-| `people-list-comparison` | 比較兩個人員清單並顯示重疊的成員。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] |
-| `import-leads` | 檢查CSV資料品質並將匯入認可至[!DNL Marketo Engage]。 | 讀取+寫入 | 兩者 | 讀取+寫入[!DNL Marketo Engage] |
-| `lead-investigation` *（調查銷售機會）* | 調查銷售機會的活動、評分、資格、生命週期。 | 讀取 | [!DNL Marketo Engage] | 讀取[!DNL Marketo Engage] |
+## 對象和人員清單 {#audience-people-lists}
 
-## 內容和頻道 {#content-channels}
+這些技能可建立和管理人員清單和受眾定義。
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `content-personalization` | 瀏覽/預覽範本及編輯內容/產生變體。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer]。 請參閱&#x200B;_[依角色個人化電子郵件內容](./personalize-content.md)_。 |
-| `asset-tokens` | 程式/資料夾/歷程上的完整權杖CRUD。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `fcs-channels` | 管道查詢和CRUD +發佈/停止/刪除。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **瀏覽動態清單成員** | 瀏覽及篩選動態或靜態人員清單的成員。 | 搜尋 |
+| **人員清單比較** | 比較兩個人員清單並顯示重疊的成員。 | 分析 |
+| **從靜態清單移除** | 從靜態清單中移除符合自然語言條件的成員。 | 編輯 |
+| **對象建立** | 調整[!DNL Marketo Engage]智慧清單、建立人員清單，或新增或更新其規則。 請參閱&#x200B;_[建立方案的對象](./audience-creation.md)_。 | 建立 |
 
-## 評分和訊號 {#scoring-signals}
+## 程式、資料夾和頻道 {#programs-folders-channels}
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `scoring-studio` | 列出/取得評分模型並建置/發佈。 <p>請參閱&#x200B;_[建立自訂評分模型](./lead-scoring-model.md)_。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] （評分服務）；讀取[!DNL Marketo Engage]潛在客戶欄位/活動型別。 |
-| `engagementconfiguration` | 顯示參與設定和編輯/更新權重。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `intentconfiguration` | 顯示意圖設定和設定/更新權重。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `intent-query` | 依人員/區段/清單查詢及說明意圖分數。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] |
+這些技能可管理方案結構、權杖和頻道設定。
 
-## 傳送時間最佳化 {#sto}
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **建立程式** | 從行銷活動簡介建立方案。 請參閱&#x200B;_[從簡報建立方案](./program-from-brief.md)_。 | 分析 |
+| **調整程式** | 從[!DNL Marketo Engage]個程式產生移轉劇本以進行[!DNL Marketo Optimizer]改寫。 | 分析 |
+| **資產Token** | 在程式、資料夾和歷程中建立和管理`{{my.token}}`值。 | 編輯 |
+| **個FCS通道** | 在「管道服務」中建立、發佈、停止和複製管道，包括XDM方案和布建。 | 編輯 |
+| **資料夾建立** | 在資產樹狀結構中建立組織資料夾。 | 建立 |
+| **WhatsApp內嵌行銷活動** | 在歷程節點上建立並發佈[!DNL WhatsApp]內嵌行銷活動。 | 建立 |
+| **行銷計畫建立** | 建立完整程式，包括子資料夾、權杖、人員清單和歷程。 | 建立 |
+| **程式和歷程批次建立** | 在單一批次請求中建立多個計畫和歷程配對。 | 建立 |
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `send-time-optimization` | 檢查STO狀態，並在電子郵件節點上啟用/停用。 | 讀取+寫入 | [!DNL Marketo Optimizer] | 讀取+寫入[!DNL Marketo Optimizer] |
-| `send-time-report` | 擷取/顯示STO效能報表。 | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] |
+## 電子郵件和登陸頁面 {#email-landing-pages}
 
-## Analytics與報表 {#analytics-reporting}
+這些技能可建立和管理電子郵件、表單和登入頁面。
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `surface-analytics` | 跨活動趨勢、電子郵件效能、銷售機會和帳戶資料、區段和清單成員資格，以及以圖表和表格傳回的歷程量度，從自然語言產生分析報表。 報告資料每兩小時會重新整理一次。 <p>請參閱&#x200B;_[產生Analytics報表](./surface-analytics.md)_。</p> | 讀取 | [!DNL Marketo Optimizer] | 讀取[!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **列出Forms** | 列出表單並檢視其詳細資訊和欄位。 | 搜尋 |
+| **列出登陸頁面** | 列出登入頁面、檢視其詳細資料並管理其草稿或已發佈狀態。 | 搜尋 |
+| **電子郵件稽核** | 根據目標群組稽核電子郵件，包括個人推斷和簡短加上逐節審查。 | 分析 |
+| **電子郵件製作** | 建立或更新歷程電子郵件節點，包括從簡介或PDF撰寫、將其連結至節點，以及撰寫內容。 | 編輯 |
+| **表單製作** | 建立或更新獨立銷售機會擷取表單，發佈它，並選擇性地將它內嵌在登入頁面中。 | 建立 |
+| **登陸頁面製作** | 從簡介建立或更新登入頁面，包括內容規劃、範本選擇、填寫槽和新增表單，然後發佈。 也請將發佈的登入頁面附加為電子郵件上的call-to-action連結。 | 建立 |
+| **電子郵件呈現檢查** | 檢查電子郵件中是否有[!DNL Microsoft Outlook]個轉譯問題，並自動修正問題。 | 編輯 |
 
-## 知識 {#knowledge}
+## 內容個人化 {#content-personalization}
 
-| 技能 | 作用 | 存取權 | 產品 | 後端（資料流程） |
-|---|---|---|---|---|
-| `product-knowledge` | 回答在Experience League上發佈的[!DNL Marketo Optimizer]檔案的作法/概念問題。 | 讀取 | 兩者 | 讀取外部檔案 — 無產品資料 |
+此技能可瀏覽範本並為不同角色個人化電子郵件內容。
 
-## 跨後端 {#cross-backend}
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **內容Personalization** | 瀏覽及預覽範本，然後編輯內容或產生變體。 請參閱&#x200B;_[依角色個人化電子郵件內容](./personalize-content.md)_。 | 建立 |
 
-這些技能跨越多個後端：
+## Analytics和最佳化 {#analytics-optimization}
 
-- **`adapt-program`** — `gather_program_assets`讀取[!DNL Marketo Engage] (`get_program`， `get_smart_campaign`， `list_emails`)，然後透過`falcomcp_create_journey`寫入 — 傳統跨後端。
-- **`audience-creation`** — 讀取[!DNL Marketo Engage]個智慧清單(`get_smart_list` / `get_smart_campaign`)，然後寫入[!DNL Marketo Optimizer]個人清單。
-- **`journey-observability`** — [!DNL Marketo Optimizer]讀取加上`check_lead_in_marketo_static_list` [!DNL Marketo Engage]讀取。
-- **`scoring-studio`** — 同時讀取[!DNL Marketo Engage]個銷售機會欄位/活動型別和[!DNL Marketo Optimizer]計分服務。
-- **`surface-analytics`** — 可以在單一查詢中回答同時涵蓋[!DNL Marketo Engage]和[!DNL Marketo Optimizer]資料的報表問題。
+這些技能會報告效能並設定傳送時間最佳化和評分模型。
 
-所有`falco-mcp_*`和歷程/權杖/評分/STO/FCS工具點選[!DNL Marketo Optimizer]服務；CSV/方案/潛在客戶工具點選[!DNL Marketo Engage]。
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **表面分析** | 從自然語言請求產生分析報表，包括活動趨勢、電子郵件效能、銷售機會和帳戶資料、區段和清單成員資格，以及歷程量度。 報告資料每兩小時會重新整理一次。 請參閱&#x200B;_[產生Analytics報表](./surface-analytics.md)_。 | 分析 |
+| **傳送時間報告** | 在歷程層級或針對個別電子郵件節點檢視傳送時間最佳化(STO)效能報表。 | 分析 |
+| **電子郵件STO模擬** | 在啟用STO之前，預覽電子郵件節點的預測傳送時間、對象品質和參與熱度圖。 | 分析 |
+| **傳送時間最佳化** | 在歷程電子郵件節點上啟用或停用STO。 | 編輯 |
+| **參與設定** | 顯示並編輯人員參與分數模型的活動權重。 | 編輯 |
+| **評分工作室** | 列出和檢視評分模型，然後建立並發佈新模型。 請參閱&#x200B;_[建立自訂評分模型](./lead-scoring-model.md)_。 | 建立 |
+
+## AI決策與意圖 {#ai-decisioning-intent}
+
+這些技能會評估AI決策的資料整備程度，並設定意圖評分。
+
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **AI決策健全狀態** | 報告組織的資料是否已準備好進行AI決策，包括銷售機會可用性、角色分佈、故事豐富度和意圖。 | 分析 |
+| **分析目的** | 查詢及驗證潛在客戶層級意圖排名、趨勢、產品與關鍵字分類法。 | 分析 |
+| **意圖組態** | 顯示並編輯人員意圖分數模型的活動權重。 | 編輯 |
+
+## 知識與技能管理 {#knowledge-skill-management}
+
+這些技能可回答產品問題，並讓您建立新的自訂技能。
+
+| 技能 | 作用 | 類型 |
+| --- | --- | --- |
+| **產品知識** | 使用Experience League上發佈的[!DNL Marketo Optimizer]檔案來回答作法和概念性問題。 | 搜尋 |
+| **技能建立** | 建立、測試和調整新的自訂技能。 | 建立 |
