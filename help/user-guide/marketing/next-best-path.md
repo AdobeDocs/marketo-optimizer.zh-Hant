@@ -13,7 +13,7 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
+source-git-commit: c733fd2c334324d8666bac908e55a0780ede557e
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -133,20 +133,22 @@ AI建議不具繫結。 在啟用歷程之前，您可以：
 
 1. 在對話方塊中，選擇要用於模擬對象的動態清單。
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
+   ![選取了動態清單的模擬路徑對話方塊以及[取消]和[模擬]按鈕。](./assets/next-best-path-simulate-paths.png){width="250"}
 
-![選取了動態清單的模擬路徑對話方塊以及[取消]和[模擬]按鈕。](./assets/next-best-path-simulate-paths.png){width="250"}
-
->[!NOTE]
->
->* 如果選取的對象超過模擬臨界值，系統會在100個設定檔範例上執行模擬。 UI中的指示器會顯示以範例為基礎的結果。
->* 如果選取的對象尚未具體化，則會封鎖模擬。 內嵌警告會指導您先實體化對象。
+   >[!NOTE]
+   >
+   >* 如果選取的對象超過模擬臨界值，系統會在100個設定檔範例上執行模擬。 UI中的指示器會顯示以範例為基礎的結果。
+   >* 如果選取的對象尚未具體化，則會封鎖模擬。 內嵌警告會指導您先實體化對象。
 
 1. 按一下&#x200B;**[!UICONTROL 模擬]**。
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### 檢閱模擬結果 {#review-results}
 
