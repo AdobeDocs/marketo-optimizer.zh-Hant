@@ -1,16 +1,18 @@
 ---
 user-guide-title: Marketo Optimizer檔案
-user-guide-description: 瞭解Adobe Marketo Optimizer，以及如何使用它針對B2B潛在客戶和帳戶，透過個人化、AI支援的內容，執行協調的行銷和銷售參與。
-source-git-commit: 7053281563adbce7b5eb6fd1669974bad15677cb
+user-guide-description: 瞭解Adobe Marketo Optimizer，以及如何使用它為B2B銷售機會和帳戶提供個人化、AI支援的內容，以執行協調的行銷和銷售參與。
+source-git-commit: ef45be43f6fc08805ebb5b2824340c45d60996e8
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 44%
+source-wordcount: '260'
+ht-degree: 43%
 ---
 
 # Marketo Optimizer使用手冊 {#user}
 
 + [Adobe Marketo Optimizer檔案](guide-overview.md)
-+ [資料架構](data-architecture.md)
++ 資料基礎 {#data-foundation}
+  + [資料架構](./data-architecture.md)
+  + [與Marketo Engage的互通性](./marketo-interoperability.md)
 + 開始使用 {#start}
   + [設定檢查清單](./start/setup-check-list.md)
   + [使用者管理](./start/user-management.md)
