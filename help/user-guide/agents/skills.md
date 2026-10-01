@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
+source-git-commit: abbd342b8191ddebd7e155ad2c5944e4695a05b3
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '967'
 ht-degree: 4%
 ---
 
@@ -82,7 +82,6 @@ _技能_&#x200B;是Co-worker可以執行的封裝工作流程。 技能是`/`功
 | --- | --- | --- |
 | **列出Forms** | 列出表單並檢視其詳細資訊和欄位。 | 搜尋 |
 | **列出登陸頁面** | 列出登入頁面、檢視其詳細資料並管理其草稿或已發佈狀態。 | 搜尋 |
-| **電子郵件稽核** | 根據目標群組稽核電子郵件，包括個人推斷和簡短加上逐節審查。 | 分析 |
 | **電子郵件製作** | 建立或更新歷程電子郵件節點，包括從簡介或PDF撰寫、將其連結至節點，以及撰寫內容。 | 編輯 |
 | **表單製作** | 建立或更新獨立銷售機會擷取表單，發佈它，並選擇性地將它內嵌在登入頁面中。 | 建立 |
 | **登陸頁面製作** | 從簡介建立或更新登入頁面，包括內容規劃、範本選擇、填寫槽和新增表單，然後發佈。 也請將發佈的登入頁面附加為電子郵件上的call-to-action連結。 | 建立 |
