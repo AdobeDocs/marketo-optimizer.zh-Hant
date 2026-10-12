@@ -81,7 +81,7 @@ ht-degree: 36%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_存取_。
 
-1. 按一下[下一步]****，然後按一下[儲存]****。
+1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
 
 ### 新增使用者群組 {#add-user-group}
 
@@ -134,7 +134,7 @@ ht-degree: 36%
 
      ![使用輸入的電子郵件地址在Admin Console中新增使用者對話方塊。](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
-   * 輸入名字和姓氏，然後按一下[儲存]。****
+   * 輸入名字和姓氏，然後按一下[儲存]。**&#x200B;**
 
 1. 將每位使用者新增至群組：
 
@@ -282,7 +282,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   在Experience Platform角色詳細資訊頁面中，選取[新增使用者]的[使用者]索引標籤。](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}![
+   在Experience Platform角色詳細資訊頁面中，選取[新增使用者]的[使用者]索引標籤。![&#128279;](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. 在&#x200B;_[!UICONTROL 新增使用者]_&#x200B;對話方塊中，找出並選取您要新增至角色的使用者。
 
