@@ -136,4 +136,4 @@ ht-degree: 0%
 
 在聊天介面中，您可以詢問報告問題，例如&#x200B;*「顯示我所有即將舉辦的網路研討會」*&#x200B;或&#x200B;*「提供網路研討會的詳細資料[名稱]」*。 它會顯示參與儀表板連結以及次佳動作，例如&#x200B;**設計**、**新增共同主機**&#x200B;或&#x200B;**於網路研討會日期**&#x200B;發佈。
 
-如需更深入的分析 — 出席率、投票和調查績效，以及每個成員的資料 — 聊天介面會連結至網路研討會的&#x200B;**分析**&#x200B;和&#x200B;**成員**&#x200B;標籤，以及&#x200B;**網路研討會管理**&#x200B;中的跨程式統計。<!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+如需更深入的分析 — 出席率、投票和調查績效，以及每個成員的資料 — 聊天介面會連結至網路研討會的&#x200B;**分析**&#x200B;和&#x200B;**成員**&#x200B;標籤，以及&#x200B;**網路研討會管理**&#x200B;中的跨程式統計。<!-- See [Webinar reporting](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
