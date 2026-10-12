@@ -6,19 +6,24 @@ role: User
 TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Customer experience
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '586'
 ht-degree: 0%
-
 ---
-
-# C2PA中繼資料
+# C2PA 中繼資料
 
 行銷組織更關注內容透明度、AI揭露和防止資產竄改。 Adobe的Content Authenticity Initiative (CAI)建立符合[內容來源與真偽聯盟](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA)技術標準的工具。 _C2PA中繼資料_&#x200B;已加密、顯示篡改的資訊，可協助檢視者瞭解內容歷程，並確保品牌資產的完整性。 此資訊包括：
 
@@ -34,7 +39,7 @@ ht-degree: 0%
 
 C2PA中繼資料會隨著影像檔案持續存在。 使用產生AI產生或編輯的影像上傳至[!DNL Adobe Marketo Optimizer]或從匯出時，會保留其C2PA中繼資料。
 
-如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_Generative AI內容透明度_](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
+如需跨Adobe CX Enterprise應用程式自動附加C2PA中繼資料的其他詳細資訊，請參閱CX Enterprise指南中AI的&#x200B;[_產生AI內容透明度_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}。
 
 >[!NOTE]
 >

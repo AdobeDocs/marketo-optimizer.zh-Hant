@@ -6,20 +6,27 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 18a33a66-85a1-58e4-8e50-418b832ade8b
+    internal-label: Privacy
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Privacy
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 5%
-
 ---
-
 
 # 隱私權管理 {#privacy-management}
 
@@ -54,7 +61,7 @@ ht-degree: 5%
 * **[!UICONTROL Privacy Service許可權]** - `Privacy Read Permission`和`Privacy Write Permission`
 * **[!UICONTROL 資料控管]** - `View Privacy Console`
 
-請參閱[!DNL Privacy Service]指南中的&#x200B;[_管理Privacy Service的許可權_](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/permissions){target="_blank"}以取得詳細資訊。
+請參閱[!DNL Privacy Service]指南中的&#x200B;[_管理Privacy Service的許可權_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"}以取得詳細資訊。
 
 >[!ENDSHADEBOX]
 
@@ -93,7 +100,7 @@ ht-degree: 5%
 
 1. 捲動至對話方塊底部，並輸入您要存取或刪除其資料之人員的電子郵件地址。
 
-1. 若要提交要求，請按一下[建立]。**&#x200B;**
+1. 若要提交要求，請按一下[建立]。****
 
    [!DNL Privacy Service]傳回要求ID，可用來檢查要求的狀態。
 

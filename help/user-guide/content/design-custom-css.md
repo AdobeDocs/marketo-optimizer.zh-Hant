@@ -1,22 +1,27 @@
 ---
 title: 為內容新增自訂CSS
-description: 新增自訂CSS至電子郵件和登陸頁面，Marketo Optimizer的標準元件無法提供進階樣式和精確設計控制。
+description: 將自訂CSS新增至電子郵件和登陸頁面，以實現Marketo Optimizer標準元件以外的進階樣式和精確設計控制。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 TQID: 'https://experienceleague.adobe.com/RLYXBvEepwNcQ9B9W3Sao-RP49HtbxFomlgu7R8APAg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # 為內容新增自訂CSS
 
 您可以直接在電子郵件或登入頁面設計空間新增自己的自訂CSS。 使用自訂CSS套用進階和特定的樣式，以擁有更大的彈性並控制內容的外觀。
@@ -84,7 +89,7 @@ ht-degree: 0%
 
    ![在編輯器中輸入自訂CSS](assets/content-design-add-custom-css.png){width="450"}
 
-1. 按一下[儲存]儲存自訂CSS。**&#x200B;**
+1. 按一下[儲存]儲存自訂CSS。****
 
    自訂樣式表會套用至現有內容。 您可以檢查自訂CSS是否已根據您的需求套用。 如需如何進行變更及調整樣式表應用程式的詳細資訊，請參閱[疑難排解](#troubleshooting)。
 

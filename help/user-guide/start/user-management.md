@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 36%
@@ -35,7 +35,7 @@ ht-degree: 36%
 
 ## 設定產品設定檔 {#config-profile}
 
-作為管理員，您可以在[!DNL Adobe Admin Console]中完成這些工作，這是管理及管理Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 若要瞭解其功能的詳細資訊，請參閱[Admin Console概觀](https://helpx.adobe.com/tw/business/enterprise/deploy-apps-updates.html)頁面。
+作為管理員，您可以在[!DNL Adobe Admin Console]中完成這些工作，這是管理及管理Adobe產品授權和使用者的中心位置。 在Admin Console中，您可以在單一位置而非在各種個別解決方案中建立和管理使用者。 若要瞭解其功能的詳細資訊，請參閱[Admin Console概觀](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html)頁面。
 
 ### 存取Admin Console {#admin-console}
 
@@ -71,7 +71,7 @@ ht-degree: 36%
 
 在授與使用者Adobe解決方案的存取權時，您不一定要授與他們完整的存取權。 產品設定檔使每個解決方案都可以擁有自己的一組使用者許可權。 使用Admin Console指派產品設定檔。
 
-如需有關使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的&#x200B;[_管理企業使用者的產品設定檔_](https://helpx.adobe.com/tw/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"}。
+如需有關使用產品設定檔取得使用者許可權的詳細資訊，請參閱Admin Console檔案中的&#x200B;[_管理企業使用者的產品設定檔_](https://helpx.adobe.com/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"}。
 
 ![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員或[!DNL Experience Platform]產品管理員可以從[https://adminconsole.adobe.com](https://adminconsole.adobe.com)執行下列步驟。
 
@@ -81,13 +81,13 @@ ht-degree: 36%
 
 1. 輸入產品設定檔名稱，例如&#x200B;_存取_。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存]****。
 
 ### 新增使用者群組 {#add-user-group}
 
 使用者群組是獲授一組共用許可權的使用者集合。 您可以在使用者群組中新增或移除使用者。 當群組內的使用者變更時，群組權限會維持不變。
 
-如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/tw/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"}。
+如需有關如何使用使用者群組來管理許可權的詳細資訊，請參閱Admin Console檔案中的[管理使用者群組](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"}。
 
 ![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員可以從[https://adminconsole.adobe.com](https://adminconsole.adobe.com)執行下列步驟。
 
@@ -122,7 +122,7 @@ ht-degree: 36%
 
 ### 將使用者新增至新群組 {#add-users}
 
-如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/tw/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"}。
+如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"}。
 
 ![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員或產品管理員可以從[https://adminconsole.adobe.com](https://adminconsole.adobe.com)執行下列步驟。 產品管理員只能新增其組織中已存在的使用者。
 
@@ -134,7 +134,7 @@ ht-degree: 36%
 
      ![使用輸入的電子郵件地址在Admin Console中新增使用者對話方塊。](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
-   * 輸入名字和姓氏，然後按一下[儲存]。**&#x200B;**
+   * 輸入名字和姓氏，然後按一下[儲存]。****
 
 1. 將每位使用者新增至群組：
 
@@ -158,7 +158,7 @@ ht-degree: 36%
 
 Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以定義使用者角色和存取原則，以管理產品應用程式內功能和物件的存取許可權。 在此應用程式中，您可以建立和管理角色，並為這些角色指派所需的資源許可權。 許可權也可讓您管理與特定角色相關聯的沙箱和使用者。
 
-如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
+如需Experience Platform中角色許可權的詳細資訊，請參閱Experience Platform檔案中的[管理角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}。
 
 1. 移至[experience.adobe.com](https://experience.adobe.com/)。
 
@@ -282,7 +282,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   在Experience Platform角色詳細資訊頁面中，選取[新增使用者]的[使用者]索引標籤。![&#128279;](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
+   在Experience Platform角色詳細資訊頁面中，選取[新增使用者]的[使用者]索引標籤。](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}![
 
 1. 在&#x200B;_[!UICONTROL 新增使用者]_&#x200B;對話方塊中，找出並選取您要新增至角色的使用者。
 
@@ -296,7 +296,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 ### 將使用者群組新增至角色 {#add-user-groups-to-a-role}
 
-如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/tw/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"}。
+如需使用者管理的相關資訊，請參閱Admin Console檔案中的&#x200B;[_Adobe Admin Console使用者_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"}。
 
 ![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員或Experience Platform管理員可以執行以下步驟。
 
@@ -330,7 +330,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 選取為[!DNL Marketo Optimizer]存取權布建的沙箱(`Mktoaep<Marketo subscription prefix>`)。
 
-   ![角色編輯器中已選取Marketo Optimizer沙箱的沙箱選取清單。](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   ![角色編輯器中已選取Marketo Optimizer沙箱的Sandbox選取清單。](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. 新增產品許可權：
 
