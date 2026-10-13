@@ -1,22 +1,26 @@
 ---
 title: 建立及設計網路研討會
-description: 新增網路研討會資產至程式、在 [!DNL Adobe Connect]中進行設計、新增共同主機和主持人、執行測試工作階段，以及在 [!DNL Marketo Optimizer]中編輯即時網路研討會。
-keywords: 
+description: 新增網路研討會資產至程式、在[!DNL Adobe Connect]中進行設計、新增共同主機和主持人、執行測試工作階段，以及在[!DNL Marketo Optimizer]中編輯即時網路研討會。
+keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: '680'
 ht-degree: 0%
-
 ---
-
 
 # 建立及設計網路研討會
 
@@ -66,8 +70,8 @@ ht-degree: 0%
 
 1. 選擇&#x200B;**傳遞模式**：
 
-   &#x200B;- **即時** — 主持人即時主持工作階段。
-   &#x200B;- **模擬即時** — 在排定的時間播放預先錄製的內容，以及即時聊天、投票和問答。
+   - **即時** — 主持人即時主持工作階段。
+   - **模擬即時** — 在排定的時間播放預先錄製的內容，以及即時聊天、投票和問答。
 
 1. 選擇&#x200B;**網路研討會會議室**。
 
@@ -117,5 +121,5 @@ ht-degree: 0%
 
 您可以在註冊開始後編輯網路研討會，但請謹慎操作：
 
-&#x200B;- 編輯排程會觸發已註冊人員的更新通知。 可設定編輯已排程網路研討會的功能。
-&#x200B;- 即時電子郵件中權杖參考的欄位需要明確的移除確認，因為這樣做會破壞已排程傳送的內容。
+- 編輯排程會觸發已註冊人員的更新通知。 可設定編輯已排程網路研討會的功能。
+- 即時電子郵件中權杖參考的欄位需要明確的移除確認，因為這樣做會破壞已排程傳送的內容。

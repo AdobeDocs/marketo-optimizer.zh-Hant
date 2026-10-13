@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 36%
@@ -330,7 +330,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 選取為[!DNL Marketo Optimizer]存取權布建的沙箱(`Mktoaep<Marketo subscription prefix>`)。
 
-   ![角色編輯器中已選取Marketo Optimizer沙箱的沙箱選取清單。](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   ![角色編輯器中已選取Marketo Optimizer沙箱的Sandbox選取清單。](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. 新增產品許可權：
 

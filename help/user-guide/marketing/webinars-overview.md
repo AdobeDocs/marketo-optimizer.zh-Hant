@@ -1,29 +1,39 @@
 ---
 title: 互動式網路研討會
 description: 瞭解Marketo Optimizer互動式網路研討會背後的概念，包括網路研討會資產模型、成員國、Token和活動。
-keywords: 
+keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 1085
+source-wordcount: '1085'
 ht-degree: 2%
-
 ---
-
 
 # 互動式網路研討會
 
@@ -81,13 +91,13 @@ ht-degree: 2%
 
 資產層級Token直接位於網路研討會資料夾中：
 
-&#x200B;- 標題
-&#x200B;- 說明
-&#x200B;- 開始日期時間、結束日期時間
-&#x200B;- 持續時間
-&#x200B;- 時區
-&#x200B;- 主持人
-&#x200B;- 錄製URL
+- 標題
+- 說明
+- 開始日期時間、結束日期時間
+- 持續時間
+- 時區
+- 主持人
+- 錄製URL
 
 >[!NOTE]
 >
@@ -95,9 +105,9 @@ ht-degree: 2%
 
 每個收件者的Token位於&#x200B;**Member**&#x200B;子資料夾中：
 
-&#x200B;- **狀態** — 收件者目前的網路研討會狀態（已邀請、已註冊、已出席、不顯示或隨選出席）。 檢視[網路研討會狀態](#webinar-status)。
-&#x200B;- **加入URL** — 收件者的個人[!DNL Adobe Connect]連結。 這只有在收件者的網路研討會狀態為已註冊或稍後才解析。 對於先前階段的任何人，它都會解析為空白。
-&#x200B;- **錄製URL** — 在即時工作階段發佈錄製作業之後解析，在此之前保持空白。 有條件地在後網路研討會電子郵件中使用連結，以免在要顯示錄製內容之前顯示連結。
+- **狀態** — 收件者目前的網路研討會狀態（已邀請、已註冊、已出席、不顯示或隨選出席）。 檢視[網路研討會狀態](#webinar-status)。
+- **加入URL** — 收件者的個人[!DNL Adobe Connect]連結。 這只有在收件者的網路研討會狀態為已註冊或稍後才解析。 對於先前階段的任何人，它都會解析為空白。
+- **錄製URL** — 在即時工作階段發佈錄製作業之後解析，在此之前保持空白。 有條件地在後網路研討會電子郵件中使用連結，以免在要顯示錄製內容之前顯示連結。
 
 >[!NOTE]
 >

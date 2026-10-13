@@ -1,27 +1,36 @@
 ---
 title: 建立和推廣網路研討會
 description: 使用Marketo Optimizer中的聊天介面來排程網路研討會、新增共同主持人和主持人、建立促銷活動和培養歷程，以及檢查報告 — 全都採用自然語言。
-keywords: 
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # 建立和推廣網路研討會
 
@@ -127,4 +136,4 @@ ht-degree: 0%
 
 在聊天介面中，您可以詢問報告問題，例如&#x200B;*「顯示我所有即將舉辦的網路研討會」*&#x200B;或&#x200B;*「提供網路研討會的詳細資料[名稱]」*。 它會顯示參與儀表板連結以及次佳動作，例如&#x200B;**設計**、**新增共同主機**&#x200B;或&#x200B;**於網路研討會日期**&#x200B;發佈。
 
-如需更深入的分析 — 出席率、投票和調查績效，以及每個成員的資料 — 聊天介面會連結至網路研討會的&#x200B;**分析**&#x200B;和&#x200B;**成員**&#x200B;標籤，以及&#x200B;**網路研討會管理**&#x200B;中的跨程式統計。<!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+如需更深入的分析 — 出席率、投票和調查績效，以及每個成員的資料 — 聊天介面會連結至網路研討會的&#x200B;**分析**&#x200B;和&#x200B;**成員**&#x200B;標籤，以及&#x200B;**網路研討會管理**&#x200B;中的跨程式統計。<!-- See [Webinar reporting](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
