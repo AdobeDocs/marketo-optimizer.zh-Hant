@@ -4,17 +4,19 @@ description: 在Marketo Optimizer中建立、發佈和管理人員歷程 — 瀏
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # 人員歷程
 
 在[!DNL Adobe Marketo Optimizer]中，個人歷程是自動化的、以潛在客戶為基礎的多步驟行銷計畫，可跨管道協調個人化體驗。 這些歷程會使用Marketo Engage資料來執行這些行銷計畫，以回應參與、業務事件或排程的行銷活動。
@@ -22,6 +24,15 @@ ht-degree: 19%
 >[!NOTE]
 >
 >每個歷程都位於定義的[方案](./programs.md)內。 在建立歷程之前，您必須至少有一個方案要作為父級使用。
+
+>[!PREREQUISITES]
+>
+>處理人員歷程需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B個人歷程]** — 需要唯讀存取&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單和歷程詳細資料。
+>* **[!UICONTROL 管理B2B個人歷程]** — 需要存取&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單並執行所有個人歷程作業。
+>* **[!UICONTROL 發佈B2B個人歷程]** — 發佈個人歷程的必要專案。
+>* **[!UICONTROL 檢視B2B個人歷程報告]** — 檢視個人歷程報告為必要。
 
 建立新的人員歷程&#x200B;:_(_T)
 
@@ -70,11 +81,11 @@ ht-degree: 19%
 
 | 狀態 | 說明 | 可用的動作 |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**草稿**&#x200B;_ | 未發佈且可以編輯的歷程。 | [發佈](#publish-a-journey)，[重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
-| _&#x200B;**已上線**&#x200B;_ | 當您發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | [重複](#duplicate-a-journey)，[關閉新專案](#close-to-new-entries)，[中止](#abort-a-journey) |
-| _&#x200B;**對新進客戶關閉**&#x200B;_ | 當您在歷程標題中按一下&#x200B;**[!UICONTROL 關閉新專案]**&#x200B;時，歷程狀態會從&#x200B;_即時_&#x200B;變更為&#x200B;_已關閉新專案_。 | [重複](#duplicate-a-journey)，[中止](#abort-a-journey) |
-| _&#x200B;**已中止**&#x200B;_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
-| _&#x200B;**已完成**&#x200B;_ | 當歷程中的所有個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**草稿**_ | 未發佈且可以編輯的歷程。 | [發佈](#publish-a-journey)，[重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**已上線**_ | 當您發佈歷程時，歷程狀態從&#x200B;_草稿_&#x200B;變更為&#x200B;_即時_。 在此狀態下，您將無法編輯歷程。 | [重複](#duplicate-a-journey)，[關閉新專案](#close-to-new-entries)，[中止](#abort-a-journey) |
+| _**對新進客戶關閉**_ | 當您在歷程標題中按一下&#x200B;**[!UICONTROL 關閉新專案]**&#x200B;時，歷程狀態會從&#x200B;_即時_&#x200B;變更為&#x200B;_已關閉新專案_。 | [重複](#duplicate-a-journey)，[中止](#abort-a-journey) |
+| _**已中止**_ | 中止歷程時，原本的「_已上線_」或「_對新進客戶關閉_」歷程狀態將會發生變更。 中止的歷程無法重新啟動。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
+| _**已完成**_ | 當歷程中的所有個人對象成員完成歷程時，狀態會從&#x200B;_即時_&#x200B;或&#x200B;_已關閉新專案_&#x200B;變更為&#x200B;_已完成_。 | [重複](#duplicate-a-journey)，[刪除](#delete-a-journey) |
 
 ## 建立個人歷程 {#create-a-person-journey}
 
@@ -105,7 +116,7 @@ ht-degree: 19%
 
 ### 歷程設計 {#journey-design}
 
-_歷程畫布_&#x200B;是歷程工作區的中央區域。 您可以在此處新增及設定歷程節點。 按一下節點，在版面右側的面板中開啟其屬性，並根據您的設計進行設定。 個人歷程一律以[_[!UICONTROL 個人對象&#x200B;]_&#x200B;節點](./person-audience-node.md)開始，您可以在其中定義歷程的輸入。
+_歷程畫布_&#x200B;是歷程工作區的中央區域。 您可以在此處新增及設定歷程節點。 按一下節點，在版面右側的面板中開啟其屬性，並根據您的設計進行設定。 個人歷程一律以[_[!UICONTROL 個人對象&#x200B;]_節點](./person-audience-node.md)開始，您可以在其中定義歷程的輸入。
 
 建立人員歷程並定義人員對象後，請使用節點建置歷程。 歷程畫布提供視覺化設計空間，您可在其中使用下列節點型別建置您的多步驟B2B行銷使用案例，以建構歷程：
 

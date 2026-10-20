@@ -7,15 +7,22 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1445'
 ht-degree: 1%
 ---
 
 # 評分工作室
 
 Scoring Studio包含模型清單、每個模型的可編輯畫布以及[同事聊天介面](../agents/chat-interface.md)。 使用畫布直接檢閱或調整維度和訊號，而Co-worker會繼續與您一起提出自然語言變更。 如需從提示建立模型的相關資訊，請參閱&#x200B;[_建立自訂評分模型_](../agents/lead-scoring-model.md)。
+
+>[!PREREQUISITES]
+>
+>Scoring Studio是Labs功能，需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B Labs]** — 檢視可用且已啟用的Labs功能為必要專案。
+>* **[!UICONTROL 管理B2B Labs]** — 需要啟用和設定Labs功能。
 
 ## 模型清單 {#model-list}
 
@@ -105,7 +112,7 @@ Scoring Studio包含模型清單、每個模型的可編輯畫布以及[同事�
 
 ## 發佈與排程 {#publish-schedule}
 
-當您的模型準備就緒時，請按一下[發佈]。**&#x200B;**
+當您的模型準備就緒時，請按一下[發佈]。****
 
 ![針對草稿評分模型顯示[發佈]按鈕。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
 

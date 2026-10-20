@@ -1,19 +1,20 @@
 ---
 title: 登陸頁面
-description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及Marketo Optimizer電子郵件中的連結。
+description: 建立、設計和發佈個人歷程的登陸頁面 — 從頭開始建立、匯入HTML、新增表單、個人化內容，以及從Marketo Optimizer的電子郵件中連結。
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # 登陸頁面
 
 登入頁面是獨立的網頁，您可以在聯絡人和客戶點按電子郵件、簡訊或任何數位位置中的連結專案後，指引他們。 您可以將這些頁面併入您的歷程，讓潛在客戶和客戶在網頁上檢視您的訊息，並在您的歷程中前進。
@@ -25,6 +26,14 @@ ht-degree: 2%
 * 使用登入頁面上的表單來擷取或更新設定檔資料（漸進式設定檔、偏好設定、註冊和類似案例）。
 * 將人們引導至專為您的歷程協調設計的行銷活動特定資訊。
 * 將使用者重新導向至專用網路表單，而不需在[!DNL Marketo Optimizer]外部建立外部頁面。
+
+>[!PREREQUISITES]
+>
+>使用登入頁面需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B登陸頁面]** — 需要檢視登陸頁面。
+>* **[!UICONTROL 管理B2B登陸頁面]** — 建立、編輯和刪除登陸頁面時需要。
+>* **[!UICONTROL 發佈B2B登陸頁面]** — 需要發佈登陸頁面。
 
 ## 登陸頁面工作流程 {#workflow}
 
@@ -154,7 +163,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 按一下「**[!UICONTROL 儲存]**」，或「**[!UICONTROL 儲存並關閉]**」以返回登陸頁面的詳細資料。
 
-1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。**&#x200B;**
+1. 當草稿頁面符合您的條件且您想要讓變更可用時，請按一下[發佈]。****
 
    當您發佈草稿版本時，草稿版本會取代目前發佈的版本，而託管頁面中的內容會更新。
 
@@ -200,7 +209,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 1. 針對&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;選項，按一下&#x200B;_選取頁面_&#x200B;圖示（![顯示連結圖示](../assets/do-not-localize/icon-landing-page-select.svg) ）。
 
-1. 在「選取登陸頁面」對話方塊中，將&#x200B;**[!UICONTROL 登陸頁面來源]**&#x200B;設定為&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**，從已發佈頁面的清單中選取登陸頁面的核取方塊，然後按一下「選取&#x200B;**[!UICONTROL 」]**。
+1. 在「選取登陸頁面」對話方塊中，將&#x200B;**[!UICONTROL 登陸頁面來源]**&#x200B;設定為&#x200B;**[!UICONTROL Journey Optimizer B2B Edition]**，從已發佈頁面的清單中選取登陸頁面的核取方塊，然後按一下「選取&#x200B;**[!UICONTROL 」]**。
 
    登陸頁面的![連結選項](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

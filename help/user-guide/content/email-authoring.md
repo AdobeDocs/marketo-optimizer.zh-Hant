@@ -1,24 +1,29 @@
 ---
 title: 電子郵件內容
-description: 瞭解如何使用視覺畫布、拖放工具、Adobe匯入和可重複使用的範本，在HTML Marketo Optimizer中撰寫及設計電子郵件內容。
+description: 瞭解如何使用視覺畫布、拖放工具、Adobe Marketo Optimizer匯入和可重複使用的範本，在HTML中撰寫及設計電子郵件內容。
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 2%
-
 ---
-
 # 電子郵件內容製作
 
 在[!DNL Adobe Marketo Optimizer]中，電子郵件設計空間提供視覺畫布，行銷人員可在其中撰寫電子郵件。 左側和頂端面板中的電子郵件設計工具（結構、內容元件、範本、片段等）支援透過拖放從頭開始建立。 您也可以選擇從範本開始、貼上原始HTML，或從可重複使用的視覺片段組合訊息。
@@ -26,6 +31,14 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >如需子網域的管理員設定、驗證、IP集區和電子郵件通道設定，請參閱[電子郵件傳遞能力](../start/email-deliverability.md)和[電子郵件通道設定](../admin/email-channel-configuration.md)。
+
+>[!PREREQUISITES]
+>
+>電子郵件製作需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B電子郵件]** — 需要檢視電子郵件訊息。
+>* **[!UICONTROL 管理B2B電子郵件]** — 建立、編輯和刪除電子郵件訊息的必要專案。
+>* **[!UICONTROL 管理B2B個人歷程]** — 需要將電子郵件新增至個人歷程。
 
 在[!DNL Marketo Optimizer]中，每封電子郵件都與人員歷程中的&#x200B;_[!UICONTROL 傳送電子郵件]_&#x200B;動作相關聯。 從歷程設計到電子郵件定義的完整工作流程發生在一個連續的體驗中。 當您[新增&#x200B;_傳送電子郵件_&#x200B;節點](../marketing/action-nodes.md#add-an-action-node)至個人歷程時，請按一下&#x200B;**[!UICONTROL 建立電子郵件]**&#x200B;以開始此程式。 首先，您可以定義電子郵件的動作和內容設定。 按一下「**[!UICONTROL 編輯電子郵件內文]**」以啟動電子郵件內容設計空間，您可以在其中從下列選項中選擇要如何設計電子郵件：
 
@@ -86,7 +99,7 @@ ht-degree: 2%
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容 {#import-html-content}
 
@@ -159,7 +172,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ### 新增片段 {#visual-fragments}
 

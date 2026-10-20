@@ -4,16 +4,17 @@ description: 瞭解如何在Marketo Optimizer中存取和管理電子郵件範�
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # 電子郵件範本
 
@@ -24,6 +25,13 @@ ht-degree: 1%
 >在這個Beta版本中，僅支援電子郵件範本。
 
 將範本套用至新電子郵件時，內容會在該時間點複製。 對範本的編輯不會影響先前從中建立的電子郵件。
+
+>[!PREREQUISITES]
+>
+>使用範本需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B範本]** — 需要檢視範本清單和詳細資料。
+>* **[!UICONTROL 管理B2B範本]** — 建立、編輯和刪除範本時需要。
 
 ## 存取電子郵件範本 {#access}
 
@@ -60,7 +68,7 @@ ht-degree: 1%
 
 ### 編輯範本
 
-按一下範本名稱以開啟詳細資料頁面，然後按一下[編輯電子郵件範本]。**&#x200B;** 您也可以按一下範本清單中的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示( ... )，然後選取&#x200B;**[!UICONTROL 編輯]**。
+按一下範本名稱以開啟詳細資料頁面，然後按一下[編輯電子郵件範本]。**** 您也可以按一下範本清單中的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示( ... )，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
 ### 複製範本
 

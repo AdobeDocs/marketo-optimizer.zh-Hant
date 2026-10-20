@@ -1,6 +1,6 @@
 ---
 title: 電子郵件傳遞能力設定
-description: 為Marketo Optimizer設定子網域委派、DMARC、SPF、DKIM和IP集區。
+description: 設定Marketo Optimizer的子網域委派、DMARC、SPF、DKIM和IP集區。
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 0%
 ---
 # 電子郵件傳遞能力
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. [建立一個或多個電子郵件通道設定](../admin/email-channel-configuration.md#create-email-channel-configuration)，以繫結子網域、IP集區和寄件者身分識別。
 1. [將傳送的IP位址加入您的IT部門允許清單](#allowlist-ip-addresses)，以便測試電子郵件到達您的收件匣。
 
-![電子郵件傳送設定Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
+![電子郵件Marketo Optimizer傳遞能力設定](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
@@ -70,6 +70,18 @@ ht-degree: 0%
 | **_子網域_** | 您用來透過[!DNL Marketo Optimizer]傳送電子郵件的傳送網域委派部分（例如，`mail.contoso.com`）。 子網域會將您的B2B行銷信譽與公司或交易郵件隔離。 |
 | **_IP集區_** | 與一或多個子網域相關聯的一組IP位址。 [!DNL Marketo Optimizer]在此版本中支援Adobe管理的共用IP集區；專用IP集區位於GA藍圖上。 |
 | **_頻道設定_** | 一組可重複使用的電子郵件傳送設定（寄件者身分、回覆位址、子網域、IP集區、電子郵件型別和追蹤），可附加至歷程中的電子郵件動作。 您可以對不同品牌、業務單位或傳送型別擁有多個已命名管道設定。 |
+
+## 必要權限 {#required-permissions}
+
+傳遞能力和管道設定是管理員層級的任務。 _B2B通道設定_&#x200B;類別控制項存取中的下列許可權：
+
+| 權限 | 它允許 |
+| ---------- | -------------- |
+| 檢視B2B電子郵件設定 | 檢視電子郵件設定（子網域、PTR記錄、IP集區、隱藏清單、種子清單、IP熱身計畫）。 |
+| 管理B2B電子郵件設定 | 設定電子郵件設定。 使用者傳送電子郵件前，必須先完成這些設定。 |
+| 管理B2B管道設定 | 存取左側導覽中的&#x200B;_管道_&#x200B;功能表專案以及所有管道設定作業。 |
+
+如需每種使用者型別的所有許可權和建議許可權的說明，請參閱[產品許可權](./permissions-reference.md)。
 
 <!--
 
@@ -155,7 +167,7 @@ Channel configurations sit under **[!UICONTROL Channels]** → **[!UICONTROL Gen
 >* 決定子網域命名慣例（例如，`mail.contoso.com`代表行銷，`alerts.contoso.com`代表異動）。
 >* 向您的IT/DNS團隊確認他們可以將子網域（NS記錄）委派給Adobe。
 >* 在您的DNS提供者中建立新的子網域，然後等候24到48小時讓DNS傳播，再委派給Adobe。
->* 確認您擁有[!DNL Marketo Optimizer]中的管理員角色。
+>* 確認您擁有&#x200B;**[!UICONTROL 管理B2B電子郵件設定]**&#x200B;許可權。 如需詳細資訊，請參閱[必要許可權](#required-permissions)。
 
 1. 在[!DNL Marketo Optimizer]左側導覽中，展開&#x200B;**[!UICONTROL 管理]**&#x200B;並選取&#x200B;**[!UICONTROL 管道]**。
 1. 在面板中，展開&#x200B;**[!UICONTROL 電子郵件設定]**&#x200B;並選取&#x200B;**[!UICONTROL 子網域]**。

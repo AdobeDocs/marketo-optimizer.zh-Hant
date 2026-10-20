@@ -1,15 +1,15 @@
 ---
 title: 個人歷程個人報告
-description: 瞭解Adobe Marketo Optimizer中的「個人歷程個人」報表，該報表會顯示一個歷程的完成、參與和電子郵件量度。
+description: 瞭解Adobe Marketo Optimizer中的個人歷程個人報告，該報告會顯示一個歷程的完成、參與和電子郵件量度。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 按一下&#x200B;**[!UICONTROL 檢視報表]**&#x200B;以取得即時或完成的人員歷程，以檢視其績效，包括狀態、參與度、電子郵件量度和活動流程。
+
+>[!PREREQUISITES]
+>
+>若要檢視此報告，您必須擁有&#x200B;**[!UICONTROL 檢視B2B人員歷程報告]** [許可權](../start/permissions-reference.md)。
 
 檢視報告(_T):_
 

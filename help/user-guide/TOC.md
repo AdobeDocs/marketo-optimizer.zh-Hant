@@ -1,10 +1,10 @@
 ---
 user-guide-title: Marketo Optimizer檔案
 user-guide-description: 瞭解Adobe Marketo Optimizer，以及如何使用它為B2B銷售機會和帳戶提供個人化、AI支援的內容，以執行協調的行銷和銷售參與。
-source-git-commit: ef45be43f6fc08805ebb5b2824340c45d60996e8
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 43%
+source-wordcount: '262'
+ht-degree: 42%
 ---
 
 # Marketo Optimizer使用手冊 {#user}
@@ -108,3 +108,4 @@ ht-degree: 43%
   + [業務規則](./admin/business-rules.md)
   + [計畫型別](./admin/program-types.md)
   + [人物誌對應](./admin/persona-mapping.md)
+  + [產品許可權](./start/permissions-reference.md)

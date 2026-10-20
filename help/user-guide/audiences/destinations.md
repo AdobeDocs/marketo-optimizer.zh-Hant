@@ -4,17 +4,18 @@ description: 瞭解所需的許可權、支援的目的地，以及如何在Mark
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 7%
-
 ---
-
 # 目的地
 
 目的地是預先建立的整合，可讓您從[!DNL Marketo Optimizer]將[靜態人物清單](./people-lists.md#static-lists)傳送至外部廣告或社交平台，例如LinkedIn促銷活動對象、Google客戶比對對象或Facebook自訂對象。 啟用靜態清單至目的地可保持成員資格同步：當在清單中新增或移除人員時，目標對象會相應新增或移除人員，延伸至對象摘要的任何促銷活動時，也會移除人員。
@@ -28,11 +29,14 @@ ht-degree: 7%
 
 ## 必要權限 {#required-permissions}
 
-完整目的地功能需要啟用下列[!DNL Adobe Experience Platform]許可權。
+完整目的地功能需要啟用下列[!DNL Adobe Experience Platform]許可權。 如需各種使用者型別的說明和建議許可權，請參閱[產品許可權](../start/permissions-reference.md)頁面和[外部目的地許可權](../start/permissions-reference.md#external-destinations-permissions)。
 
 | 類別 | 權限 | 必填 |
 |--- |--- |--- |
 | 沙箱 | 沙箱存取&#x200B;_（預設為啟用）_ | 是 |
+| B2B目的地 | 檢視B2B目的地 | 是 |
+| B2B目的地 | 管理B2B目的地 | 是 |
+| B2B目的地 | 啟用B2B目的地 | 是 |
 | 儀表板 | 檢視標準儀表板 | 是 |
 | 儀表板 | 管理標準儀表板 | 是 |
 | 目的地 | 檢視目的地 | 是 |
@@ -84,9 +88,9 @@ ht-degree: 7%
 
 1. 完成人員屬性與目的地所需欄位之間的任何所需欄位對應。
 
-1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。**&#x200B;**
+1. 檢閱資料控管和行銷動作設定，然後按一下[儲存]。****
 
-如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
+如需完整的設定步驟，請參閱[!DNL Experience Platform]檔案中的[建立新的目的地連線](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}。
 
 設定後，目的地可供您在[!DNL Marketo Optimizer]中選取目的地的所有地方啟動。
 

@@ -1,23 +1,27 @@
 ---
 title: 歷程流量控制
-description: 瞭解Marketo Optimizer中的Journey流量控制如何跨七個加權維度使用AI分數，以在對象重疊時只將每個人註冊到他們的最適化歷程。
+description: 瞭解Marketo Optimizer中的歷程流量控制如何跨七個加權維度使用AI評分，以在對象重疊時只將每個人註冊到他們的最適化歷程。
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # 歷程流量控制
 
 歷程流量控制(JTC)會在對象重疊時，將個人的最佳歷程列為優先順序。 當某人符合多個啟用JTC的歷程的資格時，AI模型會針對每個候選者評估這些歷程，並將其新增至最適化歷程，以將他們隔絕於其他人。
@@ -56,6 +60,7 @@ ht-degree: 0%
 
 在歷程流量控制產生結果之前，請記住以下事項：
 
+* **許可權。** 您需要&#x200B;**[!UICONTROL 檢視B2B歷程流量控制]**&#x200B;許可權才能檢視歷程流量控制設定，並需要&#x200B;**[!UICONTROL 管理B2B歷程流量控制]**&#x200B;許可權才能設定歷程流量控制，包括模擬其效果。 如需詳細資訊，請參閱[許可權資源](../start/permissions-reference.md)。
 * **報告需要已發佈、已啟用JTC的歷程。** 在至少發佈一個已啟用歷程流量控制的歷程之前，_[!UICONTROL 報告]_&#x200B;索引標籤不會顯示任何資料。
 * **執行個體中至少需要一個已發佈的歷程。** 模擬會評估已存在於即時歷程中的[設定檔](../audiences/people-lists.md)，因此它需要在執行個體中至少有一個已發佈的歷程才能從中擷取設定檔。 模擬本身不需要啟用JTC （請參閱&#x200B;[_模擬評分_](#simulate-scoring)）。
 

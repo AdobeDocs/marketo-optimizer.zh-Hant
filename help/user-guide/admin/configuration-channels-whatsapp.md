@@ -4,27 +4,29 @@ description: 透過Meta的Cloud API連線您的WhatsApp商業帳戶，以啟用M
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 13%
-
 ---
-
 # WhatsApp頻道設定
 
 Marketo Optimizer透過Meta的Cloud API傳送WhatsApp訊息。 在行銷人員建立個人歷程的WhatsApp訊息之前，產品管理員必須設定WhatsApp頻道。
 
 適用於Marketo Optimizer的![WhatsApp工作流程](assets/whatsapp-flow-diagram.png)
-
-## 先決條件 {#prerequisites}
 
 在設定WhatsApp頻道之前，請確定您符合下列條件：
 
@@ -35,13 +37,13 @@ Marketo Optimizer透過Meta的Cloud API傳送WhatsApp訊息。 在行銷人員�
 
 >[!IMPORTANT]
 >
->您使用WhatsApp訊息服務時，必須遵守Meta的條款與條件。 透過Marketo Optimizer存取WhatsApp傳訊，即表示您確認已檢閱並同意遵守[Meta WhatsApp業務政策](https://www.whatsapp.com/legal/business-policy/)。
+>您使用WhatsApp訊息服務時，必須遵守Meta的條款與條件。 透過Marketo Optimizer存取WhatsApp傳訊，即表示您確認已檢閱並同意遵守[Meta WhatsApp商業政策](https://www.whatsapp.com/legal/business-policy/)。
 
 ## 限制 {#limitations}
 
 下列限制適用於 WhatsApp 頻道：
 
-* Adobe Marketo Optimizer **不符合HIPAA標準，且不符合HIPAA標準**。 此外，Adobe的BAA不包含第三方廠商。 客戶需自行負責法規遵循及供應商驗證。
+* Adobe Marketo Optimizer **不符合HIPAA標準，而且不符合HIPAA標準**。 此外，Adobe的BAA不包含第三方廠商。 客戶需自行負責法規遵循及供應商驗證。
 
 * 尚不支援自動化或預先定義的回應訊息。
 
@@ -51,13 +53,21 @@ Marketo Optimizer透過Meta的Cloud API傳送WhatsApp訊息。 在行銷人員�
 
 ## 完成頻道設定 {#complete-channel-configuration}
 
-在傳送WhatsApp訊息之前，您必須先設定Marketo Optimizer環境，並將其與您的WhatsApp帳戶連結。
+在傳送WhatsApp訊息之前，您必須先設定您的Marketo Optimizer環境，並將其連線至您的WhatsApp帳戶。
 
 完成下列作業：
 
 1. [建立WhatsApp API認證](#create-whatsapp-api-credentials)
 1. [新增 WhatsApp Webhook](#configure-webhooks)
 1. [建立WhatsApp通道設定](#create-channel-configuration)
+
+>[!PREREQUISITES]
+>
+>若要在[!DNL Marketo Optimizer]中完成這些工作，您需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 管理B2B頻道設定]** — 存取&#x200B;_[!UICONTROL 頻道]_&#x200B;功能表所需。
+>* **[!UICONTROL 管理B2B WhatsApp設定]** — 設定WhatsApp通道所需。
+>* **[!UICONTROL 管理B2B WhatsApp預設集]** — 建立API憑證和Webhook的必要專案。
 
 ### 建立 WhatsApp API 認證 {#create-whatsapp-api-credentials}
 

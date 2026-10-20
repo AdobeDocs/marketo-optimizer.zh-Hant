@@ -1,21 +1,23 @@
 ---
 title: 計畫型別
-description: 建立並管理程式型別，這些程式型別可為Marketo Optimizer中的程式定義屬性和成員狀態流程。
+description: 建立並管理程式型別，這些程式型別會為Marketo Optimizer中的程式定義屬性和成員狀態流程。
 TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # 計畫型別
 
 方案型別定義[方案](../marketing/programs.md)及其成員的重要方面，並區分不同型別的行銷方案。 每個程式型別會定義以下屬性，這些屬性會繼承給使用程式型別的程式：
@@ -29,6 +31,13 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果程式型別至少由一個程式使用，則無法編輯它。
+
+>[!PREREQUISITES]
+>
+>使用程式型別需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B方案型別]** — 需要檢視行銷方案型別。
+>* **[!UICONTROL 管理B2B方案型別]** — 需要建立、編輯和刪除行銷方案型別。
 
 定義自訂程式型別(_T):_
 
@@ -64,7 +73,7 @@ ht-degree: 0%
 
    * 按一下&#x200B;**[!UICONTROL 新增步驟]**。
    * 輸入狀態名稱。
-   * （選擇性）按一下「新增狀態」**&#x200B;**，然後輸入要納入步驟的其他狀態名稱。
+   * （選擇性）按一下「新增狀態」****，然後輸入要納入步驟的其他狀態名稱。
 
    針對您要追蹤為成功方案執行的任何步驟，選取&#x200B;**[!UICONTROL 標籤為成功]**&#x200B;核取方塊。
 
