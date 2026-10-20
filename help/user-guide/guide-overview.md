@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a4e898b64751d5b912e6468d318083c571eff1b
+source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 3%
+source-wordcount: '498'
+ht-degree: 2%
 ---
 # Adobe Marketo Optimizer檔案
 
@@ -78,7 +78,7 @@ ht-degree: 3%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Get Started
 
@@ -89,7 +89,7 @@ Complete initial setup and configuration, then learn how to navigate the applica
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Coworker
 
@@ -100,17 +100,17 @@ Use natural language to plan programs, build journeys, manage audiences, and cre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sales Qualifier
 
 Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BDR activities.
 
-[Learn about Sales Qualifier](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"}
+[Learn about Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Marketing Management
 
@@ -121,7 +121,7 @@ Organize campaigns into programs, design person journeys with multi-channel cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Audiences
 
@@ -132,7 +132,7 @@ Build and maintain people lists, define event-based audiences, and track engagem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Content
 
@@ -146,6 +146,16 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 ::::
 
 -->
+
+>[!BEGINSHADEBOX]
+
+## Marketo Qualifier
+
+[!DNL Adobe Marketo Qualifier]是AI驅動的應用程式，您可以搭配[!DNL Marketo Optimizer]使用。 它會實作帳戶資格技能，並旨在簡化業務開發代表(BDR)的工作流程。 [!DNL Marketo Qualifier]可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+
+如需詳細資訊，請參閱[Marketo Qualifier檔案](https://experienceleague.adobe.com/en/docs/marketo-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 探索檔案
 
@@ -185,15 +195,15 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/tw/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/zh-hant/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/zh-hant/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
 
