@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7a4e898b64751d5b912e6468d318083c571eff1b
+source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 3%
+source-wordcount: '498'
+ht-degree: 2%
 ---
 # Adobe Marketo Optimizer檔案
 
@@ -146,6 +146,16 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 ::::
 
 -->
+
+>[!BEGINSHADEBOX]
+
+## Marketo Qualifier
+
+[!DNL Adobe Marketo Qualifier]是AI驅動的應用程式，您可以搭配[!DNL Marketo Optimizer]使用。 它會實作帳戶資格技能，並旨在簡化業務開發代表(BDR)的工作流程。 [!DNL Marketo Qualifier]可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
+
+如需詳細資訊，請參閱[Marketo Qualifier檔案](https://experienceleague.adobe.com/zh-hant/docs/marketo-qualifier/using/home){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## 探索檔案
 

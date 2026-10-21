@@ -4,17 +4,19 @@ description: 在Marketo Optimizer中建立、發佈和管理人員歷程 — 瀏
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # 人員歷程
 
 在[!DNL Adobe Marketo Optimizer]中，個人歷程是自動化的、以潛在客戶為基礎的多步驟行銷計畫，可跨管道協調個人化體驗。 這些歷程會使用Marketo Engage資料來執行這些行銷計畫，以回應參與、業務事件或排程的行銷活動。
@@ -22,6 +24,15 @@ ht-degree: 19%
 >[!NOTE]
 >
 >每個歷程都位於定義的[方案](./programs.md)內。 在建立歷程之前，您必須至少有一個方案要作為父級使用。
+
+>[!PREREQUISITES]
+>
+>處理人員歷程需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B個人歷程]** — 需要唯讀存取&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單和歷程詳細資料。
+>* **[!UICONTROL 管理B2B個人歷程]** — 需要存取&#x200B;_[!UICONTROL 個人歷程]_&#x200B;清單並執行所有個人歷程作業。
+>* **[!UICONTROL 發佈B2B個人歷程]** — 發佈個人歷程的必要專案。
+>* **[!UICONTROL 檢視B2B個人歷程報告]** — 檢視個人歷程報告為必要。
 
 建立新的人員歷程&#x200B;:_(_T)
 

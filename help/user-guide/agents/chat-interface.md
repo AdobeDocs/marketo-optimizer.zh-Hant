@@ -4,24 +4,35 @@ description: 使用Marketo Optimizer中的同事聊天面板，使用自然語�
 TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '955'
 ht-degree: 0%
-
 ---
-
 # 聊天介面
 
 聊天面板已內嵌於整個[!DNL Adobe Marketo Optimizer]。 在這裡，您可使用簡單語言與AI代理程式互動，以建立方案和歷程、建立和比較人員清單、調查銷售機會、設定評分等。
+
+>[!PREREQUISITES]
+>
+>若要在[!DNL Marketo Optimizer]中使用同事聊天面板，您必須擁有&#x200B;**[!UICONTROL 管理B2B對話體驗]** [許可權](../start/permissions-reference.md)。
+>
+>此許可權可讓您存取聊天面板，但不會授予任何功能的存取權。 系統會根據功能在聊天以外所需的相同許可權來檢查聊天中的每個技能或動作： _管理_&#x200B;建立、編輯或發佈的許可權，以及&#x200B;_檢視_&#x200B;唯讀技能的許可權。 如果您缺少功能許可權，助理員將無法為您執行該動作。 例如，建立歷程需要&#x200B;**[!UICONTROL 管理B2B個人歷程]**，而列出表單需要&#x200B;**[!UICONTROL 檢視B2B Forms]**。
 
 在左側導覽中選取&#x200B;_Co-worker_&#x200B;圖示以開啟面板。 面板標題有四個控制項：
 
@@ -36,16 +47,6 @@ ht-degree: 0%
 
 * 新增訊息並按&#x200B;**Enter**&#x200B;以傳送（**Shift+Enter**&#x200B;插入新行）。
 * 使用&#x200B;_附加_&#x200B;圖示附加檔案（支援的格式： `.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 使用CSV和試算表上傳功能來開始匯入銷售機會。
-
->[!BEGINSHADEBOX]
-
-## 銷售限定詞
-
-[!DNL Adobe Sales Qualifier]是AI驅動的應用程式，您可以搭配[!DNL Marketo Optimizer]使用。 它會實作Account Qualification Agent，並旨在簡化業務開發代表(BDR)的工作流程。 [!DNL Sales Qualifier]可跨管道自動化潛在客戶資格、外聯和買家參與工作流程。 它減少了手動BDR負載，並加快了企業B2B公司的管道速度。
-
-如需詳細資訊，請參閱[Sales Qualifier檔案](https://experienceleague.adobe.com/zh-hant/docs/sales-qualifier/using/home){target="_blank"}。
-
->[!ENDSHADEBOX]
 
 ## 詢問同事
 

@@ -4,19 +4,22 @@ description: 預留位置
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 21%
-
+source-wordcount: '996'
+ht-degree: 20%
 ---
-
 
 # 登陸頁面設定
 
@@ -59,7 +62,7 @@ ht-degree: 21%
 
 登陸頁面子網域設定是&#x200B;**所有環境通用**。 因此：
 
-* 若要存取及編輯登陸頁面子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理登陸頁面子網域]**&#x200B;許可權。
+* 若要存取及編輯登陸頁面子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理B2B登陸頁面設定]**&#x200B;許可權。 若要存取左側導覽中的&#x200B;_[!UICONTROL 管道]_，您也必須擁有&#x200B;**[!UICONTROL 管理B2B管道設定]**&#x200B;許可權。 如需詳細資訊，請參閱[許可權資源](../start/permissions-reference.md)。
 
 * 對登陸頁面子網域所做的任何修改也會影響生產沙箱。
 

@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2474'
-ht-degree: 36%
+source-wordcount: '2584'
+ht-degree: 34%
 ---
 # 使用者存取和許可權
 
@@ -32,6 +32,8 @@ ht-degree: 36%
 1. [在Admin Console中將使用者新增至新群組](#add-users)。
 1. [編輯內建角色](#edit-role-permissions)或[建立具有產品許可權的自訂角色](#create-a-custom-role)，並在Experience Platform中建立必要的[!DNL Marketo Optimizer]沙箱。
 1. [新增使用者](#add-users-to-a-role)或[群組](#add-user-groups-to-a-role)至Adobe Experience Platform中的角色。
+
+若要為管理員、所有存取許可權的使用者和唯讀使用者設定建議的使用者群組和角色，請參閱[建議的使用者型別](./permissions-reference.md#suggested-user-types)和[為建議的使用者型別建立使用者群組和角色](#create-suggested-roles)。
 
 ## 設定產品設定檔 {#config-profile}
 
@@ -172,65 +174,15 @@ Adobe Experience Platform的&#x200B;_許可權_&#x200B;區域是管理員可以�
 
 ### 許可權資源 {#permissions}
 
-下列許可權資源可控制[!DNL Marketo Optimizer]中管道設定、內容管理和人員歷程功能的存取權：
+如需控制[!DNL Marketo Optimizer]功能存取權的完整許可權清單，包括說明和針對每種使用者型別建議的許可權，請參閱[產品許可權](./permissions-reference.md)頁面。
 
 >[!IMPORTANT]
 >
->[!DNL Marketo Optimizer]存取權需要您啟用使用下列命名慣例布建的特定沙箱： `Mktoaep` + [!DNL Marketo Engage]訂閱前置詞。 例如，如果連結的[!DNL Marketo Engage]訂閱首碼是&#x200B;_AcmeAssoc_，則存取[!DNL Marketo Optimizer]所需的沙箱是&#x200B;_MktoaepAcmeAssoc_。
+>[!DNL Marketo Optimizer]存取權需要您啟用使用下列命名慣例布建的特定沙箱： `Mktoaep` + [!DNL Marketo Engage]訂閱前置詞。 例如，如果連結的[!DNL Marketo Engage]訂閱首碼是&#x200B;_AcmeAssoc_，則存取[!DNL Marketo Optimizer]所需的沙箱是&#x200B;_MktoaepAcmeAssoc_。 將此沙箱新增至每個角色。
 
-| 類別 | 權限 | 說明 |
-| -------- | ----------- | ---------- |
-| B2B通道設定 | 檢視B2B電子郵件設定 | 檢視電子郵件設定（子網域、PTR記錄、IP集區、隱藏清單、種子清單、IP熱身計畫）。 |
-| | 管理B2B電子郵件設定 | 設定電子郵件設定（子網域、PTR記錄、IP集區、隱藏清單、種子清單、IP熱身計畫）。 使用者傳送電子郵件前，必須先完成這些設定。 |
-| | 管理B2B管道設定 | 存取左側導覽中的&#x200B;_管道_&#x200B;功能表專案以及所有管道設定作業。 |
-| | 管理B2B WhatsApp預設集 | 建立、檢視和刪除WhatsApp訊息預設集和相關的SMS設定。 |
-| B2B歷程 | 管理B2B個人歷程 | 存取&#x200B;_個人歷程_&#x200B;清單和所有個人歷程作業。 |
-| B2B Assets | 檢視內容範本 | 檢視內容範本清單和詳細資訊。 |
-| | 管理B2B範本 | 建立、編輯和刪除內容範本。 |
-| | 檢視B2B片段 | 檢視內容片段清單和詳細資訊。 |
-| | 管理B2B片段 | 建立、編輯和刪除內容片段。 |
-| | 發佈B2B片段 | 發佈內容片段，以用於範本、電子郵件和登入頁面。 |
-| | 檢視B2B Assets | 檢視Assets程式庫和資產檔案的詳細資訊。 |
-| | 管理B2B Assets | 建立、編輯和刪除資產檔案。 |
-| | 檢視B2B電子郵件 | 檢視電子郵件訊息。 |
-| | 管理B2B電子郵件 | 建立、編輯和刪除電子郵件訊息。 |
-| | 管理B2B訊息匯出 | 匯出電子郵件區段下的訊息報表。 |
-| Journey Optimizer資料庫 | 管理B2B程式庫專案 | 新增和刪除程式庫中儲存的運算式。 |
-| 資料治理 | 管理B2B刪除使用標籤 | 檢視、建立和刪除套用至資料集和結構描述的資料使用標籤(DULE)。 |
-| 沙箱管理 | 管理B2B套件 | 建立、匯出、匯入、複製和刪除沙箱套件。 |
-
-若要在[!DNL Marketo Optimizer]中提供外部目的地的支援，需要下列許可權：
-
-| 類別 | 權限 | 說明 |
-| -------- | ----------- | ---------- |
-| 儀表板 | 檢視標準儀表板 | 對&#x200B;_設定檔_、_目的地_&#x200B;和&#x200B;_區段_&#x200B;儀表板的僅限檢視存取權。 也可讓您存取左側導覽中的&#x200B;_儀表板_，以及&#x200B;_儀表板_&#x200B;詳細目錄和整合標籤。 |
-| | 管理標準儀表板 | 新增尚未在Data Warehouse的自訂屬性。 |
-| 目的地 | 檢視目的地 | 僅供檢視的存取權，可檢視&#x200B;_目錄_&#x200B;索引標籤中的可用目的地以及&#x200B;_瀏覽_&#x200B;索引標籤中的已驗證目的地。 |
-| | 管理目的地 | 檢視、建立及刪除目的地連線和目的地帳戶。 |
-| | 啟用目的地 | 啟用作用中目的地的資料。 若要存取此函式，也需要&#x200B;_檢視目的地_&#x200B;或&#x200B;_管理目的地_。 |
-| | 啟用區段而不進行對應 | 啟用現有目的地的對象，不顯示對應步驟。 使用者可以在啟動工作流程中新增和移除對象，但無法新增或移除對應的屬性或身分。 存取此函式也需要&#x200B;_檢視目的地_&#x200B;許可權。 |
-| | 管理和啟用資料集目的地 | 檢視、建立、編輯和停用資料集匯出流程，以及啟用作用中資料集的資料。 存取此函式也需要&#x200B;_檢視目的地_&#x200B;許可權。 |
-| | 目的地製作 | 能夠使用Adobe Experience Platform Destination SDK編寫目的地。 |
-| 資料治理 | 檢視資料使用原則 | 屬於您組織的資料使用原則的僅限檢視存取權。 |
-| | 管理資料使用原則 | 檢視、建立、編輯和刪除資料使用原則。 |
-| 資料擷取 | 檢視來源 | 對&#x200B;_目錄_&#x200B;索引標籤中的可用來源以及&#x200B;_瀏覽_&#x200B;索引標籤中的已驗證來源的僅檢視存取權。 |
-| | 管理來源 | 檢視、建立、編輯和停用來源。 |
-| 輪廓管理 | 檢視設定檔設定 | 僅供檢視即可存取所有設定檔設定。 |
-| | 管理設定檔設定 | 檢視並編輯所有設定檔設定。 |
-
-<!--
-
-### B2B built-in roles {#b2b-built-in-roles}
-
-When your organization has [!DNL Marketo Optimizer] provisioned, Experience Platform includes a set of built-in (default, read-only) roles that you can use to manage access to the product capabilities:
-
-| Role | Permissions |
-| ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-
--->
+>[!NOTE]
+>
+>您必須是系統管理員才能在Experience Platform中看到&#x200B;_[!UICONTROL 許可權]_&#x200B;圖磚。
 
 ### 編輯角色許可權 {#edit-role-permissions}
 
@@ -334,7 +286,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 新增產品許可權：
 
-   若要決定您想要用於角色的產品功能，請參閱[產品許可權](#permissions)清單。
+   若要決定您想要用於角色的產品功能，請參閱[產品許可權](./permissions-reference.md)清單。
 
    在左側的&#x200B;_[!UICONTROL 資源]_&#x200B;清單中，找到B2B專案，然後按一下&#x200B;_新增_ (**+**)圖示以新增您想要為角色啟用的每個屬性。
 
@@ -353,3 +305,95 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 您的自訂角色已設定，而且指派群組中的使用者現在可以存取您選取的[!DNL Marketo Optimizer]權能。
+
+### 建立建議使用者型別的使用者群組和角色 {#create-suggested-roles}
+
+使用以下程式設定&#x200B;_管理員_、_所有存取使用者_&#x200B;和&#x200B;_唯讀存取使用者_ [建議的使用者型別](./permissions-reference.md#suggested-user-types)。 對於每個使用者型別，您都可以在Admin Console中建立使用者群組，並在Experience Platform中建立角色，然後將群組新增至角色。 每個使用者型別的建議許可權列在&#x200B;[_產品許可權_](./permissions-reference.md)&#x200B;中。
+
+#### 建立管理員使用者群組和角色 {#create-admin-group}
+
+![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員可以執行下列步驟。
+
+1. 在Admin Console中，[新增名為&#x200B;_Marketo Optimizer管理員群組_&#x200B;的使用者群組](#add-user-group)，並[指派產品設定檔](#assign-profile)給該群組。
+
+1. 將設定和管理[!DNL Marketo Optimizer]的使用者新增至群組。
+
+1. 讓使用者成為產品管理員，以便他們可以管理使用者和群組。
+
+1. 在[!UICONTROL Experience Platform] _[!UICONTROL 許可權]_&#x200B;中，選取&#x200B;**[!UICONTROL 角色]** > **[!UICONTROL 建立角色]**
+
+1. 輸入名稱，例如&#x200B;_Marketo Optimizer系統管理員_，然後按一下&#x200B;**[!UICONTROL 確認]**。
+
+1. 選取為[!DNL Marketo Optimizer]存取權布建的沙箱(`Mktoaep<Marketo subscription prefix>`)。
+
+   >[!IMPORTANT]
+   >
+   >此步驟對於正確存取至關重要。
+
+1. 針對下列每個類別，按一下&#x200B;_新增_ (**+**)圖示並選取&#x200B;**[!UICONTROL 全部新增]**：
+
+   * _[!UICONTROL B2B管理組態]_
+   * _[!UICONTROL B2B Assets]_
+   * _[!UICONTROL B2B通道設定]_
+   * _[!UICONTROL B2B對話體驗]_
+   * _[!UICONTROL B2B目的地]_
+   * _[!UICONTROL B2B資料夾權杖]_
+   * _[!UICONTROL B2B資料夾]_
+   * _[!UICONTROL B2B意圖組態]_
+   * _[!UICONTROL B2B歷程]_
+   * _[!UICONTROL B2B Labs]_
+   * _[!UICONTROL B2B組織規則]_
+   * _[!UICONTROL B2B人員清單]_
+   * _[!UICONTROL B2B程式Token]_
+   * _[!UICONTROL B2B程式型別]_
+   * _[!UICONTROL B2B程式]_
+   * _[!UICONTROL B2B報告]_
+   * _[!UICONTROL 儀表板]_
+   * _[!UICONTROL 目標]_
+   * _[!UICONTROL 資料治理]_
+   * _[!UICONTROL 資料擷取]_
+   * _[!UICONTROL 設定檔管理]_
+
+   >[!TIP]
+   >
+   >僅針對管理員角色使用&#x200B;**[!UICONTROL 全部新增]**。 發行新功能時，為其準備的許可權會自動套用至管理員角色，因此您不需要編輯角色。 對於其他使用者型別，在&#x200B;[_產品許可權_](./permissions-reference.md)&#x200B;中僅選取針對該型別建議的許可權。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+1. 在角色詳細資料中，選取&#x200B;**[!UICONTROL 使用者群組]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 新增群組]**，選取&#x200B;_Marketo Optimizer管理員群組_，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+
+#### 建立完全存取使用者群組和角色 {#create-all-access-group}
+
+![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員可以執行下列步驟。
+
+1. 在Admin Console中，[新增名為&#x200B;_Marketo Optimizer使用者群組_&#x200B;的使用者群組](#add-user-group)、[將產品設定檔](#assign-profile)指派給該群組，以及[新增使用者](#add-users)至該群組。
+
+1. 在Experience Platform許可權中，[建立名為&#x200B;_Marketo Optimizer所有存取使用者_&#x200B;的自訂角色](#create-a-custom-role)。
+
+1. 選取為[!DNL Marketo Optimizer]存取權布建的沙箱(`Mktoaep<Marketo subscription prefix>`)。
+
+1. 針對[產品許可權](./permissions-reference.md)中的每個類別，按一下&#x200B;_新增_ (**+**)圖示，然後只選取建議所有存取使用者使用的許可權。
+
+   所有Access使用者都可以每天在每個功能中工作，但他們不會獲得管理員、頻道或設定許可權。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+1. 在角色詳細資料中，選取&#x200B;**[!UICONTROL 使用者群組]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 新增群組]**，選取&#x200B;_Marketo Optimizer使用者群組_，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+
+#### 建立唯讀存取權使用者群組和角色 {#create-read-only-group}
+
+![圖示表示需要系統管理員存取權才能完成此程式。](../assets/do-not-localize/icon-admin-user.svg){width="30"} 系統管理員可以執行下列步驟。
+
+1. 在Admin Console中，[新增名為&#x200B;_Marketo Optimizer唯讀使用者群組_&#x200B;的使用者群組](#add-user-group)、[指派產品設定檔](#assign-profile)給它，以及[新增使用者](#add-users)給群組。
+
+1. 在Experience Platform許可權中，[建立名為&#x200B;_Marketo Optimizer唯讀存取使用者_&#x200B;的自訂角色](#create-a-custom-role)。
+
+1. 選取為[!DNL Marketo Optimizer]存取權布建的沙箱(`Mktoaep<Marketo subscription prefix>`)。
+
+1. 針對[產品許可權](./permissions-reference.md)中的每個類別，按一下&#x200B;_新增_ (**+**)圖示，並只選取唯讀存取使用者所建議的許可權。
+
+   唯讀存取許可權使用者只能檢視功能。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+1. 在角色詳細資料中，選取&#x200B;**[!UICONTROL 使用者群組]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 新增群組]**，選取&#x200B;_Marketo Optimizer唯讀使用者群組_，然後按一下&#x200B;**[!UICONTROL 儲存]**。

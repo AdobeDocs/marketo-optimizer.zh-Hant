@@ -1,15 +1,15 @@
 ---
 title: 報告
-description: 瞭解Adobe Marketo Optimizer中的「報表」索引標籤，包括其報表區段、匯出和排程選項，以及如何變更日期範圍。
+description: 瞭解Adobe Marketo Optimizer中的「報表」標籤，包括其報表區段、匯出和排程選項，以及如何變更日期範圍。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 2%
 每個報告都建立在[!DNL Adobe Customer Journey Analytics]上並直接內嵌在[!DNL Marketo Optimizer]中。 按一下&#x200B;_清單_&#x200B;圖示（![清單圖示](../assets/do-not-localize/icon-table-of-contents.svg)）以使用左側的&#x200B;**[!UICONTROL 目錄]**&#x200B;面板在區段之間跳轉。
 
 ![報告頁面列出個人歷程概觀、參與、電子郵件參與和網頁參與區段](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>若要在&#x200B;_[!UICONTROL 報告]_&#x200B;標籤中檢視報告，您必須擁有&#x200B;**[!UICONTROL 檢視B2B內嵌報告]** [許可權](../start/permissions-reference.md)。
 
 ## 報表區段 {#report-sections}
 

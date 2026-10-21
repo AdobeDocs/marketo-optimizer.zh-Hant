@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # 資產
 
@@ -61,6 +61,13 @@ ht-degree: 19%
 
 * **[!UICONTROL 清單]** — 按一下&#x200B;_清單檢視_ （![清單檢檢視示](../assets/do-not-localize/icon-falco-list-view.svg) ）圖示，以使用中繼資料資料欄的可排序表格顯示資產。
 * **[!UICONTROL 資產庫]** — 按一下&#x200B;_資產庫檢視_ （![資產庫檢檢視示](../assets/do-not-localize/icon-falco-gallery-view.svg)）圖示，將資產顯示為視覺縮圖格線。
+
+>[!PREREQUISITES]
+>
+>使用資產需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B Assets]** — 需要檢視&#x200B;_[!UICONTROL Assets]_&#x200B;資料庫和資產檔案詳細資料。
+>* **[!UICONTROL 管理B2B Assets]** — 需要建立、編輯和刪除資產檔案。
 
 ## 搜尋資產 {#find-assets}
 

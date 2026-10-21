@@ -4,18 +4,20 @@ description: 預留位置
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 16%
-
+source-wordcount: '591'
+ht-degree: 15%
 ---
-
 # Forms設定
 
 產品管理員必須先建立一或多個專用預設集，行銷人員才能建立並發佈表單以用於其登陸頁面。 每個預設集都會定義用來傳送表單提交資料的連線端點，以及用來儲存所擷取資料的資料集。
@@ -33,15 +35,11 @@ ht-degree: 16%
 
 如需建立串流來源連線的詳細資訊，請參閱&#x200B;[_Experience Platform檔案_](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http)。
 
-<!-- 
-permissions coming in GA
+[!DNL Marketo Optimizer]中的Forms頻道設定需要下列[許可權](../start/permissions-reference.md)：
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL B2B頻道設定]_ > _[!UICONTROL 檢視B2B Forms預設集]_ — 需要檢視表單預設集設定。
+* _[!UICONTROL B2B頻道設定]_ > _[!UICONTROL 管理B2B Forms預設集]_ — 建立、編輯和刪除表單預設集設定時需要。
+* _[!UICONTROL B2B頻道設定]_ > _[!UICONTROL 發佈B2B Forms預設集]_ — 發佈表單預設集設定所需。
 
 >[!ENDSHADEBOX]
 

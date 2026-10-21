@@ -4,18 +4,20 @@ description: 瞭解如何設定意圖分數模型的活動權重，並使用排�
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # 設定和分析目的
 
@@ -57,6 +59,10 @@ ht-degree: 0%
 如需這些量度的詳細資訊，包括AI建議的權重、內容關聯性和限制，請參閱[意圖組態](../audiences/intent-configuration.md)。
 
 ## 意圖報表
+
+>[!PREREQUISITES]
+>
+>意圖報告需要&#x200B;**[!UICONTROL 檢視B2B意圖報告]** [許可權](../start/permissions-reference.md)。
 
 若要匯入它可以產生的四種報表型別，請叫用`/analyze-intent`以提示同事。 然後同事會等待命名潛在客戶、產品或比較的後續追蹤要求。 每個報告都會在工作區面板中開啟為自己的索引標籤，Co-worker也會在聊天中使用&#x200B;_[!UICONTROL 開啟報告]_&#x200B;按鈕新增摘要卡片。
 

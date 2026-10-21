@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1554'
 ht-degree: 11%
 ---
 # 建立和發佈登陸頁面
@@ -219,7 +219,7 @@ ht-degree: 11%
 
 >[!PREREQUISITES]
 >
->若要預覽和測試登入頁面，您必須擁有&#x200B;**[!UICONTROL 發佈訊息]**&#x200B;許可權，以及包含測試設定檔的已定義資料集。
+>若要預覽和測試登入頁面，您必須擁有&#x200B;**[!UICONTROL 發佈B2B登入頁面]**&#x200B;許可權，以及包含測試設定檔的已定義資料集。
 
 1. 按一下&#x200B;**[!UICONTROL 預覽和測試]**&#x200B;以開啟測試設定檔選取專案。
 
@@ -259,7 +259,7 @@ ht-degree: 11%
 
 >[!PREREQUISITES]
 >
->若要發佈登入頁面，您必須擁有&#x200B;**[!UICONTROL 發佈訊息]**&#x200B;許可權。 發佈之前，[檢查並解決所有警示](#check-alerts)。
+>若要發佈登陸頁面，您必須擁有&#x200B;**[!UICONTROL 發佈B2B登陸頁面]**&#x200B;許可權。 發佈之前，[檢查並解決所有警示](#check-alerts)。
 
 當草稿頁面符合您的條件，而您想要讓它在您的歷程訊息中可供連結時，請按一下右上方的&#x200B;**[!UICONTROL 發佈]**。 在確認對話方塊中，再按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;以進行確認。
 

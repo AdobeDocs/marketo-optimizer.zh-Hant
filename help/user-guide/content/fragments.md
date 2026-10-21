@@ -4,15 +4,15 @@ description: 建立、管理和重複使用電子郵件和範本的視覺內容�
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: '2677'
 ht-degree: 3%
-
 ---
-
 # 片段
 
 片段是可重複使用的元件，可在[!DNL Marketo Optimizer]的一或多個電子郵件和電子郵件範本中參照。 這通常是可以預先建立並快速插入電子郵件或電子郵件範本中的內容區塊（文字、影像或兩者）。 透過此功能，您可以預先建置多個自訂內容區塊，以供行銷團隊成員用於組合電子郵件內容，以改善設計流程。 常見的使用案例包括電子郵件的頁首/頁尾內容區塊、事件邀請橫幅和季節性問候。
@@ -33,6 +33,14 @@ ht-degree: 3%
 
 * _建立您自己的片段_ — 從草稿開始建立視覺化片段，或從視覺化內容設計空間將內容儲存為片段。
 * _重複使用片段_ — 視需要在電子郵件或電子郵件範本內容中多次使用這些片段。
+
+>[!PREREQUISITES]
+>
+>使用片段需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B片段]** — 需要檢視片段清單和詳細資訊。
+>* **[!UICONTROL 管理B2B片段]** — 需要建立、編輯和刪除片段。
+>* **[!UICONTROL 發佈B2B片段]** — 需要發佈片段才能用於範本、電子郵件和登入頁面。
 
 ## 存取及管理片段 {#access-manage-fragments}
 

@@ -4,26 +4,40 @@ description: 在Marketo Optimizer中建立和管理人員清單，用於歷程�
 TQID: 'https://experienceleague.adobe.com/wxkyF1364PPDTHuEzXoshtCbVse-Fc-XdQvrEwPHJZc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Insights
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1181'
 ht-degree: 1%
-
 ---
-
 # 人員清單
 
 在[!DNL Adobe Marketo Optimizer]中，人員清單是目標定位和人員歷程專案的人層級對象容器，具有規則型即時資格的動態清單，以及固定或歷程管理成員資格的靜態清單。
+
+>[!PREREQUISITES]
+>
+>使用人員清單需要下列[許可權](../start/permissions-reference.md)：
+>
+>* **[!UICONTROL 檢視B2B人員清單]** — 檢視靜態和動態人員清單的必要專案。
+>* **[!UICONTROL 管理B2B人員清單]** — 建立、編輯和刪除人員清單，以及管理清單成員資格是必要的。
 
 ## 存取及瀏覽人員清單 {#access-browse}
 

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 ---
 # 電子郵件通道設定
@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >* 至少必須委派一個[子網域](../start/email-deliverability.md#subdomain-delegation)且處於作用中。
 >* 至少必須指派一個[IP集區](../start/email-deliverability.md#ip-pools)給您的組織。
->* 您需要管理員角色。
+>* 您需要&#x200B;**[!UICONTROL 管理B2B通道設定]**&#x200B;和&#x200B;**[!UICONTROL 檢視B2B電子郵件設定]**&#x200B;許可權。 如需詳細資訊，請參閱[必要許可權](../start/email-deliverability.md#required-permissions)。
 >* 檢閱[目前限制](../start/email-deliverability.md#limitations) — 專用的IP集區在Beta中無法使用。
 
 1. 在[!DNL Adobe Marketo Optimizer]左側導覽中，展開&#x200B;**[!UICONTROL 管理]**&#x200B;並選取&#x200B;**[!UICONTROL 管道]**。

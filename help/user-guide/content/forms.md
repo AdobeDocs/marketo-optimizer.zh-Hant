@@ -1,23 +1,27 @@
 ---
 title: 表單
-description: 建立並管理適用於企業資料收集的可重複使用表單 — 設計欄位、設定感謝頁面、發佈並追蹤Marketo Optimizer的使用情況。
+description: 建立並管理適用於企業資料收集的可重複使用表單 — 設計欄位、設定感謝頁面、發佈並追蹤Marketo Optimizer中的使用情形。
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Data management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2434
+source-wordcount: '2473'
 ht-degree: 2%
-
 ---
-
 # 表單
 
 若要從網頁訪客擷取資訊，請建立表單並將其新增至您的登入頁面。 表單是一組欄位，頁面訪客可完成並提交以取得某種內容或選件，例如白皮書、隨選網路研討會或免費試用。
@@ -27,14 +31,12 @@ ht-degree: 2%
 >[!PREREQUISITES]
 >
 >在行銷團隊建立並使用表單來擷取資訊之前，管理員必須定義一或多個表單預設集。 如需詳細資訊，請參閱&#x200B;[_Forms設定_](../admin/configuration-presets-forms.md)。
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>在[!DNL Marketo Optimizer]中建立表單需要下列[許可權](../start/permissions-reference.md)：
+>
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL 檢視B2B Forms]_ — 需要存取和檢視表單。
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL 管理B2B Forms]_ — 建立、編輯和刪除表單時需要。
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL 發佈B2B Forms]_ — 需要發佈表單。
 
 ## 存取及管理表單 {#view-forms}
 
