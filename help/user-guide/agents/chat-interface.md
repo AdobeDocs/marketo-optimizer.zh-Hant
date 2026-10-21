@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
+source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '921'
 ht-degree: 0%
 ---
 # 聊天介面
@@ -30,11 +30,9 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->若要在[!DNL Marketo Optimizer]中使用同事聊天面板，您必須擁有&#x200B;**[!UICONTROL 管理B2B對話體驗]** [許可權](../start/permissions-reference.md)。
->
->此許可權可讓您存取聊天面板，但不會授予任何功能的存取權。 系統會根據功能在聊天以外所需的相同許可權來檢查聊天中的每個技能或動作： _管理_&#x200B;建立、編輯或發佈的許可權，以及&#x200B;_檢視_&#x200B;唯讀技能的許可權。 如果您缺少功能許可權，助理員將無法為您執行該動作。 例如，建立歷程需要&#x200B;**[!UICONTROL 管理B2B個人歷程]**，而列出表單需要&#x200B;**[!UICONTROL 檢視B2B Forms]**。
+>系統會根據聊天以外功能所需的相同[許可權](../start/permissions-reference.md)來檢查聊天中的每個技能或動作： _管理_&#x200B;建立、編輯或發佈的許可權，以及&#x200B;_檢視_&#x200B;唯讀技能的許可權。 如果您缺少功能許可權，[!DNL Coworker]將無法為您執行該動作。 例如，建立歷程需要&#x200B;**[!UICONTROL 管理B2B個人歷程]**，而列出表單需要&#x200B;**[!UICONTROL 檢視B2B Forms]**。
 
-在左側導覽中選取&#x200B;_Co-worker_&#x200B;圖示以開啟面板。 面板標題有四個控制項：
+在左側導覽中選取&#x200B;_聊天_&#x200B;圖示以開啟面板。 面板標題有四個控制項：
 
 | 控制 | 說明 |
 |---------|-------------|
