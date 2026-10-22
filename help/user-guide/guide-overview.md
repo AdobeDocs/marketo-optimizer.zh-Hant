@@ -29,14 +29,20 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 # Adobe Marketo Optimizer檔案
 
 [!DNL Adobe Marketo Optimizer]是AI優先的行銷自動化解決方案，可讓行銷人員和業務開發代表(BDR)整合他們的銷售機會、帳戶和購買群組歷程，以及強大的AI推理，透過持續更新的語意故事來豐富客戶情境，並調整與行銷、付費媒體和BDR頻道中次佳動作的互動。
+
+## 概觀
+
+觀看此簡短概觀，瞭解[!DNL Adobe Marketo Optimizer]如何使用AI推理，以正確的次佳動作與每個潛在客戶互動。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
 
 ## 從基礎知識開始 {#basics}
 
