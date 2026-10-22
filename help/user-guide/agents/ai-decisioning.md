@@ -1,28 +1,35 @@
 ---
 title: AI決策
-description: 瞭解Marketo Optimizer中的AI決策、歷程流量控制背後的智慧層、下一個最佳路徑、傳送時間最佳化，以及其他以結果導向自動化取代靜態規則的功能。
+description: 瞭解Marketo Optimizer中的AI決策、歷程流量控制背後的智慧層、下一個最佳路徑、傳送時間最佳化及其他功能，以結果導向自動化取代靜態規則。
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # AI決策
 
 AI決策是Adobe Marketo Optimizer背後的智慧層。 AI決策不會將每個分支預先建置為靜態規則，而是持續評估設定檔的內容，包括歷程會籍、參與歷史記錄、意圖分數和即時行為，以決定該人員的下一個最佳動作或路徑。
 
 這種持續評估將協調流程從靜態規則轉變為結果導向的自動化：您不需要預先定義每個條件，而是描述您想要的結果，系統會決定如何為每個人達成目標。
+
+觀看此簡短概觀，瞭解[!DNL Adobe Marketo Optimizer]中的AI推理如何使用Marketo Engage資料來最佳化您的工作流程和結果。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## 功能 {#capabilities}
 
