@@ -42,7 +42,7 @@ ht-degree: 2%
 
 觀看此簡短概觀，瞭解[!DNL Adobe Marketo Optimizer]如何使用AI推理，以正確的次佳動作與每個潛在客戶互動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504798?captions=chi_hant&quality=12)
 
 ## 從基礎知識開始 {#basics}
 
