@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 0%
 ---
 # 電子郵件傳遞能力
@@ -53,7 +53,7 @@ ht-degree: 0%
 > 如需電子郵件通道的其他資訊，請參閱下列主題：
 >
 >* 正在設定電子郵件通道 — [電子郵件通道設定](../admin/email-channel-configuration.md)
->* 建立電子郵件 — [新增電子郵件至歷程](../marketing/email-channel.md)
+>* 建立電子郵件 — [建立電子郵件並將其新增至歷程](../marketing/email-channel.md)
 >* 設計電子郵件內容 — [電子郵件內容製作](../content/email-authoring.md)
 
 ## 目前限制 {#limitations}

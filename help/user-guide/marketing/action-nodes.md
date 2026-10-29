@@ -15,13 +15,11 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # 執行動作節點
 
 在人員歷程中，當您想要將變更套用至節點路徑上的所有人員時，可對人員使用動作。
@@ -78,7 +76,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 * **[!UICONTROL 選取]** — 選取您要新增到達節點之人員的現有靜態清單。
 
-  選取現有靜態清單的核取方塊，然後按一下[儲存]。**&#x200B;**
+  選取現有靜態清單的核取方塊，然後按一下[儲存]。****
 
   ![選取要用於歷程節點](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}的靜態清單
 
@@ -111,7 +109,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 選擇下列其中一個選項：
 
-* **[!UICONTROL 建立]** — 建立新的靜態清單資產並新增人員。 此清單可立即供Marketo Optimizer中的其他資產使用。
+* **[!UICONTROL 建立]** — 建立新的靜態清單資產並新增人員。 清單可立即供Marketo Optimizer中的其他資產使用。
 * **[!UICONTROL 選取]** — 選取您要新增到達節點之人員的現有靜態清單資產。
 
 +++
@@ -188,9 +186,9 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 使用此動作傳送電子郵件給選擇加入的人員。 取消訂閱、封鎖列出、電子郵件已暫停或行銷已暫停的使用者會略過此動作。
 
-![採取動作 — 傳送電子郵件](./assets/person-action-node-send-email.png){width="450"}
+![採取動作 — 傳送電子郵件](./assets/person-action-node-email-source.png){width="450"}
 
-您可以建立電子郵件、編輯現有電子郵件，或使用AI個人化電子郵件。 如需有關建立和編輯電子郵件的資訊，請參閱[電子郵件頻道](./email-channel.md)。 若要產生現有電子郵件的人物化變體，請參閱[依人物化電子郵件內容](../agents/personalize-content.md)。
+您可以從計畫樹狀結構選擇已發佈的電子郵件，這會將電子郵件副本新增到歷程中，或使用AI個人化電子郵件。 此復本是唯讀的。 如需建立、發佈和複製電子郵件的相關資訊，請參閱&#x200B;[_建立電子郵件並將其新增至歷程_](./email-channel.md)。 若要產生草稿電子郵件的人物化變體，請參閱&#x200B;[_依人物化電子郵件內容_](../agents/personalize-content.md)。
 
 您可以使用[傳送時間最佳化](./email-send-time-optimization.md)，透過預測每個設定檔最有可能參與的時間來個人化電子郵件傳遞時間。
 
