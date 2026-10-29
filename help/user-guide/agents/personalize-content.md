@@ -30,7 +30,7 @@ ht-degree: 0%
 _內容Personalization_&#x200B;技能可將電子郵件轉換為以人物為基礎、以資料為訊息的變體，因此您不必為每個對象建立個別的電子郵件。 此技能不是在活動後傳送訊息，而是將您的對象解析為[衍生角色](../audiences/personas.md)同類群組、顯示深入分析，並產生個人化變體。 每個變體都會儲存為單一電子郵件中的條件式內容，因此每個人在歷程傳送時都會自動收到符合其角色的版本。
 
 * **技能** - `content-personalization`
-* **引動過程** — 從[聊天介面](./chat-interface.md)，描述新電子郵件的目標對象，或從程式樹狀目錄](../marketing/email-channel.md#personalize-analyze)的草稿[電子郵件的&#x200B;_更多_&#x200B;功能表中選取&#x200B;**[!UICONTROL 個人化電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 分析電子郵件]**
+* **引動過程** — 從[聊天介面](./chat-interface.md)，描述新電子郵件的目標對象，或從程式樹狀目錄[&#128279;](../marketing/email-channel.md#personalize-analyze)的草稿電子郵件的&#x200B;_更多_&#x200B;功能表中選取&#x200B;**[!UICONTROL 個人化電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 分析電子郵件]**
 * **從**&#x200B;讀取/寫入 — [!DNL Marketo Optimizer]
 
 ## 重要概念 {#key-concepts}
