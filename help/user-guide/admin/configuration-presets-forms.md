@@ -28,7 +28,7 @@ ht-degree: 15%
 
 ## 先決條件
 
-若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_&#x200B;**HTTP API串流連線**&#x200B;_。 請確定您要使用的每個連線都符合下列需求：
+若要使用網路表單，您必須在Adobe Experience Platform中定義一或多個&#x200B;_**HTTP API串流連線**_。 請確定您要使用的每個連線都符合下列需求：
 
 * 資料型別必須設定為XDM （非原始資料）
 * 必須停用驗證（未驗證的連線）
@@ -63,7 +63,7 @@ ht-degree: 15%
 >id="ajo-b2b-prime_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立 HTTP API 串流連線"
+>additional-url="https://experienceleague.adobe.com/zh-Hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立 HTTP API 串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
