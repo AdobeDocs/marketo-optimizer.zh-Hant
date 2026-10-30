@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '641'
 ht-degree: 0%
 ---
 # 電子郵件通道設定
@@ -89,7 +89,7 @@ ht-degree: 0%
 >
 >刪除管道設定是永久性的。 您無法刪除使用中歷程參考的設定。 請先移除或重新指派所有電子郵件動作。
 
-若要刪除設定，請先移除或更新在[新增電子郵件至歷程](../marketing/email-channel.md#define-email-properties)中參照它的每個電子郵件動作。 [!DNL Marketo Optimizer]不會刪除使用中歷程目前使用的設定。
+若要刪除設定，請先移除或更新在[建立電子郵件並將它們新增至歷程](../marketing/email-channel.md#define-email-properties)中參照它的每個電子郵件動作。 [!DNL Marketo Optimizer]不會刪除使用中歷程目前使用的設定。
 
 ## 多頻道設定 {#multiple-channel-configurations}
 

@@ -1,6 +1,6 @@
 ---
 title: 從簡介建立計畫
-description: 使用Marketo Optimizer中的方案建立技能，從行銷活動簡報建立方案、權杖、人員清單和歷程。
+description: 使用Marketo Optimizer中的方案建立技能，從行銷活動簡報中建立方案、權杖、人員清單和歷程。
 TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -17,13 +17,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: '1110'
 ht-degree: 4%
-
 ---
-
 # 從簡介建立方案
 
 在[!DNL Adobe Marketo Optimizer]中，[_方案_](../marketing/programs.md)&#x200B;是行銷活動中歷程、人員清單、權杖和設定的最上層容器。 從[聊天介面](./chat-interface.md)，「方案建立」技能會從您的簡報（方案本身、子資料夾、權杖、人員清單和人員歷程）中以一個引導式對話來建立端對端的整個結構。
@@ -39,7 +37,7 @@ ht-degree: 4%
 ### 支援的檔案類型
 
 | 格式 | 行為 |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | 直接在瀏覽器中讀取 |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | 已傳送到後端文字擷取服務 |
 
@@ -90,7 +88,7 @@ ht-degree: 4%
 建置步驟會以固定順序執行；每個步驟都取決於上一個步驟產生的ID。
 
 | 步驟 | 說明 | 工具 | 輸出 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. 資料夾** | 依名稱解析父資料夾或使用工作區根目錄；可以建立新的子資料夾 | `getRootTree`, `browseFolders`, `createFolder` | 資料夾名稱+ ID |
 | **1.5. 程式型別** | 查詢租使用者程式型別並挑選相符專案以取得簡介 | `browseProgramTypes` | 輸入名稱+ `programTypeId` |
 | **2. 程式** | 在已解析的資料夾下建立方案，並繫結至所選型別 | `createProgram` | 計畫名稱、ID、型別 |
@@ -113,7 +111,7 @@ ht-degree: 4%
 頂層容器。 其詳細資料檢視會顯示下列標籤：
 
 | 標記 | 內容 |
-|---|---|
+| --- | --- |
 | **概觀** | 名稱、說明、方案型別、狀態、資料夾位置、時間戳記 |
 | **屬性** | 型別定義的自訂欄位（只有在程式型別啟用時） |
 | **代號** | 此方案範圍的`my.*`權杖 |
@@ -136,7 +134,7 @@ ht-degree: 4%
 程式在建立時將&#x200B;**永久繫結**&#x200B;到租使用者定義的程式型別 — 這之後無法變更。 流程會透過`browseProgramTypes`在每個案例中明確解析型別。
 
 | 案例 | 行為 |
-|---|---|
+| --- | --- |
 | **多個可用型別** | 比對簡短文字與型別（例如tradeshow/booth/expo = *Tradeshow*/*Event*；網路研討會= *網路研討會*/*Event*；nurture/drip = *Nurture*；無清除訊號= *預設*）。 如果找不到相符專案，同事會列出可用的型別並要求。 |
 | **僅限預設的租使用者** | 使用&#x200B;*預設*，並注意管理員可以新增自訂[程式型別](../admin/program-types.md)。 |
 | **未設定任何型別** | 停止 — 建立會失敗。 在重試之前提示管理員布建程式型別。 |
@@ -144,7 +142,7 @@ ht-degree: 4%
 ## 預設值
 
 | 設定 | 預設 |
-|---|---|
+| --- | --- |
 | **資料夾** | Workspace根目錄（若未指定資料夾） |
 | **程式型別** | *預設* （若沒有簡短的訊號且沒有手動選取） |
 | **Personalization屬性** | 預設包含衍生角色、衍生目的、參與階層（可選擇退出） |
@@ -154,7 +152,7 @@ ht-degree: 4%
 ## 限制
 
 | 限制 | 詳細資料 |
-|---|---|
+| --- | --- |
 | **簡短長度上限** | ~30K個字元；截斷的摘要會遺失尾端內容 — 先輸入要點 |
 | **不可變程式型別** | 建立後即無法變更；請先驗證正確的型別，再進行核准 |
 | **必要的內部欄位** | `parent`和`programTypeId`一律已設定；省略`parent`會造成存取遭拒；省略型別無訊息地退回&#x200B;*預設* |

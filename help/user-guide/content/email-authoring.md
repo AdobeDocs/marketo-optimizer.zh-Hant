@@ -19,18 +19,14 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2402'
 ht-degree: 2%
 ---
 # 電子郵件內容製作
 
 在[!DNL Adobe Marketo Optimizer]中，電子郵件設計空間提供視覺畫布，行銷人員可在其中撰寫電子郵件。 左側和頂端面板中的電子郵件設計工具（結構、內容元件、範本、片段等）支援透過拖放從頭開始建立。 您也可以選擇從範本開始、貼上原始HTML，或從可重複使用的視覺片段組合訊息。
-
->[!IMPORTANT]
->
->如需子網域的管理員設定、驗證、IP集區和電子郵件通道設定，請參閱[電子郵件傳遞能力](../start/email-deliverability.md)和[電子郵件通道設定](../admin/email-channel-configuration.md)。
 
 >[!PREREQUISITES]
 >
@@ -38,9 +34,10 @@ ht-degree: 2%
 >
 >* **[!UICONTROL 檢視B2B電子郵件]** — 需要檢視電子郵件訊息。
 >* **[!UICONTROL 管理B2B電子郵件]** — 建立、編輯和刪除電子郵件訊息的必要專案。
->* **[!UICONTROL 管理B2B個人歷程]** — 需要將電子郵件新增至個人歷程。
 
-在[!DNL Marketo Optimizer]中，每封電子郵件都與人員歷程中的&#x200B;_[!UICONTROL 傳送電子郵件]_&#x200B;動作相關聯。 從歷程設計到電子郵件定義的完整工作流程發生在一個連續的體驗中。 當您[新增&#x200B;_傳送電子郵件_&#x200B;節點](../marketing/action-nodes.md#add-an-action-node)至個人歷程時，請按一下&#x200B;**[!UICONTROL 建立電子郵件]**&#x200B;以開始此程式。 首先，您可以定義電子郵件的動作和內容設定。 按一下「**[!UICONTROL 編輯電子郵件內文]**」以啟動電子郵件內容設計空間，您可以在其中從下列選項中選擇要如何設計電子郵件：
+在[!DNL Marketo Optimizer]中，電子郵件是您[在程式或資料夾](../marketing/email-channel.md#create-email-from-programs)中建立，然後[在歷程中發佈並選取的獨立資產](../marketing/email-channel.md#lifecycle)。 首先，您定義&#x200B;_屬性_&#x200B;和&#x200B;_動作_。 然後您定義內容。
+
+按一下「**[!UICONTROL 編輯電子郵件內文]**」以啟動電子郵件內文設計空間，您可以在此從下列選項中選擇要如何設計電子郵件：
 
 * [使用視覺化設計介面，從草稿開始設計電子郵件](#design-from-scratch)。 在空白畫布上使用拖放功能，透過元件建置電子郵件配置元件。 此方法最適合建立新範本或一次性電子郵件。
 
@@ -83,15 +80,14 @@ ht-degree: 2%
 
 1. 從&#x200B;_[!UICONTROL 設計您的電子郵件]_&#x200B;頁面，選取&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;選項。
 
-<!-- 
 
-1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+1. 在&#x200B;_[!UICONTROL 建立電子郵件]_&#x200B;對話方塊中，選擇您要編寫的電子郵件內容型別。
 
-   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+   * **[!UICONTROL 使用佈景主題]** — 選擇此選項可在&#x200B;_佈景主題模式_&#x200B;中建立電子郵件。 在此模式中，您可以使用已定義的品牌主題來簡化內容製作程式，並確保設計符合已定義的標準。
 
-   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+   * **[!UICONTROL 手動樣式]** — 選擇此選項可在&#x200B;_手動模式_&#x200B;中建立電子郵件。 在此模式中，您可以手動設定新增至空白畫布的所有結構和內容元件的樣式。
 
--->
+   ![建立您的電子郵件對話方塊](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [在畫布中新增結構和內容元件](#structure-content)。
 
@@ -102,8 +98,6 @@ ht-degree: 2%
 當您滿意內容時，請按一下[儲存]。**&#x200B;**
 
 ## 匯入現有的HTML內容 {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 匯入的內容可以是：
 
@@ -140,17 +134,27 @@ ht-degree: 2%
 
 使用視覺化電子郵件編輯器建置您的電子郵件訊息。 新增預覽文字、使用欄和分隔線來建構版面，然後以內容元件（例如影像、按鈕和文字）填入這些結構。 您也可以套用進階樣式的自訂CSS，以預覽設計在深色模式中的呈現方式。
 
-### 設定預覽文字 {#preheader}
+### 定義內文設定 {#body-settings}
 
-預覽文字是收件匣預覽中主旨行後面顯示的文字片段。 在[!DNL Marketo Optimizer]中，預先標題是在電子郵件設計空間中的視覺畫布上設定，而不是在主旨列旁的電子郵件屬性畫面上。
+內文設定會定義電子郵件的前置標題、檔案標題和檔案語言。 在電子郵件設計空間中設定此中繼資料，與電子郵件主旨列分開。
 
-在左側導覽樹狀結構中選取&#x200B;**[!UICONTROL 內文]**，開啟右側的&#x200B;**[!UICONTROL 設定]**&#x200B;面板。
+1. 在左側導覽樹狀結構中選取&#x200B;**[!UICONTROL 內文]**，然後在右側面板中選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤。
 
-按一下&#x200B;**[!UICONTROL 預覽文字]**&#x200B;文字區域，然後輸入您的預覽文字副本。 按一下&#x200B;_新增個人化_ （![新增個人化圖示](../assets/do-not-localize/icon-personalization-field.svg) ）圖示，以使用RTF控制項視需要套用格式設定和[個人化權杖](#personalize-content)。
+   ![右側面板中的內文設定](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->將預覽文字的長度保持在40到100個字元之間。 它應該補充主旨列（不要重複），並提供收件者開啟電子郵件的額外原因。
+1. 填入下列欄位：
+
+   * **[!UICONTROL 預覽標題]** — 輸入收件匣預覽中主旨行後面所顯示的文字片段。
+
+     >[!TIP]
+     >
+     >將預覽文字的長度保持在40到100個字元之間。 它應該補充主旨列（不要重複），並提供收件者開啟電子郵件的額外原因。
+
+   * **[!UICONTROL 檔案標題]** — 輸入電子郵件HTML檔案的標題。 這與電子郵件主旨列不同。
+
+   * **[!UICONTROL 檔案語言]** — 指定電子郵件檔案的語言。
+
+   您可以按一下欄位旁的&#x200B;_新增個人化_ （![新增個人化圖示](../assets/do-not-localize/icon-personalization-field.svg) ）圖示，以插入[個人化權杖](#personalize-content)。
 
 ### 深色模式 {#dark-mode}
 
@@ -163,6 +167,8 @@ ht-degree: 2%
 將[結構元件](./structure-components.md)和[內容元件](./content-components.md)新增至畫布，建置您的電子郵件配置。
 
 從左側面板的&#x200B;**[!UICONTROL 結構]**&#x200B;和&#x200B;**[!UICONTROL 內容]**&#x200B;區段中拖曳專案，然後在右側的&#x200B;_[!UICONTROL 設定]_&#x200B;和&#x200B;_[!UICONTROL 樣式]_&#x200B;索引標籤中設定每個元件。
+
+![將結構元件和內容元素拖放至頁面](./assets/content-components-add.png){width="700" zoomable="yes"}
 
 ### 新增自訂 CSS {#custom-css}
 
@@ -252,7 +258,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 [!DNL Marketo Optimizer]使用Handlebars語法進行個人化。 Token在傳送時會取代為每個收件者設定檔資料的值。 您可在多個位置在電子郵件中使用個人化：
 
 * **主旨列** — 最常見的個人化點。
-* **Preheader** — 設定於視覺畫布內；支援設定檔屬性Token。
+* **內文中繼資料** — 設定於視覺畫布內；支援設定檔屬性Token。
 * **電子郵件內文文字** — 名字和其他設定檔屬性插入內嵌。
 * **按鈕URL** — 附加每個收件者引數。
 
@@ -293,7 +299,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 
 +++AI輔助運算式{#ai-personalization}
 
-個人化編輯器中的Co-worker可從純語言說明產生Handlebars運算式、說明現有運算式的功能，並識別潛在問題。 使用它可以加速運算式編寫，尤其是條件式邏輯或日期格式協助程式。
+個人化編輯器中的[!DNL Coworker]可從純語言描述產生Handlebars運算式、說明現有運算式的功能，並識別潛在問題。 使用它可以加速運算式編寫，尤其是條件式邏輯或日期格式協助程式。
 
 +++
 
