@@ -63,7 +63,7 @@ ht-degree: 15%
 >id="ajo-b2b-prime_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立 HTTP API 串流連線"
+>additional-url="https://experienceleague.adobe.com/zh-Hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立 HTTP API 串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
