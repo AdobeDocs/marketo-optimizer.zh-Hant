@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
-ht-degree: 2%
+source-wordcount: '2528'
+ht-degree: 1%
 ---
 # 表單
 
@@ -41,6 +41,8 @@ ht-degree: 2%
 ## 存取及管理表單 {#view-forms}
 
 若要在[!DNL Marketo Optimizer]中存取表單，請前往左側導覽並按一下&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Forms]**。 此動作會開啟一個清單頁面，其中顯示執行個體中建立的所有表單。
+
+使用此清單來存取和管理現有的表單。 若要[建立表單](#new-form)，請使用&#x200B;_[!UICONTROL 程式]_&#x200B;樹狀結構。
 
 ![存取表單庫](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ ht-degree: 2%
 
 * 決定您需要哪些表格。
 
-  可能只能使用四種標準表格。 一個用於存取可下載的內容，一個用於存取優質網頁，一個用於檢視影片，另一個用於註冊網路研討會等活動。 如果您需要變更表單中的欄位，更新全球使用的四個標準表單會比較容易，而不是變更橫跨所有行銷計畫的多個表單。
+  您可能只需要使用四個標準表單。 一個用於存取可下載的內容，一個用於存取優質網頁，一個用於檢視影片，另一個用於註冊網路研討會等活動。 如果您需要變更表單中的欄位，更新全球使用的四個標準表單會比較容易，而不是變更橫跨所有行銷計畫的多個表單。
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ ht-degree: 2%
 
   請考慮使用較短的表單，因為事實證明，其較適合轉換。 當您考慮每個表單時，請決定哪些欄位對於其目的而言合理且必要。
 
-  考慮是否要預先填寫表單欄位，以便預先填寫名稱和電子郵件等基本資訊。 但其他資訊，例如職稱和組織規模，則否。 如此一來，訪客只需填寫兩個欄位並提交表單。 您也可以使用社交表單，以Facebook或Twitter的資料填入。
+  考慮是否要預先填寫表單欄位，以便預先填寫名稱和電子郵件等基本資訊。 但其他資訊，例如職稱和組織規模，則否。 如此一來，訪客只需填寫兩個欄位並提交表單。 您也可以使用社群媒體表單，填入來自社群媒體平台的資料。
 
 * 規劃訪客提交表單後要顯示哪些後續頁面（_感謝您_&#x200B;頁面）。
 
-  所有人獲得相同的頁面嗎？頁面是否為動態頁面，且是以他們的資料為基礎？ 例如，健康產業的人可能會看到與技術產業的人不同的頁面內容。
+  所有人獲得相同的頁面嗎？頁面是否為動態頁面，且是以他們的資料為基礎？ 例如，健康產業的人與科技產業的人看到不同的頁面內容。
 
 * 如果您已經擁有所需的資訊，請考慮是否要完全略過表單。
 
-  若您允許造訪您登陸頁面的已知人員略過表單，他們只需直接存取內容即可。 略過表單可提供更精簡的訪客體驗。
+  若您允許造訪您登陸頁面的已知人員略過表單，他們可以直接存取內容。 略過表單可提供更精簡的訪客體驗。
 
 ### 新增表單 {#new-form}
 
@@ -102,9 +104,19 @@ ht-degree: 2%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
 
-您可以在[!DNL Marketo Optimizer]中建立表單，方法是按一下&#x200B;_[!UICONTROL Forms]_&#x200B;清單頁面右上角的&#x200B;**[!UICONTROL 建立表單]**。
+從&#x200B;_[!UICONTROL 程式]_&#x200B;樹狀結構在程式中建立表單或程式中的資料夾。
+
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 行銷管理]**&#x200B;並選取&#x200B;**[!UICONTROL 方案]**。
+
+1. 在程式內找到要建立表單的程式或資料夾。
+
+   如有需要，請先建立[程式](../marketing/programs.md#create-program)。
+
+1. 按一下&#x200B;_更多_&#x200B;圖示(**...**) 在程式或資料夾名稱旁邊，並選取&#x200B;**[!UICONTROL 建立表單]**。
+
+   ![從程式樹狀結構建立新表單](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. 在&#x200B;_[!UICONTROL 建立表單]_&#x200B;對話方塊中，輸入有用的&#x200B;**[!UICONTROL 名稱]** （必要）和&#x200B;**[!UICONTROL 描述]** （選用）。
 
@@ -123,21 +135,19 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
-   表單詳細資訊頁面隨即開啟，其中包含預設的基本表單定義。
+   表單詳細資訊頁面隨即開啟。
 
    ![預設表單內容](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### 變更預設表單設計 {#design}
+1. 按一下&#x200B;**[!UICONTROL 編輯表單]**，然後視需要使用視覺化設計工具來定義表單內容：
 
-視需要使用視覺化設計工具來變更表單內容：
+   * [新增欄位](./form-design.md#add-field)
+   * [變更欄位樣式](./form-design.md#field-styling)
+   * [重新排序欄位](./form-design.md#field-reorder)
+   * [變更提交按鈕文字和樣式](./form-design.md#submit-button)
+   * [變更表單樣式](./form-design.md#form-styling)
 
-* [新增欄位](./form-design.md#add-field)
-* [變更欄位樣式](./form-design.md#field-styling)
-* [重新排序欄位](./form-design.md#field-reorder)
-* [變更提交按鈕文字和樣式](./form-design.md#submit-button)
-* [變更表單樣式](./form-design.md#form-styling)
-
-按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以儲存您的表單內容設計變更，並移至表單詳細資料。
+   按一下&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;以儲存表單內容設計變更並返回表單詳細資料。
 
 ### 設定感謝頁面 {#thank-you-page}
 
@@ -204,7 +214,7 @@ ht-degree: 2%
 
 ## 複製表單 {#duplicate-forms}
 
-複製表單，以快速輕鬆的方式使用現有表單作為表單設計的起點來建立新表單。
+複製表單以使用現有表單作為表單設計的起點來建立新表單。
 
 您可以使用下列其中一種方法來複製表單：
 
@@ -217,7 +227,7 @@ ht-degree: 2%
 
 ![重複表單的名稱和描述](assets/form-duplicate-dialog.png){width="400"}
 
-編輯重複表單以視需要變更名稱，並變更表單以供預期使用。
+若要視需要變更名稱並變更表單以符合其預期用途，請編輯重複的表單。
 
 ## 編輯表單 {#edit-forms}
 
