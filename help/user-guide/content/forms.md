@@ -104,7 +104,7 @@ ht-degree: 1%
 >id="ajo-b2b-prime_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="建立表單預設集"
 
 從&#x200B;_[!UICONTROL 程式]_&#x200B;樹狀結構在程式中建立表單或程式中的資料夾。
 
