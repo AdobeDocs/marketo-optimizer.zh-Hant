@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2583'
 ht-degree: 2%
 ---
 # 電子郵件內容製作
@@ -78,8 +78,7 @@ ht-degree: 2%
 
 使用視覺內容設計空間來定義電子郵件的結構和內容。 透過使用簡單的拖放動作新增和移動結構元件，您可以在數秒內設計電子郵件內容的版面配置和組織。
 
-1. 從&#x200B;_[!UICONTROL 設計您的電子郵件]_&#x200B;頁面，選取&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;選項。
-
+1. 從&#x200B;_[!UICONTROL 建立您的電子郵件]_&#x200B;頁面，選取&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;選項。
 
 1. 在&#x200B;_[!UICONTROL 建立電子郵件]_&#x200B;對話方塊中，選擇您要編寫的電子郵件內容型別。
 
@@ -126,9 +125,40 @@ ht-degree: 2%
 
 當您開啟電子郵件設計空間時，請使用&#x200B;**[!UICONTROL 選取設計範本]**&#x200B;區段，從內建的範例範本或儲存的自訂範本開始。 請參閱[在電子郵件中使用範本](./templates.md#use-in-journey)，以取得完整的工作流程。
 
+您可以選擇以下選項：
+
+* **範例範本** - Adobe提供的內建電子郵件範本。
+* **儲存的範本** — 您從草稿建立或從現有電子郵件內容儲存的自訂範本。
+
+>[!BEGINTABS]
+
+>[!TAB 儲存的範本]
+
+在&#x200B;_[!UICONTROL 建立您的電子郵件]_&#x200B;頁面上，預設會選取&#x200B;_[!UICONTROL 範本範例]_&#x200B;索引標籤。 若要使用自訂範本，請選取&#x200B;**[!UICONTROL 儲存的範本]**&#x200B;索引標籤。
+
 >[!NOTE]
 >
 >儲存的範本可以將治理（內容鎖定）設定套用到一個或多個元件。 當您[從受控制的範本](./template-content-governance.md)撰寫電子郵件時，視覺化設計空間會提供鎖定元件的相關准則。
+
+清單會顯示目前沙箱中建立的所有電子郵件範本。 您可以依&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 上次修改時間]**&#x200B;和&#x200B;**[!UICONTROL 上次建立時間]**&#x200B;來排序它們。
+
+![選擇儲存的範本](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+從清單中選取您要顯示預覽的範本。 在預覽模式中，使用向右和向左箭頭在選取類別（範例或儲存的）的範本之間導覽。
+
+![預覽儲存的範本](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+當預覽符合您要使用的專案時，請按一下預覽視窗右上角的&#x200B;**[!UICONTROL 使用此範本]**。
+
+此動作會將內容複製到視覺化電子郵件設計空間中，以便您視需要加以編輯。
+
+>[!TAB 範例範本]
+
+[!DNL Adobe Marketo Optimizer]提供您可用來建立電子郵件和電子郵件範本的內建範本選項。
+
+![選擇Adobe提供的範本](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 新增結構和內容 {#structure-content}
 

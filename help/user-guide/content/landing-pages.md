@@ -10,18 +10,18 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # 登陸頁面
 
-登入頁面是獨立的網頁，您可以在聯絡人和客戶點按電子郵件、簡訊或任何數位位置中的連結專案後，指引他們。 您可以將這些頁面併入您的歷程，讓潛在客戶和客戶在網頁上檢視您的訊息，並在您的歷程中前進。
+登入頁面是獨立的網頁，您可以在聯絡人和客戶點按電子郵件、簡訊或任何數位位置中的連結專案後，指引他們。 若要讓您的潛在客戶和客戶在網頁上檢視您的訊息並在您的歷程中前進，您可以將這些頁面整合到您的歷程中。
 
 登入頁面的常見使用案例：
 
-* 提供加入或退出行銷通訊或特定服務。 在電子郵件或其他通訊中使用指向目標清單的連結。
+* 提供行銷通訊或特定服務的選擇加入或選擇退出。 在電子郵件或其他通訊中使用指向目標清單的連結。
 * 在傳送通訊之前收集同意，並在選擇加入或選擇退出時傳送確認電子郵件。
 * 使用登入頁面上的表單來擷取或更新設定檔資料（漸進式設定檔、偏好設定、註冊和類似案例）。
 * 將人們引導至專為您的歷程協調設計的行銷活動特定資訊。
@@ -39,17 +39,19 @@ ht-degree: 2%
 
 若要在歷程對象成員按一下特定連結時，將他們導向至已定義的網頁，請在[!DNL Marketo Optimizer]中建立登陸頁面：
 
-1. [建立頁面](./landing-pages-create-publish.md#create-landing-page) — 選取預設集、設定主要頁面，並新增任何必要的子頁面。
+1. [建立頁面](./landing-pages-create-publish.md#create-landing-page) — 從[程式]樹狀結構開始，選取預設集，設定主要頁面。
 1. [設計登入頁面內容](./landing-page-design.md) — 使用拖放視覺化設計元件來建置頁面內容。
 1. [測試登入頁面](./landing-pages-create-publish.md#test-landing-page) — 預覽頁面並測試表單行為。
 1. [發佈登入頁面](./landing-pages-create-publish.md#publish-landing-page) — 發佈讓頁面上線並可供連結。
 1. [從您的歷程連結至頁面](#link-to-landing-page) — 將登入頁面URL新增至電子郵件、簡訊或歷程動作，讓收件者可以存取。
 
-例如，您可以建立並設計登入頁面，將使用者導向至線上資訊。 頁面可能包含他們可以選擇加入或選擇退出接收您通訊的表單。 或者，您也可以藉此機會訂閱定期通訊，例如電子報。
+例如，若要將使用者導向至線上資訊，您可以建立及設計登入頁面。 頁面可能包含他們可以選擇加入或選擇退出接收您通訊的表單。 或者，您也可以藉此機會訂閱定期通訊，例如電子報。
 
 ## 存取及管理登入頁面 {#access-manage-landing-pages}
 
 若要存取[!DNL Marketo Optimizer]中的登入頁面，請移至左側導覽並展開&#x200B;**[!UICONTROL 內容管理]**。 然後選取&#x200B;**[!UICONTROL 登陸頁面]**。 此動作會顯示執行個體中建立的所有登入頁面清單。
+
+使用此清單來存取及管理現有的登入頁面。 若要[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)，請使用&#x200B;_[!UICONTROL 程式]_&#x200B;樹狀結構。
 
 ![存取登入頁面程式庫](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
 ## 連結至登入頁面 {#link-to-landing-page}
 
-作為產生電子郵件、片段和頁面內容的行銷人員或創意人員，您可以內嵌連結至在您的[!DNL Marketo Optimizer]執行個體中建立的已發佈（即時）登陸頁面。
+身為製作電子郵件、片段和頁面內容的行銷或創意專家，您可以內嵌連結至在[!DNL Marketo Optimizer]執行個體中建立的已發佈（即時）登陸頁面。
 
 1. 當您在片段、電子郵件、登入頁面或範本的視覺設計空間工作時，請為連結選取文字片段、按鈕元件或影像元件。
 

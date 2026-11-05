@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1571'
 ht-degree: 11%
 ---
 # 建立和發佈登陸頁面
@@ -57,11 +57,17 @@ ht-degree: 11%
 
 建立登入頁面(_T):_
 
-1. 前往左側導覽並選取&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 登入頁面]**。
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 行銷管理]**&#x200B;並選取&#x200B;**[!UICONTROL 方案]**。
 
-1. 從登入頁面清單中，按一下&#x200B;**[!UICONTROL 建立登入頁面]**。
+1. 在&#x200B;_[!UICONTROL 程式]_&#x200B;樹狀結構中，找到要建立登入頁面之程式內的程式或資料夾。
 
-1. 輸入&#x200B;**[!UICONTROL Title]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
+   如有需要，請先建立[程式](../marketing/programs.md#create-program)。
+
+1. 按一下&#x200B;_更多_&#x200B;圖示(**...**) 在程式或資料夾名稱旁邊，並選取&#x200B;**[!UICONTROL 建立登陸頁面]**。
+
+   ![從程式樹狀結構建立新的登陸頁面](../marketing/assets/email-create-from-programs-tree.png){width="400"}
+
+1. 在&#x200B;_[!UICONTROL 建立登陸頁面]_&#x200B;對話方塊中，輸入&#x200B;**[!UICONTROL Title]** （必要）和&#x200B;**[!UICONTROL Description]** （選用）。
 
    標題和說明條件：
 
@@ -70,7 +76,7 @@ ht-degree: 11%
    * 允許使用Alpha、數值和特殊字元。
    * 保留的字元是&#x200B;**_不允許_**： `\ / : * ? " < > |`
 
-   ![建立登陸頁面](assets/landing-page-create.png){width="600"}
+   ![建立登陸頁面](assets/landing-page-create.png){width="425"}
 
 1. 選取&#x200B;**[!UICONTROL 預設集]**。
 
@@ -82,11 +88,13 @@ ht-degree: 11%
 
    ![新登陸頁面 — 主要頁面屬性](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-1. 若要新增子頁面（例如，感謝或錯誤頁面），請按一下&#x200B;**+**&#x200B;圖示。
+<!--
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
 
-   每個登入頁面最多可新增兩個子頁面。
+   You can add up to two subpages per landing page.
+-->
 
-在您設定並設計主要頁面及任何子頁面後，請先測試您的登入頁面[&#128279;](#test-landing-page)，然後再發佈。
+在您設定並設計頁面之後，請先測試您的登入頁面[，然後再發佈。](#test-landing-page)
 
 >[!CAUTION]
 >
@@ -147,7 +155,7 @@ ht-degree: 11%
 
 ### 從頭開始設計 {#design-from-scratch}
 
-使用視覺內容設計空間來定義登入頁面的結構和內容。 透過使用簡單的拖放動作來新增和移動結構元件，您可以在數秒內設計頁面內容的版面配置和組織。
+使用視覺內容設計空間來定義登入頁面的結構和內容。 透過簡單的拖放動作來新增和移動結構元件，您可以快速設計頁面內容的版面配置和組織。
 
 1. 從設計首頁選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
@@ -235,11 +243,11 @@ ht-degree: 11%
 
    +++新增測試設定檔
 
-   針對&#x200B;**[!UICONTROL 身分識別名稱空間]**，按一下&#x200B;_選取_&#x200B;圖示（![選取圖示](../assets/do-not-localize/icon-select-data.svg) ）並選擇用於測試設定檔的`Email`名稱空間。
+   若為&#x200B;**[!UICONTROL 身分識別名稱空間]**，請按一下&#x200B;_選取_ （![選取圖示](../assets/do-not-localize/icon-select-data.svg) ）圖示，然後選擇`Email`名稱空間以測試設定檔。
 
    ![管理測試設定檔集電子郵件身分名稱空間](assets/manage-test-profiles.png){width="700" zoomable="yes"}
 
-   在&#x200B;**[!UICONTROL 識別值]**&#x200B;欄位中，輸入識別測試設定檔的電子郵件地址，然後按一下&#x200B;**[!UICONTROL 新增設定檔]**。 您可以重複此步驟以新增多個設定檔。
+   在&#x200B;**[!UICONTROL 識別值]**&#x200B;欄位中，輸入識別測試設定檔的電子郵件地址，然後按一下&#x200B;**[!UICONTROL 新增設定檔]**。 若要新增多個設定檔，您可以重複此操作。
 
    ![管理測試設定檔新增設定檔](assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
 

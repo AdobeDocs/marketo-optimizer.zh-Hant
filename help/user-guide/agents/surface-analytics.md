@@ -17,7 +17,7 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Surface Analytics可在單一提示中回答同時涵蓋[!DNL Marketo Engage]和
 ## 限制 {#limitations}
 
 | 限制 | 詳細資料 |
-|---|---|
+| --- | --- |
 | 編輯或建立記錄 | 不支援。 Surface Analytics只會讀取和報告現有資料。 |
 | 結果中人類可讀的名稱 | 並非總是可用。 有些報表會顯示內部ID，例如歷程或電子郵件ID，而非名稱。 |
 | 複製報告卡 | 一個問題偶爾會針對相同結果傳回多個報告卡。 |

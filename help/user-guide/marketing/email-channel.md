@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 3%
@@ -50,7 +50,7 @@ ht-degree: 3%
 | 編輯屬性、動作和內容 | 是 | 無 | 無 |
 | 個人化電子郵件 | 是 | 無 | 無 |
 | 分析電子郵件 | 是 | 無 | 無 |
-| 發佈 | 是，封鎖警示解決之後 | 已發佈 | 已自動發佈 |
+| 發佈 | 是，當封鎖警示解決時 | 已發佈 | 已自動發佈 |
 | 重複 | 是 | 是 | 無 |
 | 重新命名 | 是 | 無 | 否。 當您選取復本時，請為其命名。 |
 | 刪除 | 是 | 無 | 否。 請改為刪除&#x200B;_傳送電子郵件_&#x200B;節點。 |
