@@ -31,7 +31,7 @@ ht-degree: 2%
 
 觀看首頁和行銷工作區導覽影片。 以下小節提供書面指示。
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505370/?captions=chi_hant&quality=12&learn=on)
 
 ## 開始AI交談
 
