@@ -7,17 +7,17 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 2%
 ---
 
 # 報告
 
-[!UICONTROL 報表]索引標籤會提供[!DNL Adobe Marketo Optimizer]的績效深入分析，包括歷程參與、電子郵件績效和網頁活動。 在左側導覽列中，選取&#x200B;**[!UICONTROL 報表]**&#x200B;以開啟。
+_[!UICONTROL 報表]_&#x200B;頁面提供[!DNL Adobe Marketo Optimizer]的效能深入分析，包括歷程參與、電子郵件效能和網頁活動。 在左側導覽列中，選取&#x200B;**[!UICONTROL 報表]**&#x200B;以開啟。
 
-每個報告都建立在[!DNL Adobe Customer Journey Analytics]上並直接內嵌在[!DNL Marketo Optimizer]中。 按一下&#x200B;_清單_&#x200B;圖示（![清單圖示](../assets/do-not-localize/icon-table-of-contents.svg)）以使用左側的&#x200B;**[!UICONTROL 目錄]**&#x200B;面板在區段之間跳轉。
+每個報告都是使用[!DNL Adobe Customer Journey Analytics]功能建置，並直接內嵌於[!DNL Marketo Optimizer]中。 按一下&#x200B;_清單_&#x200B;圖示（![清單圖示](../assets/do-not-localize/icon-table-of-contents.svg)）以使用左側的&#x200B;**[!UICONTROL 目錄]**&#x200B;面板在區段之間跳轉。
 
 ![報告頁面列出個人歷程概觀、參與、電子郵件參與和網頁參與區段](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 有些報表著重於單一記錄而非全區段檢視，並可從應用程式的不同區域存取。
 
 * 若要取得電子郵件傳送時間最佳化效能，請從[!UICONTROL 同事]聊天介面開啟報表。 如需相關步驟，請參閱[電子郵件傳送時間最佳化](../marketing/email-send-time-optimization.md#reporting)。
-* 如需個人在單一歷程中的進度，請從該歷程中開啟[個人歷程個人報告](./person-journey-individual-report.md)。
+* 若要瞭解個人歷程績效，請從即時或完成的歷程中開啟[個人歷程個別報告](./person-journey-individual-report.md)。 開啟報告後，您可以選取多個要包含的歷程。
 
 ## 匯出報告 {#export-a-report}
 

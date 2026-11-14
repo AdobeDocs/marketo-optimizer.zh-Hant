@@ -1,15 +1,15 @@
 ---
 title: Web參與報告
-description: 瞭解Adobe Marketo Optimizer中的Web參與報表，該報表會顯示您執行個體中最常檢視的前10個頁面和訪客參與度。
+description: 瞭解Adobe Marketo Optimizer中的網站參與度報表，該報表會顯示您執行個體中最常檢視的前10個頁面和訪客參與度。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-使用[!UICONTROL Web Engagement]報告來檢閱您執行個體中熱門互動式網路研討會的參與情形。
+使用[!UICONTROL Web Engagement]報告檢閱您執行個體中最受歡迎的互動式網路研討會的參與情形。
 
 檢視報告(_T):_
 
@@ -44,9 +44,13 @@ ht-degree: 1%
 
 ## 篩選器 {#filters}
 
-使用下列篩選器將報表縮小至特定角色。
+使用報告頂端的&#x200B;**[!UICONTROL 角色（事件）]**&#x200B;篩選器來縮小頁面檢視資料。 開啟篩選器清單並選取要包含的值。
 
-* **[!UICONTROL 角色]** — 依與頁面檢視相關聯的角色進行篩選。
+* **[!UICONTROL 角色（事件）]** — 依與頁面檢視相關聯的[衍生角色](../audiences/personas.md#filter-by-derived-persona)篩選。 預設為[!UICONTROL 沒有篩選器]。
+
+![已開啟Persona （事件）篩選器清單的Web Engagement報告，顯示可用的角色和「重設全部」控制項。](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+選取&#x200B;**[!UICONTROL 全部重設]**&#x200B;以清除篩選器並返回預設檢視。
 
 >[!NOTE]
 >
