@@ -1,6 +1,6 @@
 ---
 title: 建立電子郵件範本
-description: 瞭解如何在Marketo Optimizer中建立電子郵件範本 — 建立新的、將歷程中的電子郵件儲存為範本，或將設計影像轉換為電子郵件範本。
+description: 瞭解如何在Marketo Optimizer中建立電子郵件範本、自訂內容模組、將電子郵件儲存為範本，或將設計影像轉換為電子郵件範本。
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '937'
 ht-degree: 1%
 ---
 
 # 建立電子郵件範本
 
-您可以在[!DNL Adobe Marketo Optimizer]中以三種方式建立電子郵件範本：
+使用視覺化設計空間在[!DNL Adobe Marketo Optimizer]中建立電子郵件範本。 電子郵件範本支援已準備的內容模組以及個別結構和內容元件。
+
+>[!NOTE]
+>
+>目前僅支援電子郵件範本。 登陸頁面範本目前無法使用。
+
+針對電子郵件範本，您可以透過三種方式開始：
 
 * **建立新範本** — 使用視覺化電子郵件設計空間在範本程式庫中建立範本。
 * **從歷程儲存電子郵件** — 將您在歷程中編寫的電子郵件儲存為可重複使用的範本。
 * **轉換影像** — 上傳設計影像並使用創作AI將其轉換為可編輯的電子郵件範本。
 
-## 建立新範本 {#build-new}
+## 建立新的電子郵件範本 {#build-new}
 
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 內容管理]**&#x200B;並選取&#x200B;**[!UICONTROL 範本]**。
 1. 按一下&#x200B;**[!UICONTROL 建立範本]**。
 1. 輸入&#x200B;**[!UICONTROL 範本名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
-1. 設定範本的&#x200B;**[!UICONTROL 管道]** （型別）。
-
-   >[!NOTE]
-   >
-   >在這個Beta版本中，僅支援電子郵件範本。
+1. 將&#x200B;**[!UICONTROL 頻道]**&#x200B;設定為電子郵件。
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,18 +48,30 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;以存取內容設計空間。
 
-   如需內容設計的詳細資訊，請參閱[電子郵件編寫](email-authoring.md)。
+   [新增模組](#add-modules)或使用[電子郵件編寫](email-authoring.md)以取得內容設計的詳細資訊。
 
 1. 選擇性地啟用&#x200B;**[!UICONTROL 治理]**&#x200B;並設定[內容鎖定](template-content-governance.md)，以限制套用範本時範本作者可以編輯的部分。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+## 新增模組 {#add-modules}
+
+在電子郵件範本中，使用模組從準備的區段開始，並自訂其內容和樣式。
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### 新增結構和內容
+
+若要從頭開始建立區段或擴充模組，請新增結構和內容元件。
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## 將電子郵件儲存為範本 {#save-as-template}
 
 開啟要重複使用的電子郵件內容時，請從電子郵件內容頁面將其直接儲存至範本程式庫。
 
 1. 按一下頁面頂端的&#x200B;**[!UICONTROL 內容範本]**。
-1. 選取&#x200B;**[!UICONTROL 另存為內容範本]**。
+1. Select **[!UICONTROL 另存為內容範本]**。
 1. 輸入&#x200B;**[!UICONTROL Name]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。
 1. 選擇性地新增&#x200B;**[!UICONTROL 標籤]**。
 1. 按一下&#x200B;**[!UICONTROL 建立]**。

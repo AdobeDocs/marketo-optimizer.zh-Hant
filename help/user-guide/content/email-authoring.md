@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 2%
 ---
 # 電子郵件內容製作
@@ -52,7 +52,7 @@ ht-degree: 2%
 ## 電子郵件設計工具 {#email-design-tools}
 
 * **頂端工具列：**&#x200B;儲存、返回、切換到程式碼編輯器、預覽控制項。
-* **左側面板：**&#x200B;結構（欄配置）、內容（文字、按鈕、影像、分隔線、社交、HTML）、片段、範本、導覽樹狀結構（電子郵件的DOM樣式階層）。
+* **左側面板：**&#x200B;模組（準備好的區段）、結構（欄配置）、內容（文字、按鈕、影像、分隔線、社交、HTML）、片段、範本、導覽樹狀結構（電子郵件的DOM樣式階層）。
 * **中央畫布：** WYSIWYG編輯器，含案頭和行動裝置預覽。
 * **右側面板：**&#x200B;目前所選元件的設定和樣式，包括內容屬性、背景、邊框、邊框間距和個人化。
 
@@ -88,13 +88,13 @@ ht-degree: 2%
 
    ![建立您的電子郵件對話方塊](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [在畫布中新增結構和內容元件](#structure-content)。
+1. [在畫布中新增模組](#add-modules)或[結構和內容元件](#structure-content)。
 
 1. [檢閱和更新連結](#preview-and-edit-linked-urls)。
 
 1. [測試電子郵件](#check-and-test-the-email)。
 
-當您滿意內容時，請按一下[儲存]。**&#x200B;**
+當您滿意內容時，請按一下[儲存]。****
 
 ## 匯入現有的HTML內容 {#import-html-content}
 
@@ -160,6 +160,10 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
+## 新增模組 {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
+
 ## 新增結構和內容 {#structure-content}
 
 使用視覺化電子郵件編輯器建置您的電子郵件訊息。 新增預覽文字、使用欄和分隔線來建構版面，然後以內容元件（例如影像、按鈕和文字）填入這些結構。 您也可以套用進階樣式的自訂CSS，以預覽設計在深色模式中的呈現方式。
@@ -168,7 +172,7 @@ ht-degree: 2%
 
 內文設定會定義電子郵件的前置標題、檔案標題和檔案語言。 在電子郵件設計空間中設定此中繼資料，與電子郵件主旨列分開。
 
-1. 在左側導覽樹狀結構中選取&#x200B;**[!UICONTROL 內文]**，然後在右側面板中選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤。
+1. 在左側導覽樹狀結構中的Select **[!UICONTROL 內文]**，然後在右側面板中選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤。
 
    ![右側面板中的內文設定](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
@@ -208,7 +212,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您的電子郵件訊息是使用具有鎖定內容[&#128279;](./template-content-governance.md)的範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+>如果您的電子郵件訊息是使用具有鎖定內容](./template-content-governance.md)的[範本設計，則無法將自訂CSS新增至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 ### 新增片段 {#visual-fragments}
 
