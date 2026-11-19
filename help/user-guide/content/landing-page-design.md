@@ -18,14 +18,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '557'
 ht-degree: 2%
 ---
 # 登陸頁面設計
 
-在您[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，請使用視覺設計空間來編寫頁面中的結構和內容元件。
+在您[建立登入頁面](./landing-pages-create-publish.md#create-landing-page)之後，請使用視覺化設計空間來定義頁面的版面配置和內容。
+
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 新增結構和內容 {#structure-content-landing-page}
 

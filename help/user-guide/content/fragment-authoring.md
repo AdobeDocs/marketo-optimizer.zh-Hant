@@ -8,16 +8,18 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: 203
+source-wordcount: '204'
 ht-degree: 3%
-
 ---
-
 # 片段編寫
 
-在您[建立片段](./fragments.md#create-fragments)後，請使用視覺設計空間來編寫片段中的結構和內容元件。
+在您[建立片段](./fragments.md#create-fragments)之後，請使用視覺設計空間來定義片段的版面配置和內容。
+
+## 新增模組
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 新增結構和內容 {#design-fragment}
 
@@ -39,7 +41,7 @@ ht-degree: 3%
 
 新增個人化&#x200B;:_(_T)
 
-1. 選取文字元件，然後按一下工具列中的&#x200B;_新增個人化_ （![個人化圖示](../assets/do-not-localize/icon-personalize.svg) ）圖示。
+1. Select文字元件，然後按一下工具列中的&#x200B;_新增個人化_ （ ![個人化圖示](../assets/do-not-localize/icon-personalize.svg) ）圖示。
 1. 在個人化對話方塊中，瀏覽左側的架構樹並選取設定檔屬性。 編輯器會插入對應的Handlebars運算式，例如`{{profile.firstName}}`。
 1. 如有需要，新增遞補值以處理遺漏的資料，例如`{{profile.firstName | default: "there"}}`。
 1. 按一下&#x200B;**[!UICONTROL 確認]**&#x200B;或&#x200B;**[!UICONTROL 插入]**。 運算式會內嵌顯示於欄位中。

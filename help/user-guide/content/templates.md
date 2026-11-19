@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # 電子郵件範本
 
-[!DNL Adobe Marketo Optimizer]中的電子郵件範本可讓內容專家獨立建立可重複使用的電子郵件版面配置，讓行銷團隊可以跨帳戶歷程套用範本，而不需每次都重新建置設計。
+[!DNL Adobe Marketo Optimizer]中的電子郵件範本可讓內容專家獨立建立可重複使用的電子郵件版面配置，讓行銷團隊可以重複使用設計，而不需每次都重新建置。
 
 >[!NOTE]
 >
->在這個Beta版本中，僅支援電子郵件範本。
+>目前僅支援電子郵件範本。 登陸頁面範本目前無法使用。
+
+當[建立電子郵件範本](./templates-create.md)時，使用[內容模組](./content-modules.md)從準備好的區段組合版面。
 
 將範本套用至新電子郵件時，內容會在該時間點複製。 對範本的編輯不會影響先前從中建立的電子郵件。
 
