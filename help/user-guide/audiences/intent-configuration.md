@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: b41193169434abe23589cde8e73bf6c9016ec04d
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1404'
 ht-degree: 1%
 ---
 
@@ -141,7 +141,9 @@ AI建議欄是一個起點，而不是經過訓練的建議。
 
 1. **頻率**：潛在客戶與該內容互動的次數（已計入個人參與的平均值）。
 
-就形式而言，每個參與專案： `activity weight × content relevance`，平均為&#x200B;**每日分數**，套用&#x200B;**7天的指數耗損**，因此最近的活動占主導地位，然後將min-max標準化為目前母體的0到1，並分段：
+對於[!DNL Marketo Optimizer]，初次啟動載入意圖分數會回顧兩年的潛在客戶活動。
+
+正式來說，每次參與：活動權重×內容關聯性，平均為每日分數，並套用七天的指數衰減，因此最近的活動占主導地位。 衰減機制每七天執行一次：如果潛在客戶未參與新活動，則其意圖分數會衰減。 然後，結果會針對目前母體將最小最大值(Min-Max)標準化為0到1，並加以分組：
 
 | 最終分數 | 意圖層級 |
 | --- | --- |
